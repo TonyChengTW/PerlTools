@@ -1,0 +1,6 @@
+type = ip			top = 50
+maillog file = /backup/maildebug/ms*20060514*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060514
+-----------------------------------------------------------
+-- Ending --

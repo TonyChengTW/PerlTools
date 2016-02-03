@@ -1,0 +1,1 @@
+sed -e 's/^.*\/.\/.\///' unuse_for_365_ms02.list |sed -e 's/\/Maildir.*$//'|sort |uniq>a

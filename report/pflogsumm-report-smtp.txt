@@ -1,0 +1,839 @@
+Postfix log summaries for Jan  8
+
+Grand Totals
+------------
+messages
+
+   9311   received
+  24154   delivered
+      0   forwarded
+    861   deferred  (1442  deferrals)
+   1072   bounced
+      0   rejected (0%)
+      0   reject warnings
+      0   held
+      0   discarded (0%)
+
+   2959m  bytes received
+  20976m  bytes delivered
+   1426   senders
+    406   sending hosts/domains
+   5713   recipients
+   1016   recipient hosts/domains
+
+smtpd
+
+   23925   connections
+     631   hosts/domains
+      16   avg. connect time (seconds)
+ 108:15:30  total connect time
+
+
+Per-Hour Traffic Summary
+    time          received  delivered   deferred    bounced     rejected
+    --------------------------------------------------------------------
+    0000-0100        3772      12065        292        440          0 
+    0100-0200        2907       7352        903        415          0 
+    0200-0300        2240       3516        211        166          0 
+    0300-0400         392       1221         36         51          0 
+    0400-0500           0          0          0          0          0 
+    0500-0600           0          0          0          0          0 
+    0600-0700           0          0          0          0          0 
+    0700-0800           0          0          0          0          0 
+    0800-0900           0          0          0          0          0 
+    0900-1000           0          0          0          0          0 
+    1000-1100           0          0          0          0          0 
+    1100-1200           0          0          0          0          0 
+    1200-1300           0          0          0          0          0 
+    1300-1400           0          0          0          0          0 
+    1400-1500           0          0          0          0          0 
+    1500-1600           0          0          0          0          0 
+    1600-1700           0          0          0          0          0 
+    1700-1800           0          0          0          0          0 
+    1800-1900           0          0          0          0          0 
+    1900-2000           0          0          0          0          0 
+    2000-2100           0          0          0          0          0 
+    2100-2200           0          0          0          0          0 
+    2200-2300           0          0          0          0          0 
+    2300-2400           0          0          0          0          0 
+
+Host/Domain Summary: Message Delivery (top 20)
+ sent cnt  bytes   defers   avg dly max dly host/domain
+ -------- -------  -------  ------- ------- -----------
+   6991     6067m     168     7.2 m   10.2 h  yahoo.com.tw
+   2494   433706k       0    11.5 s   36.5 m  aptg.net
+   2134     2276m      14     3.2 m   39.0 h  msa.hinet.net
+   1190     1203m       3     1.2 m   22.1 m  hotmail.com
+    719      544m       6    37.9 s   22.1 m  pchome.com.tw
+    477   397236k       0    33.4 s   12.8 m  gmail.com
+    399   406325k       0    49.9 s   18.6 m  seed.net.tw
+    225   225508k       0    48.6 s   22.1 m  mail2000.com.tw
+    215   226830k     255    58.8 s   42.0 h  giga.net.tw
+    204   339410k       0    52.0 s    3.7 m  thsrc.com.tw
+    191   148597k      16    34.5 m   40.6 h  yahoo.com
+    154   160312k       0     9.6 m   28.6 m  ms64.hinet.net
+    144   112255k       0    41.4 s   13.3 m  so-net.net.tw
+    119    37916k       1     4.1 m    4.4 h  vghtpe.gov.tw
+    118   223697k       0     1.3 m    3.0 m  jlcideas.com
+    117   107976k       5    28.6 s    5.4 m  ms18.hinet.net
+    105    99409k       0    46.4 s   11.1 m  msn.com
+     92    76815k       0    19.2 s   46.0 s  mail.trtc.com.tw
+     90    75259k       0    29.2 s    8.6 m  ms31.hinet.net
+     88    79874k       0    43.6 s   14.5 m  ms24.hinet.net
+
+Host/Domain Summary: Messages Received (top 20)
+ msg cnt   bytes   host/domain
+ -------- -------  -----------
+   2485     2269m  aptg.net
+    526   145222k  msa.hinet.net
+    172     1649k  hotmail.com
+     96   452914   moeaidb.gov.tw
+     76    79078   smtp02.aptg.net
+     76    79078   smtp01.aptg.net
+     76    79078   smtp03.aptg.net
+     76    79078   smtp04.aptg.net
+     74    36556k  seed.net.tw
+     58    12018k  yahoo.com.tw
+     52     1119k  yahoo.com
+     48   452179   gnbconnect.com
+     42     1014k  ms23.hinet.net
+     40    93753k  ms38.hinet.net
+     34    10248k  pchome.com.tw
+     33    24956k  ms21.hinet.net
+     33   198000   yahoo.com.hk
+     28   102482   163.com
+     26      632k  ms8.hinet.net
+     24     2045k  ms31.hinet.net
+
+Per-Hour SMTPD Connection Summary
+    hour        connections    time conn.    avg./conn.   max. time
+    --------------------------------------------------------------------
+    0000-0100       8948        37:49:17          15s        2199s
+    0100-0200       7487        35:07:02          17s        2984s
+    0200-0300       6429        30:38:59          17s        7997s
+    0300-0400       1061         4:40:12          16s        1416s
+
+Host/Domain Summary: SMTPD Connections (top 20)
+ connections  time conn.  avg./conn.  max. time  host/domain
+ -----------  ----------  ----------  ---------  -----------
+    9567        0:02:58          0s         4s   aptg.net
+    7770       87:16:01         40s      7997s   apol.com.tw
+    2712        0:06:47          0s         3s   localhost
+     628        3:30:00         20s        32s   207.176.223.25
+     628        2:00:44         12s        19s   222.157.180.57
+     314        1:49:51         21s        22s   cpinternet.com
+     163        0:56:15         21s        21s   iinet.net.au
+     152        0:00:00          0s         0s   210.201.31.25
+     151        0:51:25         20s        21s   209.145.133.79
+     115        0:39:53         21s        35s   202.98.252.201
+      84        0:59:52         43s       410s   hinet.net
+      80        0:53:40         40s        42s   203.73.76.63
+      51        0:16:24         19s        21s   moonliteprinting.com
+      49        0:17:05         21s        21s   ssainc.net
+      44        0:07:29         10s        13s   anlai.com
+      41        0:06:52         10s        11s   58.99.8.56
+      39        0:00:43          1s         4s   60.1.129.188
+      38        0:12:41         20s        21s   yahoo.com
+      31        0:11:56         23s        41s   61.144.253.76
+      30        0:09:43         19s        69s   gnbconnect.com
+
+top 20 Senders by message count
+-------------------------------
+    124   chien4236@aptg.net
+    124   kelven@aptg.net
+    117   willyhuang@aptg.net
+     96   cshwang@moeaidb.gov.tw
+     79   jackfu@aptg.net
+     76   root@smtp01.aptg.net
+     76   root@smtp02.aptg.net
+     76   root@smtp03.aptg.net
+     76   root@smtp04.aptg.net
+     44   sly30@aptg.net
+     43   guess1031@aptg.net
+     40   jackie0626@aptg.net
+     40   lgs1024@aptg.net
+     32   happy62@aptg.net
+     32   kawai88@aptg.net
+     28   fan1962@aptg.net
+     26   henry5130@hotmail.com
+     26   a1681017@aptg.net
+     26   jetvol@aptg.net
+     26   smsmlin@aptg.net
+
+top 20 Recipients by message count
+----------------------------------
+    132   yun05@ms64.hinet.net
+    124   chien8888@gmail.com
+    119   sunrise.willy@msa.hinet.net
+    118   amy@jlcideas.com
+     80   jackfu@aptg.net
+     40   d2222444@ms31.hinet.net
+     40   yeansum@ms41.hinet.net
+     40   smaden.chu@msa.hinet.net
+     40   jerry_lin@racewood.net
+     40   jim88@pchome.com.tw
+     40   e21629@mail.trtc.com.tw
+     40   e21653@mail.trtc.com.tw
+     40   der1222kimo@yahoo.com.tw
+     40   eonjason@yahoo.com.tw
+     40   k08520101@yahoo.com.tw
+     40   lung-hsing@yahoo.com.tw
+     40   yunfou@yahoo.com.tw
+     40   y1696@seed.net.tw
+     38   ym320427@hotmail.com
+     38   guess1031@aptg.net
+
+top 20 Senders by message size
+------------------------------
+ 222696k  willyhuang@aptg.net
+ 138467k  kelven@aptg.net
+ 112305k  ohya168@aptg.net
+  84241k  dns1647@aptg.net
+  65645k  sly30@aptg.net
+  62026k  a2203835@ms38.hinet.net
+  53259k  cjcheno@aptg.net
+  50659k  bunny730@aptg.net
+  48260k  mlss@aptg.net
+  44382k  lchching@aptg.net
+  43211k  happy62@aptg.net
+  40901k  yuru.su@msa.hinet.net
+  36763k  08900979@aptg.net
+  35396k  ch2733@aptg.net
+  35005k  sukigirl@aptg.net
+  34828k  lgs1024@aptg.net
+  33603k  san2yan@aptg.net
+  33117k  aaron37@aptg.net
+  32939k  dnyang@aptg.net
+  32367k  chenfamily@aptg.net
+
+top 20 Recipients by message size
+---------------------------------
+ 224697k  sunrise.willy@msa.hinet.net
+ 223697k  amy@jlcideas.com
+ 147399k  yun05@ms64.hinet.net
+ 112305k  sheue-shi.chang@aig.com
+ 112305k  1588675@nanshanlife.com.tw
+  62333k  leekuen@ms46.hinet.net
+  62333k  chienming@aptg.com.tw
+  62333k  neilchen@aptg.com.tw
+  62333k  niemcheng@aptg.com.tw
+  62333k  xz052281@ispeed.com.tw
+  62015k  hsienwsxedc@yahoo.com.tw
+  58933k  cjcheno@tsmc.com
+  50659k  ret1102@ms36.hinet.net
+  50648k  sabry@seed.net.tw
+  49598k  army21610@yahoo.com.tw
+  48260k  SandyH@tungyu.com
+  44378k  wingfly67@yahoo.com.tw
+  44378k  knon@mail2000.com.tw
+  44374k  winwin-lee@umail.hinet.net
+  44374k  winni@takumi.com.tw
+
+message deferral detail
+-----------------------
+  qmgr (total: 142)
+       142   server refused mail service
+  smtp (total: 1300)
+       215   Host not found, try again
+       178   server refused mail service
+        90   Connection refused
+        68   Server configuration problem (in reply to RCPT TO command
+        66   4.4.5 Insufficient disk space; try again later (in reply t...
+        65   Connection timed out
+        33   lost connection with mx2.mail.tw.yahoo.com[203.84.195.1] while...
+        31   server dropped connection without sending the initial greeting
+        24   msn.com.tw[207.46.78.23]: Connection timed out
+        18   ms.yam.com.tw[211.72.254.200]: Connection timed out
+        18   <eagle@gpilaser.com.tw>... Sender domain must exist (in re...
+        17   250]. (in reply to end of DATA command
+        16   yahoo.com.net[206.125.101.12]: Connection refused
+        15   <admin@[218.34.73.19]>... Sender domain must exist (in rep...
+        14   mta143.mail.tpe.yahoo.com Resources temporarily unavailabl...
+        14   User unknown in local recipient table (in reply to RCPT TO com...
+        13   170]. (in reply to end of DATA command
+        13   mta141.mail.tpe.yahoo.com Resources temporarily unavailabl...
+        11   estv.com.tw[62.4.68.104]: Connection refused
+        11   webmail.hinet.net[61.220.15.125]: Connection timed out
+        11   yesmail.idv.tw[220.135.51.82]: Connection timed out
+        11   Insufficient system storage (in reply to MAIL FROM command
+        10   218.34.73.19[218.34.73.19]: Connection timed out
+         9   mta121.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         9   mta144.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         9   Disk write/Insufficient disk space error occurred (in reply to...
+         8   mta133.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         8   mta176.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         8   mta178.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         7   yahoo.cow.tw[80.245.197.244]: Connection timed out
+         7   mail01.dynacw.com[210.71.211.30]: Connection timed out
+         7   168.com.tw[192.72.83.96]: Connection refused
+         7   mta135.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         6   mail.skbank.com.tw[59.124.68.60]: Connection timed out
+         6   mta171.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         6   Domain not found (in reply to RCPT TO command
+         6   Recipient asked sender to resend. Greylisted for 60 seconds (i...
+         5   10:00 (in reply to RCPT TO command
+         5   shopnet-tv.com.tw[61.67.145.115]: Connection timed out
+         5   ms18a.hinet.net[168.95.5.18]: Connection refused
+         5   4.3.2 Please try again later (in reply to MAIL FROM command
+         5   mail200.com.tw[216.52.184.240]: Connection timed out
+         5   ms.tncp.gov.tw[163.29.120.4]: Connection refused
+         5   msa.hine.net[64.15.175.5]: Connection timed out
+         5   mta188.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         5   conversation with ms10a.hinet.net[168.95.5.10] timed out while...
+         4   smtp.taiwan.com[210.59.146.177]: Connection timed out
+         4   ms58.hint.net[206.207.85.33]: Connection refused
+         4   webmail.hinet.net[61.220.15.61]: Connection timed out
+         4   mta189.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         4   lost connection with mp.sina.com.tw[210.17.38.39] while sendin...
+         3   03:00 (in reply to RCPT TO command
+         3   ms10a.hinet.net[168.95.5.10]: Connection refused
+         3   mail22.sms.ac[209.126.222.122]: Connection timed out
+         3   yhoo.com.tw[80.245.197.244]: Connection timed out
+         3   mail.isl.net.tw[61.63.128.5]: Connection refused
+         3   gplitech.com[216.168.224.70]: Connection timed out
+         3   mta202.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         3   mta142.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         3   Error: Wrong recipients (in reply to RCPT TO command
+         3   lost connection with kc-isa.kidcastle.com[61.56.224.68] while ...
+         3   lost connection with mx1.hotmail.com[65.54.245.8] while sendin...
+         3   Malformed name server reply
+         3   Recipient asked sender to resend. Greylisted for 300 seconds (...
+         2   kswww.doh.gov.tw[203.65.42.136]: Connection timed out
+         2   mail.aimpr.com.tw[211.22.1.150]: Connection timed out
+         2   ebtelco.com[203.79.199.157]: Connection timed out
+         2   ms16a.hinet.net[168.95.5.16]: Connection refused
+         2   hnsco.com.tw[211.23.17.186]: Connection timed out
+         2   spam.cyccatv.net.tw[61.58.31.196]: Connection refused
+         2   leon77.pcadsl.com[210.58.30.19]: Connection timed out
+         2   ebt.net.net[67.15.129.30]: Connection refused
+         2   ms3a.hinet.net[168.95.5.3]: Connection refused
+         2   landing.hitfarm.com[64.40.102.44]: Connection refused
+         2   et.ntust.edu.tw[140.118.2.55]: Connection timed out
+         2   ?A???????? - server rejected (#4.4.4
+         2   mta193.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta220.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta151.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   mta160.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   mta170.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   conversation with msa-mx2.hinet.net[168.95.5.110] timed out wh...
+         2   host sinamail.com[210.17.38.21] said: 451 System(u
+         2   mailbox unavailable (in reply to RCPT TO command
+         1   pchome.com[61.151.255.100]: Connection refused
+         1   tsstw.com.tw[202.166.255.103]: Connection refused
+         1   mail20.sms.ac[209.126.222.120]: Connection timed out
+         1   mail21.sms.ac[209.126.222.121]: Connection timed out
+         1   mail24.sms.ac[209.126.222.124]: Connection timed out
+         1   ms12a.hinet.net[168.95.5.12]: Connection refused
+         1   mail.fedtech.net[60.248.107.136]: Connection refused
+         1   mail.rpti3.com.tw[210.66.113.149]: Connection refused
+         1   yt63512.com[69.25.212.153]: Connection timed out
+         1   example.com[192.0.34.166]: Connection timed out
+         1   4.7.1 Greylisting in action, please come back later (in re...
+         1   4.2.2 Mailbox full (in reply to RCPT TO command
+         1   4.2.2 Disk quota exceeded (in reply to RCPT TO command
+         1   juan-chern.com[208.38.61.228]: Connection timed out
+         1   financosm.com[59.125.200.22]: Connection timed out
+         1   garmim.com[207.219.111.23]: Connection timed out
+         1   ms23a.hinet.net[168.95.5.23]: Connection refused
+         1   max.derkun.com.tw[59.120.165.242]: Connection refused
+         1   mail77.com.tw[80.245.197.244]: Connection timed out
+         1   bodynews.com.tw[61.222.42.26]: Connection refused
+         1   ms27a.hinet.net[168.95.5.27]: Connection refused
+         1   dns.chianuen.com.tw[192.168.0.2]: Connection timed out
+         1   dns2.encntc.edu.tw[163.22.168.2]: Connection refused
+         1   ms2a.hinet.net[168.95.5.2]: Connection refused
+         1   seed.net.net[67.15.129.30]: Connection refused
+         1   ms33a.hinet.net[168.95.5.33]: Connection refused
+         1   ms34.hint.net[206.207.85.33]: Connection refused
+         1   sbt.com.tw[211.21.185.34]: Connection timed out
+         1   dns.supertex.com.tw[211.21.8.34]: Connection timed out
+         1   i-huan.com.tw[192.168.1.3]: Connection timed out
+         1   pchom.com.tw[69.25.142.3]: Connection timed out
+         1   metwn.meat.com[66.246.195.41]: Connection timed out
+         1   netvigation.com[213.11.80.42]: Connection timed out
+         1   ms4a.hinet.net[168.95.5.4]: Connection refused
+         1   vms2.vxis.com[220.228.244.56]: Connection timed out
+         1   ms56.hine.net[64.15.175.5]: Connection timed out
+         1   mail.tsc.com.tw[203.66.41.5]: Connection timed out
+         1   myathome.com[66.116.109.62]: Connection timed out
+         1   ms6a.hinet.net[168.95.5.6]: Connection refused
+         1   ms72a.hinet.net[168.95.5.72]: Connection refused
+         1   mail.tpshb.gov.tw[163.29.150.73]: Connection refused
+         1   stmail.cgu.edu.tw[163.25.104.7]: Connection timed out
+         1   fullens.com.tw[61.31.237.7]: Connection timed out
+         1   mail.ebnet.net[211.152.33.89]: Connection timed out
+         1   twinnet.com.tw[59.120.39.89]: Connection timed out
+         1   pmx.seed.net.tw[139.175.253.8]: Connection timed out
+         1   edirect.168.com[12.158.188.92]: Connection refused
+         1   bv2eq.com[24.136.117.99]: read timeout
+         1   ?g???@???~?????L?w?? - qq write error or disk full (#4.3.0
+         1   <service@jsdonet.com>... Sender domain must exist (in repl...
+         1   mta203.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta236.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta133.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta341.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta126.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta128.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta132.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta134.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta136.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta152.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta183.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta190.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta194.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta196.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   conversation with tommx.163.net[202.108.252.141] timed out whi...
+         1   conversation with spamsqr.contrel.com.tw[210.243.195.175] time...
+         1   conversation with msa-mx1.hinet.net[168.95.5.101] timed out wh...
+         1   conversation with mail.amco.com.cn[152.104.162.83] timed out w...
+         1   conversation with sinamail.com[210.17.38.21] timed out while s...
+         1   conversation with linux.map.minaik.com.tw[211.22.97.138] timed...
+         1   conversation with mail.sy.ln.cn[202.96.74.68] timed out while ...
+         1   conversation with ntn92.sinyi.com.tw[210.59.224.82] timed out ...
+         1   conversation with ms3a.hinet.net[168.95.5.3] timed out while s...
+         1   conversation with tpns02.askey.com.tw[60.248.64.197] timed out...
+         1   conversation with ms11a.hinet.net[168.95.5.11] timed out while...
+         1   conversation with mail109.calcomp.com.cn[218.4.151.189] timed ...
+         1   conversation with mail.tonywear.com[219.233.251.227] timed out...
+         1   conversation with tommx.163.net[202.108.255.210] timed out whi...
+         1   Domain not found (in reply to MAIL FROM command
+         1   Error: timeout exceeded (in reply to end of DATA command
+         1   Greylisting in action, please try later (in reply to RCPT TO c...
+         1   Host not found
+         1   Insufficient system storage (in reply to RCPT TO command
+         1   lost connection with mx10.ctclife.com.tw[61.220.112.85] while ...
+         1   lost connection with mx2.mail.yahoo.com[4.79.181.134] while se...
+         1   lost connection with mail.vionit.com[211.147.224.9] while send...
+         1   lost connection with ms4a.hinet.net[168.95.5.4] while sending ...
+         1   lost connection with ms10a.hinet.net[168.95.5.10] while sendin...
+         1   Message for <phyllis@mail.shiny-pop.com.tw> would exceed m...
+         1   ;@mx02.aptg.net (in reply to RCPT TO command
+         1   unknow user (in reply to RCPT TO command
+
+message reject detail: none
+
+message reject warning detail: none
+
+message hold detail: none
+
+message discard detail: none
+
+smtp delivery failures
+----------------------
+  connection refused (total: 224)
+        51   nomail.tpe.yahoo.com
+        16   yahoo.com.net
+        10   prudential-uk.com.tw
+         8   msa-mx1.hinet.net
+         7   168.com.tw
+         6   msa-mx2.hinet.net
+         5   mail26.sms.ac
+         5   ms18a.hinet.net
+         5   msa-mx10.hinet.net
+         5   msa-mx3.hinet.net
+         5   msa-mx7.hinet.net
+         4   cypress.ext.ti.com
+         4   correo.xasamail.com
+         4   ms58.hint.net
+         4   estv.com.tw
+         4   pgate.corner.net.tw
+         3   brazos.ext.ti.com
+         3   mx2.mail.yahoo.com
+         3   mx1.mail.tw.yahoo.com
+         3   mx2.mail.tw.yahoo.com
+         3   ms10a.hinet.net
+         3   msa-mx11.hinet.net
+         3   msa-mx12.hinet.net
+         3   msa-mx4.hinet.net
+         3   msa-mx5.hinet.net
+         3   msa-mx8.hinet.net
+         3   mail.isl.net.tw
+         2   landing.hitfarm.com
+         2   frio.ext.ti.com
+         2   llano.ext.ti.com
+         2   ms16a.hinet.net
+         2   ms3a.hinet.net
+         2   ebt.net.net
+         2   wehq2.winbond.com.tw
+         2   fileserver.baps.tp.edu.tw
+         2   ms.tncp.gov.tw
+         2   spam.cyccatv.net.tw
+         1   60.248.107.136
+         1   edirect.168.com
+         1   mail17.messagelabs.com
+         1   pchome.com
+         1   pecos.ext.ti.com
+         1   mta-v1.mail.vip.cnb.yahoo.com
+         1   fedtech.net
+         1   mail.fedtech.net
+         1   ms12a.hinet.net
+         1   ms23a.hinet.net
+         1   ms27a.hinet.net
+         1   ms2a.hinet.net
+         1   ms33a.hinet.net
+         1   ms4a.hinet.net
+         1   ms6a.hinet.net
+         1   ms72a.hinet.net
+         1   msa-mx9.hinet.net
+         1   ms34.hint.net
+         1   seed.net.net
+         1   bodynews.com.tw
+         1   trend.ccolor.com.tw
+         1   cptst2.cptt.com.tw
+         1   max.derkun.com.tw
+         1   mail.rpti3.com.tw
+         1   tsstw.com.tw
+         1   dns2.encntc.edu.tw
+         1   mail.tpshb.gov.tw
+         1   gate.corner.net.tw
+  connection timed out (total: 435)
+        30   webmail.hinet.net
+        26   mx4.hotmail.com
+        25   mx2.hotmail.com
+        24   msn.com.tw
+        24   ccsun9.cc.ntu.edu.tw
+        23   mx1.hotmail.com
+        18   mx3.hotmail.com
+        18   ms.yam.com.tw
+        17   ccsun8.cc.ntu.edu.tw
+        11   yesmail.idv.tw
+        10   mx2.mail.yahoo.com
+        10   218.34.73.19
+         9   mx3.mail.yahoo.com
+         8   ms2.ttnt.com.tw
+         7   mail01.dynacw.com
+         7   msd.pchome.com.tw
+         6   notes.kindom.com.tw
+         6   mail.skbank.com.tw
+         5   mail20.sms.ac
+         5   mail21.sms.ac
+         5   mail22.sms.ac
+         5   mail23.sms.ac
+         5   mail24.sms.ac
+         5   mail25.sms.ac
+         5   msa.hine.net
+         5   mail200.com.tw
+         5   shopnet-tv.com.tw
+         5   mx1.url.com.tw
+         5   relay165.cc.ntu.edu.tw
+         4   smtp.taiwan.com
+         4   correo2.xasamail.com
+         4   yahoo.cow.tw
+         4   mail.hc.ethome.net.tw
+         4   webmail.parents.org.tw
+         3   gplitech.com
+         3   mail.kingsgun.com.tw
+         3   amail1.liteon.com.tw
+         3   mail.liteon.com.tw
+         3   mail01.liteon.com.tw
+         3   yhoo.com.tw
+         3   mail.bhps.tp.edu.tw
+         2   ebtelco.com
+         2   mx1.mail.yahoo.com
+         2   mail.aimpr.com.tw
+         2   hnsco.com.tw
+         2   mail.rockle.com.tw
+         2   ccsun41.cc.ntu.edu.tw
+         2   kswww.doh.gov.tw
+         2   thunder.tpc.gov.tw
+         1   arnegraphitetpe.com
+         1   example.com
+         1   financosm.com
+         1   garmim.com
+         1   juan-chern.com
+         1   metwn.meat.com
+         1   mx2-net.my-name-server.com
+         1   mx3-net.my-name-server.com
+         1   myathome.com
+         1   netvigation.com
+         1   resalehost.networksolutions.com
+         1   leon77.pcadsl.com
+         1   vms2.vxis.com
+         1   yt63512.com
+         1   mail.ebnet.net
+         1   ms56.hine.net
+         1   twmail.adsldns.org
+         1   andyson8.dyndns.org
+         1   spam.cbbn.com.tw
+         1   dns.chianuen.com.tw
+         1   mail.ckigroup.com.tw
+         1   spam.comax.com.tw
+         1   fullens.com.tw
+         1   i-huan.com.tw
+         1   mail77.com.tw
+         1   pchom.com.tw
+         1   ms18.pchome.com.tw
+         1   ms19.pchome.com.tw
+         1   msq.pchome.com.tw
+         1   mst.pchome.com.tw
+         1   msx.pchome.com.tw
+         1   sbt.com.tw
+         1   dns.supertex.com.tw
+         1   mail.tsc.com.tw
+         1   twinnet.com.tw
+         1   srv-mail.twinnet.com.tw
+         1   mx2.url.com.tw
+         1   stmail.cgu.edu.tw
+         1   ccsun42.cc.ntu.edu.tw
+         1   et.ntust.edu.tw
+         1   mail.yj1es.tnc.edu.tw
+         1   spam.kscg.gov.tw
+         1   pmx.seed.net.tw
+         1   mail.chaa.org.tw
+  read timeout (total: 43)
+        15   mx3.mail.yahoo.com
+        10   mx1.mail.yahoo.com
+         9   mx2.mail.yahoo.com
+         4   hrndva-02.mgw.rr.com
+         2   orngca-02.mgw.rr.com
+         1   bv2eq.com
+         1   mx1-net.my-name-server.com
+         1   clmboh-02.mgw.rr.com
+  server dropped connection without sending the initial greeting (total: 51)
+        29   mailspam2.tku.edu.tw
+         5   mx3.url.com.tw
+         4   correo1.xasamail.com
+         4   mx2.url.com.tw
+         2   gw.aptg.com.tw
+         1   mx1.hotmail.com
+         1   mx1.mail.tw.yahoo.com
+         1   mail.excite.co.jp
+         1   msa-mx10.hinet.net
+         1   msa-mx5.hinet.net
+         1   mx1.url.com.tw
+         1   ntvirus.url.com.tw
+  server refused mail service (total: 983)
+       530   mx1.giga.net.tw
+       106   mx2.giga.net.tw
+        48   clmboh-01.mgw.rr.com
+        47   clmboh-02.mgw.rr.com
+        42   hrndva-01.mgw.rr.com
+        42   orngca-01.mgw.rr.com
+        40   orngca-02.mgw.rr.com
+        38   hrndva-02.mgw.rr.com
+        37   sinamail.com
+        37   www.sinamail.com
+         9   mx2.mail.tw.yahoo.com
+         3   mx2.mail.yahoo.com
+         1   mx1.mail.yahoo.com
+         1   mx3.mail.yahoo.com
+         1   mail.holden.com.tw
+         1   exchange.chsmr.chc.edu.tw
+
+Warnings
+--------
+  cleanup (total: 18)
+         1   18C2A3ADA: skipping further client input
+         1   18C2A3ADA: queue file size limit exceeded
+         1   226113AC2: skipping further client input
+         1   226113AC2: queue file size limit exceeded
+         1   4AF833B08: queue file size limit exceeded
+         1   4AF833B08: skipping further client input
+         1   5B93A34D1: skipping further client input
+         1   5B93A34D1: queue file size limit exceeded
+         1   742A5394F: skipping further client input
+         1   742A5394F: queue file size limit exceeded
+         1   86B933884: skipping further client input
+         1   86B933884: queue file size limit exceeded
+         1   8F4803A86: queue file size limit exceeded
+         1   8F4803A86: skipping further client input
+         1   A56BA3A5E: skipping further client input
+         1   A56BA3A5E: queue file size limit exceeded
+         1   BB9073B4E: skipping further client input
+         1   BB9073B4E: queue file size limit exceeded
+  master (total: 4)
+         1   process /var/postfix/libexec/smtpd pid 22229 killed by signal 11
+         1   process /var/postfix/libexec/smtpd pid 22227 killed by signal 11
+         1   process /var/postfix/libexec/smtpd pid 23174 killed by signal 11
+         1   process /var/postfix/libexec/smtpd pid 20155 killed by signal 11
+  smtp (total: 643)
+        77   host smtp04.aptg.net[210.200.211.39] greeted me with my own hos...
+        77   host smtp02.aptg.net[210.200.211.37] greeted me with my own hos...
+        77   host smtp04.aptg.net[210.200.211.39] replied to HELO/EHLO with ...
+        77   host smtp02.aptg.net[210.200.211.37] replied to HELO/EHLO with ...
+        76   host smtp01.aptg.net[210.200.211.36] greeted me with my own hos...
+        76   host smtp01.aptg.net[210.200.211.36] replied to HELO/EHLO with ...
+        76   host smtp03.aptg.net[210.200.211.38] replied to HELO/EHLO with ...
+        76   host smtp03.aptg.net[210.200.211.38] greeted me with my own hos...
+         9   numeric domain name in resource data of MX record for kgish.com...
+         5   numeric domain name in resource data of MX record for tvking.co...
+         5   valid_hostname: empty hostname
+         3   numeric domain name in resource data of MX record for jts.ydgo....
+         2   malformed domain name in resource data of MX record for w.hp.vi...
+         2   malformed domain name in resource data of MX record for hk.yaho...
+         1   malformed domain name in resource data of MX record for hotmil....
+         1   no MX host for nb.com.tw has a valid A record
+         1   numeric domain name in resource data of MX record for cnc.net.t...
+         1   numeric domain name in resource data of MX record for fedtech.n...
+         1   numeric domain name in resource data of MX record for esworld.c...
+  smtpd (total: 2479)
+       630   207.176.223.25: hostname 207-176-223-25.ravand.ca verification ...
+       628   222.157.180.57: hostname 222-157-180-57.cctv.dynamic.lsc.net.tw...
+       165   200.127.119.13: hostname 200-127-119-13.cab.prima.net.ar verifi...
+       152   210.201.31.25: hostname NK210-201-31-25.static.apol.com.tw veri...
+       151   209.145.133.79: hostname IP5015106L.accessus.net verification f...
+       119   smtpd_service: Primary database connection gone: Lost connectio...
+       112   200.150.219.98: hostname host98.computeasy.com.br verification ...
+        90   200.207.163.133: hostname 200-207-163-133.picture.com.br verifi...
+        80   203.73.76.63: hostname h63-203-73-76.seed.net.tw verification f...
+        64   Illegal address syntax from 218-184-119-137.cm.dynamic.apol.com...
+        20   209.59.180.34: hostname host.nutridiary.com verification failed...
+        16   210.202.204.225: hostname KH210-202-204-225.adsl.static.ebtnet....
+        15   210.202.58.80: hostname 210-202-58-80.cctv.dynamic.lsc.net.tw v...
+         9   Illegal address syntax from 202-178-179-227.cm.dynamic.apol.com...
+         7   unknown[220.229.199.140] sent From: header instead of SMTP comm...
+         7   212.199.142.6: hostname 212.199.142.6.wan.012.net.il verificati...
+         6   200.80.131.186: hostname ppp-80-131-186.alternativagratis.com v...
+         6   Illegal address syntax from NK219-91-11-191.adsl.dynamic.apol.c...
+         6   Illegal address syntax from 210-85-62-84.cm.dynamic.apol.com.tw...
+         5   61.67.34.197: hostname 197-34-67-61-CLTV.tinp.net.tw verificati...
+         5   222.250.199.69: hostname 222-250-199-69.cm.dynamic.apol.com.tw ...
+         5   222.157.55.9: hostname 222-157-55-9.cctv.dynamic.lsc.net.tw ver...
+         4   61.11.110.210: hostname ppp110-210.dsl-aur.eth.net verification...
+         4   82.151.143.211: hostname 211-143.151.82.doruk.net.tr verificati...
+         4   211.22.52.252: hostname 211-22-52-252.HINET-IP.hinet.net verifi...
+         3   203.200.81.102: hostname delhi-203.200.81-102.vsnl.net.in verif...
+         3   222.250.172.139: hostname 222-250-172-139.cm.dynamic.apol.com.t...
+         3   222.250.173.182: hostname 222-250-173-182.cm.dynamic.apol.com.t...
+         3   222.126.5.185: hostname adsl-126.5.185.info.com.ph verification...
+         3   222.250.242.32: hostname 222-250-242-32.cm.dynamic.apol.com.tw ...
+         3   200.36.63.50: hostname customer-200-36-63-50.uninet.net.mx veri...
+         3   211.76.136.82: hostname 82.136.76.211.symphox.com verification ...
+         3   203.70.169.99: hostname h99-203-70-169.seed.net.tw verification...
+         2   222.157.44.103: hostname 222-157-44-103.cctv.dynamic.lsc.net.tw...
+         2   222.250.249.127: hostname 222-250-249-127.cm.dynamic.apol.com.t...
+         2   200.159.62.137: hostname 200-159-62-137.customer.tdatabrasil.ne...
+         2   222.156.202.146: hostname 222-156-202-146.dynamic.hiway.net.tw ...
+         2   200.217.177.158: hostname 158.2-254.177.217.200.telemar.net.br ...
+         2   201.255.67.159: hostname 201-255-67-159.mrse.com.ar verificatio...
+         2   203.187.228.169: hostname 169-228-187-203.static.iqara.net veri...
+         2   202.147.174.183: hostname host174-183-dsl-dancomonline.net.pk v...
+         2   61.11.90.28: hostname static90-28.dsl-chn.eth.net verification ...
+         2   222.250.225.36: hostname 222-250-225-36.cm.dynamic.apol.com.tw ...
+         2   222.250.226.6: hostname 222-250-226-6.cm.dynamic.apol.com.tw ve...
+         2   222.250.184.95: hostname 222-250-184-95.cm.dynamic.apol.com.tw ...
+         2   196.22.178.99: hostname appm41-178-99.netactive.co.za verificat...
+         2   Illegal address syntax from 210-58-76-88.cm.dynamic.apol.com.tw...
+         1   201.28.105.106: hostname cl-201-28-105-106.real.sbowifi.com.br ...
+         1   83.180.109.10: hostname d83-180-109-10.cust.tele2.se verificati...
+         1   82.159.8.10: hostname 10.red-82-159-8.user.auna.net verificatio...
+         1   72.11.144.110: hostname chapman.halerangers.com verification fa...
+         1   59.144.162.110: hostname dsl-del-static-110.162.144.59.touchtel...
+         1   201.255.50.110: hostname 201-255-50-110.mrse.com.ar verificatio...
+         1   85.100.78.111: hostname dsl.dynamic8510078111.ttnet.net.tr veri...
+         1   201.254.144.112: hostname 201-254-144-112.speedy.com.ar verific...
+         1   84.119.17.113: hostname fr-moi-C3-01-084119017113.chello.fr ver...
+         1   201.216.208.113: hostname customer201-216-208.113.iplannetworks...
+         1   200.121.135.114: hostname client-200.121.135.114.speedy.net.pe ...
+         1   72.11.144.114: hostname chaworth.halerangers.com verification f...
+         1   219.95.165.114: hostname tm.net.my verification failed: Host no...
+         1   200.121.218.114: hostname client-200.121.218.114.speedy.net.pe ...
+         1   85.100.202.117: hostname dsl.dynamic85100202117.ttnet.net.tr ve...
+         1   212.156.177.123: hostname dsl.dynamic212156177123.ttnet.net.tr ...
+         1   61.95.194.123: hostname dsl-KK-123.194.95.61.touchtelindia.net ...
+         1   85.100.201.123: hostname dsl.dynamic85100201123.ttnet.net.tr ve...
+         1   85.100.217.123: hostname dsl.dynamic85100217123.ttnet.net.tr ve...
+         1   66.111.201.124: hostname hs201-111-66.ftl-nj.webhostplus.com ve...
+         1   222.250.174.125: hostname 222-250-174-125.cm.dynamic.apol.com.t...
+         1   24.181.238.126: hostname 24-181-238-126.dhcp.oxfr.ma.charter.co...
+         1   218.61.51.128: hostname cncln.online.ln.cn verification failed:...
+         1   222.250.224.130: hostname 222-250-224-130.cm.dynamic.apol.com.t...
+         1   201.254.31.130: hostname 201-254-31-130.speedy.com.ar verificat...
+         1   81.215.235.135: hostname dsl.dynamic81215235135.ttnet.net.tr ve...
+         1   217.98.76.135: hostname klient135.czerwionka.net verification f...
+         1   60.48.245.139: hostname tm.net.my verification failed: Host not...
+         1   85.100.74.142: hostname dsl.dynamic8510074142.ttnet.net.tr veri...
+         1   201.135.134.143: hostname dsl-201-135-134-143.prod-infinitum.co...
+         1   216.22.61.143: hostname 216.22.61.143.servint.net verification ...
+         1   85.100.237.145: hostname dsl.dynamic85100237145.ttnet.net.tr ve...
+         1   219.95.212.14: hostname tm.net.my verification failed: Host not...
+         1   217.124.16.152: hostname 217-124-16-152.dialup.nuria.telefonica...
+         1   85.11.166.153: hostname 153-166.skknet.net verification failed:...
+         1   200.119.60.153: hostname extremo_pool_11960-153.etb.net.co veri...
+         1   200.121.138.156: hostname client-200.121.138.156.speedy.net.pe ...
+         1   85.100.203.162: hostname dsl.dynamic85100203162.ttnet.net.tr ve...
+         1   85.100.100.16: hostname dsl.dynamic8510010016.ttnet.net.tr veri...
+         1   217.98.71.16: hostname 16.nat.ino.tvknet.pl verification failed...
+         1   210.14.34.178: hostname ipnet3-host178.subictel.com verificatio...
+         1   200.119.55.183: hostname extremo_pool_11955-183.etb.net.co veri...
+         1   62.133.164.185: hostname g185-164-133-62-dialup.ufacom.ru verif...
+         1   61.172.57.186: hostname quantacn.com verification failed: Host ...
+         1   201.254.149.194: hostname 201-254-149-194.speedy.com.ar verific...
+         1   200.106.109.195: hostname client-200.106.109.195.speedy.net.pe ...
+         1   80.175.207.198: hostname port-198.particnewark.adsl.newnet.co.u...
+         1   69.79.168.202: hostname Dynamic-IP-6979168202.cable.net.co veri...
+         1   200.140.154.203: hostname 200-140-154-203.gnace7006.dsl.brasilt...
+         1   201.135.101.204: hostname dsl-201-135-101-204.prod-infinitum.co...
+         1   200.121.4.204: hostname client-200.121.4.204.speedy.net.pe veri...
+         1   203.115.71.204: hostname prabhadevi-core-eth.pacenet-india.com ...
+         1   220.229.200.205: hostname adsl-220-229-200-205.NH.sparqnet.net ...
+         1   200.207.89.205: hostname 200-207-89-205.speedyterra.com.br veri...
+         1   82.159.1.20: hostname 20.red-82-159-1.user.auna.net verificatio...
+         1   219.95.98.212: hostname tm.net.my verification failed: Host not...
+         1   65.101.116.215: hostname 65_101_116_215.spkn.uswest.net verific...
+         1   68.185.153.217: hostname unknown.lds.al.charter.com verificatio...
+         1   71.11.172.221: hostname 71-11-172-221.dhcp.sprn.tx.charter.com ...
+         1   210.211.162.223: hostname 210.211.162.223.bb-dynamic.vsnl.net.i...
+         1   168.226.86.223: hostname 168-226-86-223.speedy.com.ar verificat...
+         1   60.48.74.224: hostname tm.net.my verification failed: Host not ...
+         1   201.255.90.224: hostname 201-255-90-224.mrse.com.ar verificatio...
+         1   85.100.97.224: hostname dsl.dynamic8510097224.ttnet.net.tr veri...
+         1   85.104.228.235: hostname dsl85-104-58603.ttnet.net.tr verificat...
+         1   217.76.145.236: hostname lwwa377.servidoresdns.net verification...
+         1   83.138.249.237: hostname 237-249-138-83.libre.auna.net verifica...
+         1   85.104.171.23: hostname dsl85-104-43799.ttnet.net.tr verificati...
+         1   200.226.151.240: hostname 240.151.226.200.in-addr.arpa.ig.com.b...
+         1   213.199.198.240: hostname 240.nat7.g2.isko.net.pl verification ...
+         1   200.157.129.242: hostname 200-157-129-242.intelignet.com.br ver...
+         1   219.95.219.244: hostname tm.net.my verification failed: Host no...
+         1   219.95.103.245: hostname tm.net.my verification failed: Host no...
+         1   222.250.193.245: hostname 222-250-193-245.cm.dynamic.apol.com.t...
+         1   81.19.15.246: hostname ip81-19-15-245.netdatacomm.cz verificati...
+         1   83.219.7.250: hostname adsl-83.219.7.250.uralcom.com verificati...
+         1   168.226.174.31: hostname 168-226-174-31.speedy.com.ar verificat...
+         1   85.100.45.32: hostname dsl.dynamic851004532.ttnet.net.tr verifi...
+         1   222.250.191.33: hostname 222-250-191-33.cm.dynamic.apol.com.tw ...
+         1   210.211.231.33: hostname 210.211.231.33.bb-dynamic.vsnl.net.in ...
+         1   84.119.54.37: hostname fr-lha-C3-03-084119054037.chello.fr veri...
+         1   195.117.176.3: hostname www2.zaspa.koti.pl verification failed:...
+         1   63.125.32.3: hostname usr3.ckx.com verification failed: Host no...
+         1   200.207.38.3: hostname 200-207-38-3.dglnet.com.br verification ...
+         1   200.195.176.42: hostname 200-195-176-42-rasip-onda.copel.net ve...
+         1   85.100.219.42: hostname dsl.dynamic8510021942.ttnet.net.tr veri...
+         1   66.116.110.43: hostname ms103.webhostingprovider.com.webhosting...
+         1   85.100.35.45: hostname dsl.dynamic851003545.ttnet.net.tr verifi...
+         1   61.11.113.4: hostname static61.11.113-4.eth.net verification fa...
+         1   210.211.144.50: hostname 210.211.144.50.bb-static.vsnl.net.in v...
+         1   200.101.44.53: hostname 200-101-044-053.gnace7006.dsl.brasiltel...
+         1   201.6.103.57: hostname c9066739.static.spo.virtua.com.br verifi...
+         1   200.60.216.58: hostname client-200.60.216.58.speedy.net.pe veri...
+         1   61.11.113.61: hostname static61.11.113-61.eth.net verification ...
+         1   200.121.74.61: hostname client-200.121.74.61.speedy.net.pe veri...
+         1   219.95.162.64: hostname tm.net.my verification failed: Host not...
+         1   222.250.185.64: hostname 222-250-185-64.cm.dynamic.apol.com.tw ...
+         1   201.124.188.68: hostname dsl-201-124-188-68.prod-infinitum.com....
+         1   200.119.50.6: hostname extremo_pool_11950-6.etb.net.co verifica...
+         1   24.232.255.72: hostname OL72-255.fibertel.com.ar verification f...
+         1   202.57.153.73: hostname 202.57.153.73.rev-ip.isp-thailand.com v...
+         1   210.211.162.76: hostname 210.211.162.76.bb-dynamic.vsnl.net.in ...
+         1   81.213.185.7: hostname dsl.dynamic812131857.ttnet.net.tr verifi...
+         1   85.100.66.7: hostname dsl.dynamic85100667.ttnet.net.tr verifica...
+         1   201.138.211.86: hostname dsl-201-138-211-86.prod-infinitum.com....
+         1   85.97.104.87: hostname dsl.dynamic859710487.ttnet.net.tr verifi...
+         1   81.95.107.87: hostname unassigned-81.95.107.87.dns4.net verific...
+         1   200.121.160.88: hostname client-200.121.160.88.speedy.net.pe ve...
+         1   222.250.234.90: hostname 222-250-234-90.cm.dynamic.apol.com.tw ...
+         1   200.217.177.92: hostname 92.2-254.177.217.200.telemar.net.br ve...
+         1   200.119.32.93: hostname extremo_pool_11932-93.etb.net.co verifi...
+         1   219.95.90.95: hostname tm.net.my verification failed: Host not ...
+         1   201.151.95.96: hostname host-201-151-95-96.block.alestra.net.mx...
+         1   200.151.240.99: hostname SHASTA240099.ig.com.br verification fa...
+         1   Illegal address syntax from NK219-91-66-87.adsl.dynamic.apol.co...
+         1   Illegal address syntax from TC222-156-3-217.adsl.dynamic.apol.c...
+         1   Illegal address syntax from 218-34-232-198.cm.dynamic.apol.com....
+
+Fatal Errors: none
+
+Panics: none
+
+Master daemon messages: none

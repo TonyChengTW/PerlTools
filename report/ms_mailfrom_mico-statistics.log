@@ -1,0 +1,6 @@
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/ms*20060514*
+-- Start --
+Sender 				Mail Count		Date : 20060514
+-----------------------------------------------------------
+-- Ending --

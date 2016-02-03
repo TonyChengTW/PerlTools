@@ -1,0 +1,7 @@
+type = error			top = 50
+maillog file = /backup/maillog/smtp*20060514*
+-- Start --
+SMTPD Error Count 		Count	Date : 20060514
+------------ Total Error Count =  ---------------
+  null		13
+-- Ending --

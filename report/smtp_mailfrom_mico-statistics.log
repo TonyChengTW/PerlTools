@@ -1,0 +1,56 @@
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/smtp*20060514*
+-- Start --
+Sender 				Mail Count		Date : 20060514
+-----------------------------------------------------------
+alone@home.net		72049
+simone.pan@msa.hinet.net		13726
+angel-chai@aptg.net		7161
+tzei@aptg.net		2578
+shiang888@aptg.net		2438
+yi-ping-99@mail.klaser.com.tw		2200
+penny-wu.ut_po.ut_mail@webmail.scu.edu.tw		2100
+scs412@aptg.net		1964
+ponwendy351@e-lead.com.tw		1900
+chlizu@aptg.net		1844
+s651015@ms48.hinet.net		1808
+ahuamn@aptg.net		1807
+vince085@aptg.net		1792
+tsou6630@nanshanlife.com.tw		1786
+viofirst@ms12.hinet.net		1770
+ywe@aptg.net		1727
+jess0106@tpts8.seed.net.tw		1704
+super71402@pmimemory.com.tw		1700
+holing@mail.my.net.tw		1686
+aazz@ms10.url.com.tw		1621
+gracelee0504@yammail.com		1600
+franky9955@citymail.com.tw		1600
+jerry8443@kello.hopto.org		1600
+joy637@mail.winterthur.com.tw		1600
+vn12060724@ms57.hinet.net		1600
+kevin327@aptg.net		1553
+s89110089@ebtne.net		1500
+gygybox001234@yahoo.com		1500
+wu50318@urms.com		1500
+ferrari_5099@ms16.hinet.net		1500
+hank_rd@aptg.net		1468
+ps2xbox@aptg.net		1296
+energy70375655@aptg.net		1244
+kungfulong@aptg.net		1218
+jjw511012@aptg.net		1180
+ying0918@aptg.net		1158
+eva4724@aptg.net		1140
+sun917@aptg.net		1124
+hkcheng@seed.net.tw		1121
+trtc146@yahoo.com.tw		1093
+yennuno@aptg.net		1041
+lgs1024@aptg.net		1027
+yichien_liao@aptg.net		1007
+shirling@aptg.net		1000
+phuang@aptg.net		980
+dd8dd8@aptg.net		956
+l9701205@ms16.hinet.net		901
+august@aptg.net		876
+anlex@aptg.net		870
+smsmlin@aptg.net		858
+-- Ending --

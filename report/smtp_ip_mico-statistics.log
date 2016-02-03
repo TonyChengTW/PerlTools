@@ -1,0 +1,56 @@
+type = ip			top = 50
+maillog file = /backup/maildebug/smtp*20060514*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060514
+-----------------------------------------------------------
+219.91.107.46  NK219-91-107-46.adsl.dynamic.apol.com.tw		39262
+219.91.108.202  NK219-91-108-202.adsl.dynamic.apol.com.tw		21900
+218.34.128.9  218-34-128-9.cm.dynamic.apol.com.tw		13726
+219.91.70.204  NK219-91-70-204.adsl.dynamic.apol.com.tw		8376
+218.35.1.200  218-35-1-200.cm.dynamic.apol.com.tw		7161
+219.91.98.146  NK219-91-98-146.adsl.dynamic.apol.com.tw		5009
+219.91.85.210  NK219-91-85-210.adsl.dynamic.apol.com.tw		4262
+219.91.92.85  NK219-91-92-85.adsl.dynamic.apol.com.tw		4233
+219.91.111.168  NK219-91-111-168.adsl.dynamic.apol.com.tw		4043
+219.91.108.245  NK219-91-108-245.adsl.dynamic.apol.com.tw		3824
+210.202.172.31  KH210-202-172-31.adsl.static.ebtnet.net		2974
+222.156.7.168  TC222-156-7-168.adsl.dynamic.apol.com.tw		2578
+219.91.90.43  NK219-91-90-43.adsl.dynamic.apol.com.tw		2555
+218.34.232.46  218-34-232-46.cm.dynamic.apol.com.tw		2438
+222.250.192.68  222-250-192-68.cm.dynamic.apol.com.tw		1964
+210.85.74.70  210-85-74-70.cm.dynamic.apol.com.tw		1844
+222.250.152.247  222-250-152-247.cm.dynamic.apol.com.tw		1808
+218.184.166.220  218-184-166-220.cm.dynamic.apol.com.tw		1807
+218.34.229.90  218-34-229-90.cm.dynamic.apol.com.tw		1792
+218.184.18.69  218-184-18-69.cm.dynamic.apol.com.tw		1786
+210.58.74.3  210-58-74-3.cm.dynamic.apol.com.tw		1770
+210.85.240.81  210-85-240-81.cm.dynamic.apol.com.tw		1727
+218.34.96.57  218-34-96-57.cm.dynamic.apol.com.tw		1704
+210.85.24.74  210-85-24-74.cm.dynamic.apol.com.tw		1686
+210.85.57.215  210-85-57-215.cm.dynamic.apol.com.tw		1621
+202.178.135.92  202-178-135-92.cm.dynamic.apol.com.tw		1553
+210.58.169.62  210-58-169-62.cm.dynamic.apol.com.tw		1468
+218.184.144.2  218-184-144-2.cm.dynamic.apol.com.tw		1398
+210.58.32.207  210-58-32-207.cm.dynamic.apol.com.tw		1296
+210.85.142.122  210-85-142-122.cm.dynamic.apol.com.tw		1244
+218.184.85.159  218-184-85-159.cm.dynamic.apol.com.tw		1218
+218.34.109.9  218-34-109-9.cm.dynamic.apol.com.tw		1185
+210.85.212.98  210-85-212-98.cm.dynamic.apol.com.tw		1180
+222.250.241.82  222-250-241-82.cm.dynamic.apol.com.tw		1158
+218.34.241.174  218-34-241-174.cm.dynamic.apol.com.tw		1140
+218.35.4.137  218-35-4-137.cm.dynamic.apol.com.tw		1121
+202.178.153.85  202-178-153-85.cm.dynamic.apol.com.tw		1093
+218.34.80.76  218-34-80-76.cm.dynamic.apol.com.tw		1064
+222.250.177.165  222-250-177-165.cm.dynamic.apol.com.tw		1041
+218.184.132.111  218-184-132-111.cm.dynamic.apol.com.tw		1027
+202.178.145.175  202-178-145-175.cm.dynamic.apol.com.tw		1007
+218.184.117.108  218-184-117-108.cm.dynamic.apol.com.tw		980
+210.85.222.124  210-85-222-124.cm.dynamic.apol.com.tw		956
+218.35.20.90  218-35-20-90.cm.dynamic.apol.com.tw		901
+218.184.98.213  218-184-98-213.cm.dynamic.apol.com.tw		896
+218.34.229.47  218-34-229-47.cm.dynamic.apol.com.tw		876
+210.203.126.20  210-203-126-20.adsl.static.apol.com.tw		875
+222.250.144.198  222-250-144-198.cm.dynamic.apol.com.tw		870
+218.184.198.131  218-184-198-131.cm.dynamic.apol.com.tw		858
+219.91.76.124  NK219-91-76-124.adsl.dynamic.apol.com.tw		824
+-- Ending --

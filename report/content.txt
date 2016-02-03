@@ -1,0 +1,633 @@
+Date: Thu Jan 19 15:43:33 CST 2006
+From: mikocheng@aptg.com.tw
+To:   mikocheng@aptg.com.tw  tony@strongniche.com.tw
+Subject: aptg.net Rmail Daily report-20060118
+
+================ aptg.net User Report ================================================
+Query Date:	20060118
+Total  Active User:	117859 users
+MS01 Active User:	36221 users
+MS02 Active User:	37243 users
+MS03 Active User:	32953 users
+MS04 Active User:	11442 users
+Suspend User:	6373 users
+Trust IP(Relay IP):	1050305 IPs
+Allow IP(Whitelist):	1506 IPs
+Deny IP(Blacklist):	3818138 IPs
+Deny Mailfrom(Blacklist):	881 E-Mails
+
+
+
+
+================ MX Server Statistics ================================================
+Date			20060118
+Server Type		MX0 Server
+Spam Score Detection	6.5
+
+Incoming Connections:	414506 Connections
+Allowed Connections:	212083 Connections
+Blocked Connections:	202423 Connections
+
+Incoming Messages:	167737 messages
+Clean Messages:		103819 messages
+Spam Messages:		61212 messages
+Virus Messages:		2706 messages
+
+
+   Unhealth Connections Ratio	48.83%
+
+
+   Spam messages Ratio		36.49%
++) Virus messages Ratio		1.61%
+   ______________________________________
+   Unhealth Messages Ratio	38.11%
+
+
+
+================ SMTP Server Statistics ==============================================
+Date			20060118
+Server Type		SMTP Server
+Spam Score Detection	5.5
+
+Incoming Connections:	148679 Connections
+Allowed Connections:	106765 Connections
+Blocked Connections:	41914 Connections
+
+Incoming Messages:	48603 messages
+Clean Messages:		37306 messages
+Spam Messages:		9722 messages
+Virus Messages:		1575 messages
+
+
+   Unhealth Connections Ratio	28.19%
+
+
+   Spam messages Ratio		20.00%
++) Virus messages Ratio		3.24%
+   ______________________________________
+   Unhealth Messages Ratio	23.24%
+
+
+
+================ MX Server Mailfrom top50 Statistics =====================================
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/mx0[234]*20060118*
+-- Start --
+Sender 				Mail Count		Date : 20060118
+-----------------------------------------------------------
+mondeo-bounces@mmc.iwant-in.net		2290
+webmail@ecfscop.epaper.com.tw		2101
+tw-auctions-sys@cctw.yahoo-inc.com		1693
+tw-letter@yahoo-inc.com		1561
+member@dks.com.tw		1432
+stpaper@post.eccrm.epaper.com.tw		1059
+endofitem@tw.ebay.com		778
+service@estatement3.yuanta.com.tw		666
+yahoo@yahoo-inc.com		656
+root@oms06.104.com.tw		545
+enews@ymx.cnyes.com		524
+root@oms05.104.com.tw		410
+root@oms04.104.com.tw		404
+root@oms07.104.com.tw		394
+automail@ms.1111.com.tw		373
+root@oms15.104.com.tw		257
+tsb@mailhunter.taishinbank.com.tw		251
+root@oms09.104.com.tw		240
+return-epaper@bs.kkbox.com		236
+service@mailhunter.cathaylife.com.tw		229
+psql2k@yahoo.com.tw		226
+promote@ale.com.tw		218
+g0ecu8ke5f7bshbm6ja7696p44-bounce@groups.msn.com		216
+wod_tw@ale.com.tw		213
+service@kgi.com.tw		207
+61.221.142.150(null mailfrom)		191
+pu85o6rgagd9aiuq79ue110r83-bounce@groups.msn.com		189
+apache@tw106.mindear.com.tw		182
+FYYUJJ88@MS22.HINET.NET		177
+epaper@lionchannel.com		171
+nobody@www.jpcl.com.tw		160
+goodnews@reject.url.com.tw		159
+service2@icdf.org.tw		158
+epaper@eslitebooks.com		156
+apache@tw66.mindear.com.tw		150
+www@epage.books.com.tw		145
+googlealerts-noreply@google.com		142
+listconfirm@tw.ebay.com		142
+ljkhfuyfi@writeme.com		134
+paper@mailsec.sogi.com.tw		130
+enews-bounces@enews.apple.com		128
+cjyoujsd@yahoo.com.cn		125
+epaper@mail2.eapax.com.tw		119
+epaper@hitfm.com.tw		116
+Publisher_Tzuchi@tzuchi.net		115
+webservice@cathaybk.com.tw		109
+service@email.jfrich.com.tw		108
+cbjbcdf@counsellor.com		107
+info@roodo.com		107
+ColorDM@sinyi.com.tw		105
+-- Ending --
+
+
+
+================ MX Server Source IP top50 Statistics ====================================
+type = ip			top = 50
+maillog file = /backup/maildebug/mx0[234]*20060118*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060118
+-----------------------------------------------------------
+63.208.161.62  63-208-161-62.digitalrealm.net		2776
+193.6.175.250  doczy.drk.hu		2460
+202.137.149.12  null		2337
+203.73.94.84  mmc.iwant-in.net		2292
+213.240.196.19  213-240-196-19.1707028.ddns.cablebg.net		2007
+201.35.68.70  urisrv01.urisantiago.br		1984
+61.189.240.211  null		1953
+203.82.57.100  mbl-82-57-100.dsl.net.pk		1611
+212.179.19.131  bzq-179-19-131.cust.bezeqint.net		1491
+200.208.229.195  200-208-229-195-mns.cpe.vivax.com.br		1380
+60.233.155.35  null		1350
+61.108.14.130  null		1223
+65.54.208.86  c15.groups.msn.com		1128
+213.239.197.150  fof-clan.com		1127
+200.202.207.6  juhani.estancias.com.br		1089
+220.130.119.89  NOT-IN-USED.pchome.com.tw		1053
+64.118.65.3  omnilinkweb01.beepers.com		1022
+206.57.96.9  null		989
+62.153.91.83  null		954
+83.213.161.58  eu83-213-161-58.clientes.euskaltel.es		909
+218.66.103.190  null		879
+210.18.143.70  null		841
+61.183.37.227  null		795
+218.232.104.27  null		791
+212.98.164.98  212.98.164.98.bn.by		783
+219.232.58.126  null		743
+210.7.17.105  Broadband-Dynamic-Namaka105.is.com.fj		741
+218.232.104.24  null		723
+213.176.78.13  null		707
+211.166.59.5  null		699
+222.51.175.205  null		699
+202.143.173.226  null		697
+219.237.78.27  null		682
+80.191.28.76  null		673
+59.144.162.110  dsl-del-static-110.162.144.59.touchtelindia.net		670
+218.50.54.74  null		650
+62.15.135.252  62-15-135-252.inversas.jazztel.es		645
+65.214.39.72  null		644
+219.236.173.211  null		635
+213.96.250.119  119.Red-213-96-250.staticIP.rima-tde.net		632
+84.204.40.194  null		589
+211.147.224.35  null		575
+213.240.202.234  213-240-202-234.1700665.ddns.cablebg.net		572
+211.38.56.100  null		568
+85.15.128.154  null		563
+200.180.104.87  null		562
+217.219.118.106  null		558
+220.227.249.2  null		556
+202.43.194.119  d3.letter.tpe.yahoo.com		556
+24.123.12.178  mail.stier-automation.com		544
+-- Ending --
+
+
+
+================ MX Server Spam Mailfrom top50 Report ================================
+type = spammail			top = 50
+maillog file = /backup/maillog/mx0[234]*20060118*
+-- Start --
+Spam From 			Score Avg	Score Total	Spam Count
+ Date : 20060118
+------------ Total Spam Count = 61146 ----------------
+member@dks.com.tw		13.5		17988.5		1333
+stpaper@post.eccrm.epaper.com.tw		7.6		6775.5		889
+FYYUJJ88@MS22.HINET.NET		26.4		4640.2		176
+apache@tw106.mindear.com.tw		11.0		1864.3		170
+apache@tw66.mindear.com.tw		11.0		1547.4		141
+cbjbcdf@counsellor.com		19.4		1979.0		102
+www@epage.books.com.tw		14.6		1441.3		99
+rogert@yahoo.com		26.0		2362.8		91
+nbfgfih@mail.com		16.4		1429.3		87
+ljkhfuyfi@writeme.com		16.5		1439.4		87
+gjhgkgh@comic.com		19.2		1632.5		85
+thomas@yahoo.com		26.1		2221.1		85
+robert@yahoo.com		25.7		2160.7		84
+bmbm@gardener.com		16.5		1370.1		83
+cvnvbmxcv@diplomats.com		19.2		1592.5		83
+nhfuyti@adexec.com		16.3		1352.9		83
+httufgf@email.com		16.9		1386.3		82
+peter@yahoo.com		25.6		2076.2		81
+sta0114ucdhwspxva@yahoo.com.hk		19.5		1582.2		81
+sta0114jgkwrcrbnn@yahoo.com.hk		19.8		1545.1		78
+nhfhigou@adexec.com		16.4		1261.3		77
+lkhihgy@clerk.com		16.5		1266.9		77
+mbhgihg@accountant.com		16.6		1277.2		77
+sta0114ppkiensgmg@yahoo.com.hk		16.8		1293.3		77
+geoffrey@yahoo.com		25.7		1952.5		76
+fvhfgk@archaeologist.com		16.3		1223.5		75
+cxvcnv@doctor.com		16.5		1220.0		74
+sta0114reysxlpkbc@yahoo.com.hk		19.5		1444.7		74
+hugh@yahoo.com		25.9		1918.0		74
+simon@yahoo.com		25.7		1877.6		73
+reginald@yahoo.com		26.3		1916.6		73
+vjbjm@programmer.net		16.2		1182.0		73
+sta0114uoaycqfwey@yahoo.com.hk		16.7		1215.8		73
+jhyfiyti@allergist.com		16.6		1191.9		72
+william@yahoo.com		25.8		1858.5		72
+cxnbgmd@consultant.com		18.9		1323.6		70
+vjbgkh@deliveryman.com		16.6		1159.4		70
+vfjgbdxg@deliveryman.com		19.4		1316.3		68
+sta0114xjtmrrintj@yahoo.com.hk		16.5		1119.1		68
+cdhgj@chemist.com		16.5		1073.9		65
+sta0114itttuavyff@yahoo.com.hk		16.9		1081.5		64
+LifeShopDirect@venusdrive.com		11.4		718.5		63
+sta0114sqmejjngno@yahoo.com.hk		16.5		1038.7		63
+sta0114urrnhamoid@yahoo.com.hk		16.3		1027.5		63
+sta0114xoejumebtu@yahoo.com.hk		16.7		985.4		59
+chgvjvg@counsellor.com		19.8		1168.9		59
+alexander@yahoo.com		25.9		1530.2		59
+edm@mdb139.payeasy.com.tw		11.8		683.7		58
+sta0114yxtytoidwx@yahoo.com.hk		16.8		955.5		57
+sta0114mahyqfldyo@yahoo.com.hk		16.1		920.1		57
+-- Ending --
+
+
+
+================ MX Server Error top50 Report ================================
+type = error			top = 50
+maillog file = /backup/maillog/mx0[234]*20060118*
+-- Start --
+SMTPD Error Count 		Count	Date : 20060118
+------------ Total Error Count =  ---------------
+202.137.149.12  null		24
+193.6.175.250  doczy.drk.hu		24
+63.208.161.62  63-208-161-62.digitalrealm.net		21
+213.240.196.19  213-240-196-19.1707028.ddns.cablebg.net		20
+201.35.68.70  urisrv01.urisantiago.br		17
+200.202.207.6  juhani.estancias.com.br		16
+61.189.240.211  null		16
+212.179.19.131  bzq-179-19-131.cust.bezeqint.net		13
+219.232.58.126  null		11
+200.208.229.195  200-208-229-195-mns.cpe.vivax.com.br		10
+60.233.155.35  null		10
+83.213.161.58  eu83-213-161-58.clientes.euskaltel.es		9
+194.228.65.196  zs.tlustice.indos.cz		8
+200.101.66.131  ftp.mp.ro.gov.br		7
+203.75.4.12  null		6
+218.232.104.27  null		6
+200.21.255.148  null		6
+211.147.224.35  null		6
+219.237.78.27  null		6
+203.75.4.11  null		5
+203.75.4.14  null		5
+203.82.57.100  mbl-82-57-100.dsl.net.pk		5
+210.18.143.70  null		5
+218.232.104.29  null		4
+61.16.142.196  hotwire-196-142-16-del.hotwireindia.com		4
+58.63.202.25  null		4
+212.60.65.198  null		4
+200.21.116.126  null		4
+222.126.38.74  adsl-126.38.74.info.com.ph		4
+203.131.159.1  adsl-131.159.1.info.com.ph		4
+218.232.104.24  null		4
+200.87.97.234  null		4
+203.75.4.13  null		4
+200.244.147.96  null		4
+211.162.40.26  null		4
+202.143.173.226  null		4
+222.51.175.205  null		3
+220.226.166.3  null		3
+221.137.62.104  null		3
+61.67.19.46  46-19-67-61-TDTV.tinp.net.tw		3
+219.236.173.211  null		3
+201.245.33.214  pool_24533-214.etb.net.co		3
+195.138.148.148  null		3
+219.237.67.63  null		3
+220.234.104.169  null		3
+61.183.37.227  null		3
+218.66.103.190  null		3
+217.30.222.116  connectioncable-116.headoff.net		3
+62.128.176.197  62-128-176-197.direcpceu.com		3
+212.13.73.130  null		3
+-- Ending --
+
+
+
+================ SMTP Server Mailfrom top50 Report ===================================
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/smtp*20060118*
+-- Start --
+Sender 				Mail Count		Date : 20060118
+-----------------------------------------------------------
+pinhw@aptg.net		5494
+enjoy999@aptg.net		4546
+wenchin.yang@msa.hinet.net		4537
+grnpc@pchome.com.tw		4101
+willstar@ms32.hinet.net		3754
+tinytots@aptg.net		3698
+jsm4148@aptg.net		2959
+huiling1028@aptg.net		2430
+thhtiger@aptg.net		2420
+sophys@tpts5.seed.net.tw		2402
+jeff1204@ms7.hinet.net		2297
+hhome@aptg.net		2122
+bruce814@aptg.net		2110
+smsmlin@aptg.net		2090
+dd8dd8@aptg.net		2012
+afra1025@aptg.net		1972
+august@aptg.net		1792
+tbi@ms2.hinet.net		1775
+laimay@aptg.net		1610
+shan22@ms43.hinet.net		1594
+yichien_liao@aptg.net		1400
+kungfulong@aptg.net		1372
+ying0918@aptg.net		1328
+enquiry@lightart.com.tw		1272
+chialien@aptg.net		1198
+w7306@aptg.net		1184
+sumeiwen@aptg.net		1143
+neil_tseng@aptg.net		1142
+tiffany688@aptg.net		1135
+x_x_6_6_s_s@aptg.net		1122
+mtrade@ms25.hinet.net		1110
+tppr2772@aptg.net		1103
+a901@aptg.net		1080
+hsin1635@sinamail.com		1020
+carol_tien64@yahoo.com.tw		1016
+liu5458@aptg.net		1005
+361023@aptg.net		986
+mindy@aptg.net		972
+y8933781@aptg.net		934
+smith0906@seed.net.tw		922
+ligao@aptg.net		916
+david769@ms38.hinet.net		914
+cswin@aptg.net		896
+changju@aptg.net		896
+sunrise2team@yahoo.com.tw		893
+lubai@ms28.hinet.net		886
+lillian0708@aptg.net		883
+libraapple@aptg.net		874
+eva4724@aptg.net		864
+kimi114@aptg.net		862
+-- Ending --
+
+
+
+================ SMTP Server Source IP top50 Report ==================================
+type = ip			top = 50
+maillog file = /backup/maildebug/smtp*20060118*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060118
+-----------------------------------------------------------
+202.178.138.152  202-178-138-152.cm.dynamic.apol.com.tw		5937
+222.156.82.170  KH222-156-82-170.adsl.dynamic.apol.com.tw		5494
+222.156.66.97  KH222-156-66-97.adsl.dynamic.apol.com.tw		4546
+210.85.192.158  210-85-192-158.cm.dynamic.apol.com.tw		4104
+210.58.51.13  210-58-51-13.cm.dynamic.apol.com.tw		3754
+218.35.53.76  218-35-53-76.cm.dynamic.apol.com.tw		3698
+219.91.69.179  NK219-91-69-179.adsl.dynamic.apol.com.tw		2959
+222.250.128.29  222-250-128-29.cm.dynamic.apol.com.tw		2430
+218.34.208.39  218-34-208-39.cm.dynamic.apol.com.tw		2420
+210.85.200.69  210-85-200-69.cm.dynamic.apol.com.tw		2402
+210.85.62.39  210-85-62-39.cm.dynamic.apol.com.tw		2298
+218.184.170.125  218-184-170-125.cm.dynamic.apol.com.tw		2122
+210.58.166.152  210-58-166-152.cm.dynamic.apol.com.tw		2110
+218.184.198.157  218-184-198-157.cm.dynamic.apol.com.tw		2090
+210.85.222.124  210-85-222-124.cm.dynamic.apol.com.tw		2012
+218.34.200.239  218-34-200-239.cm.dynamic.apol.com.tw		1972
+218.34.229.21  218-34-229-21.cm.dynamic.apol.com.tw		1792
+218.34.211.87  218-34-211-87.cm.dynamic.apol.com.tw		1776
+202.178.155.183  202-178-155-183.cm.dynamic.apol.com.tw		1772
+202.178.162.64  202-178-162-64.cm.dynamic.apol.com.tw		1610
+222.156.0.243  TC222-156-0-243.adsl.dynamic.apol.com.tw		1610
+218.34.154.119  218-34-154-119.cm.dynamic.apol.com.tw		1594
+218.184.85.159  218-184-85-159.cm.dynamic.apol.com.tw		1372
+222.250.249.54  222-250-249-54.cm.dynamic.apol.com.tw		1328
+210.58.42.117  210-58-42-117.cm.dynamic.apol.com.tw		1214
+218.184.152.9  218-184-152-9.cm.dynamic.apol.com.tw		1198
+218.184.98.180  218-184-98-180.cm.dynamic.apol.com.tw		1184
+210.58.19.52  210-58-19-52.cm.dynamic.apol.com.tw		1142
+202.178.144.120  202-178-144-120.cm.dynamic.apol.com.tw		1135
+218.35.29.61  218-35-29-61.cm.dynamic.apol.com.tw		1127
+202.178.195.40  202-178-195-40.cm.dynamic.apol.com.tw		1122
+219.91.86.84  NK219-91-86-84.adsl.dynamic.apol.com.tw		1110
+218.184.52.40  218-184-52-40.cm.dynamic.apol.com.tw		1103
+218.34.140.245  218-34-140-245.cm.dynamic.apol.com.tw		1080
+222.250.22.7  222-250-22-7.cm.dynamic.apol.com.tw		1016
+210.58.41.90  210-58-41-90.cm.dynamic.apol.com.tw		1005
+222.250.112.178  222-250-112-178.cm.dynamic.apol.com.tw		986
+210.85.109.76  210-85-109-76.cm.dynamic.apol.com.tw		972
+218.35.22.82  218-35-22-82.cm.dynamic.apol.com.tw		943
+210.58.72.139  210-58-72-139.cm.dynamic.apol.com.tw		934
+210.58.128.180  210-58-128-180.cm.dynamic.apol.com.tw		922
+210.85.199.119  210-85-199-119.cm.dynamic.apol.com.tw		916
+218.184.22.19  218-184-22-19.cm.dynamic.apol.com.tw		914
+222.250.106.241  222-250-106-241.cm.dynamic.apol.com.tw		898
+218.34.17.34  218-34-17-34.cm.dynamic.apol.com.tw		896
+202.178.154.80  202-178-154-80.cm.dynamic.apol.com.tw		896
+218.34.64.148  218-34-64-148.cm.dynamic.apol.com.tw		883
+222.250.151.84  222-250-151-84.cm.dynamic.apol.com.tw		874
+218.34.241.174  218-34-241-174.cm.dynamic.apol.com.tw		864
+210.85.243.40  210-85-243-40.cm.dynamic.apol.com.tw		862
+-- Ending --
+
+
+
+================ SMTP Server Spam Mailfrom top50 Report ==============================
+type = spammail			top = 50
+maillog file = /backup/maillog/smtp*20060118*
+-- Start --
+Spam From 			Score Avg	Score Total	Spam Count
+ Date : 20060118
+------------ Total Spam Count = 9700 ----------------
+sean.ker@gmail.com		6.7		1837.6		275
+		8.4		1634.7		195
+sumeiwen@aptg.net		5.6		499.6		89
+guess1031@aptg.net		13.4		1156.1		86
+geeniue@aptg.net		6.8		374.0		55
+gowhere@aptg.net		9.6		525.4		55
+chien4236@aptg.net		9.0		474.6		53
+www@ms-sh.com.cn		13.2		684.7		52
+hk.888@tom.com		14.2		510.6		36
+bcc22@ms53.hinet.net		10.7		330.4		31
+mailing@Chinesefn.com		11.8		353.1		30
+12@12.aptg.net		9.9		218.1		22
+edm@hiloi.com.tw		8.2		163.3		20
+szasdfghjkl88@tom.com		9.9		198.8		20
+hr_geqiuqin@126.com		8.6		154.2		18
+szxofa186@163.com		8.1		145.4		18
+szgg@555.com		9.0		162.3		18
+superlsflsf@aptg.net		10.7		182.5		17
+bookexpress@pubool.com		8.0		128.2		16
+sz123123as@tom.com		9.0		144.2		16
+sz@126.com		8.6		137.1		16
+z1974328@aptg.net		6.4		96.4		15
+amity@aptg.net		8.9		133.7		15
+dognew@163.com		12.3		172.1		14
+local_stary@yahoo.com.tw		6.4		82.7		13
+adad2086660@sohu.com		8.7		104.0		12
+panfun_1234@yahoo.com.tw		22.0		263.4		12
+szhw1359012@126.com		9.2		110.1		12
+szhly268@163.com		8.4		100.4		12
+a22522dfs222222s@kingsir.net		12.7		152.0		12
+szasdfdfgewrrr@tom.com		8.6		102.8		12
+dgfy@163.com		10.9		130.3		12
+liantai668@126.com		8.7		103.9		12
+szasdewertrt@tom.com		8.6		103.7		12
+NELSONJAO@aptg.net		7.6		83.5		11
+chuangjiada12@555.com		8.3		82.7		10
+67522hgj@oldcentre.com		10.6		106.3		10
+xpein@sinaa.com		8.6		85.7		10
+fgu2258@ccam-market.com		11.0		110.1		10
+gsgsgsg@ss.com		11.7		116.5		10
+e1TTwWITIK5qF@tcts1.seed.net.tw		15.6		155.7		10
+zqy152214@liyuanculture.com		11.5		114.5		10
+d5223ds@johnhorne.com		12.3		122.8		10
+8jk225hj@carclub.com.cn		11.9		118.8		10
+dsaf@jkl.com		11.9		119.1		10
+2008@jht315.com		8.2		82.2		10
+mtrade@ms25.hinet.net		6.5		64.7		10
+7652276g@starwalk.net		12.9		103.5		8
+9582270kjl@gznmg.com		13.8		110.1		8
+7222hggg@lc-hotel.com		12.7		101.5		8
+-- Ending --
+
+
+
+================ SMTP Server Error top50 Report ==============================
+type = error			top = 50
+maillog file = /backup/maillog/smtp*20060118*
+-- Start --
+SMTPD Error Count 		Count	Date : 20060118
+------------ Total Error Count =  ---------------
+216.240.149.86  null		96
+202.178.138.152  202-178-138-152.cm.dynamic.apol.com.tw		48
+59.120.48.103  59-120-48-103.HINET-IP.hinet.net		14
+  null		7
+61.154.127.18  null		7
+218.184.165.10  218-184-165-10.cm.dynamic.apol.com.tw		6
+211.72.75.64  211-72-75-64.HINET-IP.hinet.net		6
+222.250.144.154  222-250-144-154.cm.dynamic.apol.com.tw		3
+59.124.20.220  59-124-20-220.HINET-IP.hinet.net		3
+200.106.85.8  client-200.106.85.8.speedy.net.pe		2
+201.254.96.251  201-254-96-251.speedy.com.ar		1
+217.164.239.154  we1408.alshamil.net.ae		1
+60.48.51.192  tm.net.my		1
+210.211.165.78  210.211.165.78.bb-dynamic.vsnl.net.in		1
+59.144.162.110  dsl-del-static-110.162.144.59.touchtelindia.net		1
+220.228.214.2  LL-220-228-214-2.LL.sparqnet.net		1
+218.32.231.51  adsl-218-32-231-51.NH.sparqnet.net		1
+212.179.19.131  bzq-179-19-131.cust.bezeqint.net		1
+213.96.250.119  119.Red-213-96-250.staticIP.rima-tde.net		1
+200.107.45.208  null		1
+88.3.133.165  165.Red-88-3-133.dynamicIP.rima-tde.net		1
+219.139.239.106  null		1
+210.58.34.145  210-58-34-145.cm.dynamic.apol.com.tw		1
+221.239.131.89  null		1
+222.37.122.152  null		1
+61.3.220.10  null		1
+61.19.116.94  null		1
+218.16.81.154  null		1
+60.248.161.112  60-248-161-112.HINET-IP.hinet.net		1
+61.16.154.195  ptil-195-154-16-del.primus-india.net		1
+219.134.30.103  null		1
+218.111.158.234  null		1
+210.213.113.42  210.213.113.42.pldt.net		1
+61.108.41.2  null		1
+221.234.224.38  null		1
+203.222.148.29  29-148-222-203.rev.techex.net.au		1
+203.204.8.73  203-204-8-73.adsl.static.giga.net.tw		1
+201.254.150.75  201-254-150-75.speedy.com.ar		1
+218.177.136.110  softbank218177136110.bbtec.net		1
+168.226.190.132  168-226-190-132.speedy.com.ar		1
+80.87.89.37  null		1
+219.95.156.97  tm.net.my		1
+-- Ending --
+
+
+
+================ MS Server Mailfrom top50 Report =====================================
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/ms*20060118*
+-- Start --
+Sender 				Mail Count		Date : 20060118
+-----------------------------------------------------------
+mondeo-bounces@mmc.iwant-in.net		4424
+webmail@ecfscop.epaper.com.tw		4236
+tw-auctions-sys@cctw.yahoo-inc.com		3293
+tw-letter@yahoo-inc.com		2128
+edm@msx.epaper.com.tw		1571
+endofitem@tw.ebay.com		1542
+service@estatement3.yuanta.com.tw		1352
+member@dks.com.tw		1350
+yahoo@yahoo-inc.com		1321
+mailman@mx.udnpaper.com		1293
+epaper@msx.epaper.com.tw		1074
+root@oms06.104.com.tw		1052
+epaper@epaper.books.com.tw		1019
+automail@ms.1111.com.tw		953
+root@oms05.104.com.tw		828
+root@oms07.104.com.tw		814
+210.200.211.37(null mailfrom)		798
+root@oms04.104.com.tw		794
+210.200.211.38(null mailfrom)		784
+web@pmail.7-11.com.tw		773
+mailman@udnpaper.com		730
+root@oms12.104.com.tw		729
+210.200.211.39(null mailfrom)		719
+sender@mail.ettoday.com.tw		677
+210.200.211.36(null mailfrom)		673
+enews@ymx.cnyes.com		603
+tsb@mailhunter.taishinbank.com.tw		528
+root@oms11.104.com.tw		522
+root@oms15.104.com.tw		508
+return-epaper@bs.kkbox.com		494
+root@oms09.104.com.tw		491
+root@oms10.104.com.tw		472
+shaka@vip.mailhunter.com.tw		465
+wod_tw@ale.com.tw		451
+service@mailhunter.cathaylife.com.tw		450
+root@lrnoms01.104.com.tw		442
+service@kgi.com.tw		427
+rmail@cms3.so-net.net.tw		397
+epaper@loan163.com.tw		393
+mailer-daemon@mr4.sonet.com.tw		389
+epaper@cardepaper.ubot.com.tw		350
+epaper@bestone.com.tw		347
+epaper@lionchannel.com		338
+net-service@jsun.com		327
+jackfu@aptg.net		306
+listconfirm@tw.ebay.com		302
+googlealerts-noreply@google.com		293
+epaper@newmake.careernet.com.tw		282
+acergame@funtown.com.tw		276
+epaper@shopping99.com		271
+-- Ending --
+
+
+
+================ MS Server Source IP top50 Report ====================================
+type = ip			top = 50
+maillog file = /backup/maildebug/ms*20060118*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060118
+-----------------------------------------------------------
+210.200.211.14  mx04.aptg.net		142007
+210.200.211.11  mx01.aptg.net		94176
+210.200.211.41  mx_edm.aptg.net		85166
+210.200.211.37  smtp02.aptg.net		3661
+210.200.211.39  smtp04.aptg.net		3606
+210.200.211.38  smtp03.aptg.net		3530
+210.200.211.36  smtp01.aptg.net		3486
+210.200.211.6  ms01.aptg.net		36
+210.200.211.8  ms03.aptg.net		32
+210.200.211.7  ms02.aptg.net		16
+210.200.211.9  ms04.aptg.net		4
+-- Ending --
+
+
+
+================ MS Server Error top50 Report ====================================
+type = error			top = 50
+maillog file = /backup/maildebug/ms*20060118*
+-- Start --
+SMTPD Error Count 		Count	Date : 20060118
+------------ Total Error Count =  ---------------
+-- Ending --

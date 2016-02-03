@@ -1,0 +1,2242 @@
+Postfix log summaries for Jan  8
+
+Grand Totals
+------------
+messages
+
+ 225081   received
+ 215976   delivered
+     25   forwarded
+   5163   deferred  (5173  deferrals)
+  46051   bounced
+      0   rejected (0%)
+      0   reject warnings
+      0   held
+      0   discarded (0%)
+
+  38802m  bytes received
+  35153m  bytes delivered
+ 137157   senders
+  35572   sending hosts/domains
+  75723   recipients
+   4637   recipient hosts/domains
+
+smtpd
+
+  227654   connections
+      11   hosts/domains
+       1   avg. connect time (seconds)
+ 43:43:57  total connect time
+
+
+Per-Hour Traffic Summary
+    time          received  delivered   deferred    bounced     rejected
+    --------------------------------------------------------------------
+    0000-0100       14635      13998        425       1841          0 
+    0100-0200        5548       5265        102       1375          0 
+    0200-0300       10743      10244        343       1724          0 
+    0300-0400        7919       7477        136       1919          0 
+    0400-0500       12682      12423        234       2144          0 
+    0500-0600       11796      11350        374       1623          0 
+    0600-0700        8255       7934        237       1891          0 
+    0700-0800        9284       8725        143       2395          0 
+    0800-0900        4927       4556        147       1726          0 
+    0900-1000        6931       6709        221       1991          0 
+    1000-1100        9347       9496        136       1950          0 
+    1100-1200        8803       8301        170       2248          0 
+    1200-1300        8214       7728        177       1999          0 
+    1300-1400        8086       7694        238       2423          0 
+    1400-1500        8905       8538        227       1443          0 
+    1500-1600        6173       5906        101       1469          0 
+    1600-1700       13887      13380        340       2181          0 
+    1700-1800       15188      14604        474       2333          0 
+    1800-1900        9090       8885        212       1997          0 
+    1900-2000       10637      10191        219       1707          0 
+    2000-2100        8586       7978        204       2276          0 
+    2100-2200        7227       6900         81       1596          0 
+    2200-2300        9250       8936        131       2239          0 
+    2300-2400        8968       8758        101       1561          0 
+
+Host/Domain Summary: Message Delivery (top 20)
+ sent cnt  bytes   defers   avg dly max dly host/domain
+ -------- -------  -------  ------- ------- -----------
+ 203364    34921m       0     3.3 s    4.1 m  aptg.net
+   1248    41278k       8     2.4 s    3.4 m  msa.hinet.net
+    577    23269k      22     2.4 s    1.5 m  yahoo.com.tw
+    369    18008k       0     1.4 s   54.0 s  ecfscop.epaper.com.tw
+    244     1409k       0     1.0 s    4.0 s  mmc.iwant-in.net
+    116     3050k       0     1.1 s   14.0 s  oms06.104.com.tw
+    107     2873k       0     3.0 s    1.7 m  oms04.104.com.tw
+     88   461853        0     2.4 s    8.0 s  cisco.com
+     87     2274k       0     1.9 s   44.0 s  oms05.104.com.tw
+     86     3588k      25     1.3 s   10.0 s  pchome.com.tw
+     81     2160k       0     2.0 s    1.3 m  oms07.104.com.tw
+     80   473498        0     4.8 s   33.0 s  charter.net
+     75     3032k       0     1.0 s    4.0 s  mail2000.com.tw
+     74     3260k       4     4.7 s   16.0 s  gmail.com
+     73     3378k       0     3.0 s   42.0 s  seed.net.tw
+     66     1373k       0     2.1 s    4.0 s  yahoo-inc.com
+     57     1296k       1     4.6 s   48.0 s  hotmail.com
+     56     2260k       0     0.8 s    3.0 s  so-net.net.tw
+     56   366402        0     1.4 s    6.0 s  ev-marketings1.net
+     52     2005k       1     3.1 s    3.7 m  giga.net.tw
+
+Host/Domain Summary: Messages Received (top 20)
+ msg cnt   bytes   host/domain
+ -------- -------  -----------
+  59089     2572m  spmx.apol.com.tw
+  10353     8406m  msa.hinet.net
+   8853     8884m  yahoo.com.tw
+   5811     2135m  aptg.net
+   4530      525m  hotmail.com
+   2831   171791k  ecfscop.epaper.com.tw
+   2701     9479k  cctw.yahoo-inc.com
+   2136    43867k  yahoo-inc.com
+   1659    73818k  groups.msn.com
+   1481   228884k  yahoo.com
+   1384     5235k  mmc.iwant-in.net
+   1043     1071m  seed.net.tw
+    974      885m  gmail.com
+    944    24237k  tw.ebay.com
+    867      669m  pchome.com.tw
+    840     2557k  optonline.com
+    754     2463k  cisco.com
+    739    39478k  adelphia.net
+    635     1923k  bezeqint.net
+    574      566m  so-net.net.tw
+
+Per-Hour SMTPD Connection Summary
+    hour        connections    time conn.    avg./conn.   max. time
+    --------------------------------------------------------------------
+    0000-0100      14731         2:23:48           1s         129s
+    0100-0200       5682         1:14:34           1s          89s
+    0200-0300      10772         1:19:45           0s          79s
+    0300-0400       7928         1:10:41           1s          45s
+    0400-0500      12785         1:42:15           0s          39s
+    0500-0600      11813         0:58:04           0s          34s
+    0600-0700       8261         0:51:29           0s          73s
+    0700-0800       9350         1:11:58           0s          31s
+    0800-0900       4968         0:54:01           1s         133s
+    0900-1000       6995         1:26:39           1s          74s
+    1000-1100       9504         2:01:29           1s          91s
+    1100-1200       8902         1:44:57           1s          70s
+    1200-1300       8279         1:33:58           1s          66s
+    1300-1400       8398         2:16:16           1s          66s
+    1400-1500       9004         1:40:18           1s          96s
+    1500-1600       6249         1:21:37           1s         101s
+    1600-1700      14100         2:33:23           1s         226s
+    1700-1800      15282         2:22:30           1s         112s
+    1800-1900       9178         1:52:50           1s          65s
+    1900-2000      10746         2:06:04           1s          79s
+    2000-2100       8746         2:15:05           1s         108s
+    2100-2200       7380         2:31:40           1s         151s
+    2200-2300       9477         3:28:36           1s         115s
+    2300-2400       9124         2:42:00           1s         141s
+
+Host/Domain Summary: SMTPD Connections (top 20)
+ connections  time conn.  avg./conn.  max. time  host/domain
+ -----------  ----------  ----------  ---------  -----------
+  177283       31:41:30          1s       117s   aptg.net
+   13806        7:09:39          2s       226s   mx02
+   13672        1:23:12          0s         7s   mx03
+   13423        1:19:56          0s         7s   mx04
+    6609        0:42:28          0s         8s   mx01
+     732        0:22:00          2s        11s   smtp04
+     711        0:25:27          2s        12s   smtp02
+     705        0:17:46          2s         8s   smtp01
+     692        0:19:32          2s         8s   smtp03
+      16        0:01:52          7s         7s   ms02
+       5        0:00:35          7s         7s   ms03
+
+top 20 Senders by message count
+-------------------------------
+   2831   webmail@ecfscop.epaper.com.tw
+   2693   tw-auctions-sys@cctw.yahoo-inc.com
+   1384   mondeo-bounces@mmc.iwant-in.net
+   1144   yahoo@yahoo-inc.com
+    824   tw-letter@yahoo-inc.com
+    570   endofitem@tw.ebay.com
+    539   epr@dcv.com.tw
+    487   root@epaper.cwb.gov.tw
+    393   root@oms06.104.com.tw
+    371   enews@ymx.cnyes.com
+    362   jackfu@aptg.net
+    333   guess1031@aptg.net
+    333   sender@mail.ettoday.com.tw
+    311   root@oms04.104.com.tw
+    289   epapermonitor@epaper.skm.com.tw
+    274   automail@ms.1111.com.tw
+    273   service@email.jfrich.com.tw
+    271   listconfirm@tw.ebay.com
+    269   root@oms07.104.com.tw
+    260   service@carrefour.com
+
+top 20 Recipients by message count
+----------------------------------
+    370   jackfu@aptg.net
+    369   webmail@ecfscop.epaper.com.tw
+    294   57438@aptg.net
+    270   mgh@aptg.net
+    244   mondeo-bounces@mmc.iwant-in.net
+    212   gsr@aptg.net
+    202   joline1688@aptg.net
+    166   thomas0810@aptg.net
+    161   james640825@aptg.net
+    150   ami1977@aptg.net
+    149   jasonnn@aptg.net
+    133   cutedove@aptg.net
+    125   tony_hwt@aptg.net
+    118   fredshui@aptg.net
+    117   chanweita@aptg.net
+    116   root@oms06.104.com.tw
+    109   hsukao@aptg.net
+    107   root@oms04.104.com.tw
+    106   agi1210@aptg.net
+    103   sy5989@aptg.net
+
+top 20 Senders by message size
+------------------------------
+ 171791k  webmail@ecfscop.epaper.com.tw
+ 171154k  johnny_lee@cltv.tinp.net.tw
+ 156933k  steuarts@aptg.net
+ 152761k  pihouse@ms7.hinet.net
+ 129434k  ipis.wang@msa.hinet.net
+ 123676k  deekay.dk9999@hinet.net
+ 119860k  fen0919@yahoo.com.tw
+ 114586k  neo@birdbbs.idv.tw
+ 114169k  randyboy@aptg.net
+ 109834k  river.king@msa.hinet.net
+ 107736k  ssmmss8899@yahoo.com.hk
+  99028k  big.chou@msa.hinet.net
+  95393k  pagiesun@ms15.hinet.net
+  87134k  xiang3@ms35.hinet.net
+  86187k  q62a11z05kimo@yahoo.com.tw
+  86073k  patrick.gw@msa.hinet.net
+  83462k  r0831109@ms63.hinet.net
+  82384k  y100798112@yahoo.com.tw
+  77211k  sirlin57@ms24.hinet.net
+  76545k  owner-pict@julian.fido.net.tw
+
+top 20 Recipients by message size
+---------------------------------
+ 193079k  lin8778@aptg.net
+ 115563k  ann0713@aptg.net
+  97651k  pinhw@aptg.net
+  95484k  dns1647@aptg.net
+  89794k  y8933781@aptg.net
+  85583k  alucald@aptg.net
+  85532k  shishifos@aptg.net
+  85522k  takeshichou@aptg.net
+  77311k  enjoy999@aptg.net
+  76575k  daimlerhuang@aptg.net
+  68609k  tommeg@aptg.net
+  66662k  feneasy@aptg.net
+  66219k  tanghsin@aptg.net
+  66049k  hlbook@aptg.net
+  64085k  arita@aptg.net
+  63647k  hsu0922@aptg.net
+  63016k  rex1215@aptg.net
+  62953k  etlong@aptg.net
+  62479k  vincenttzeng@aptg.net
+  61921k  uncced@aptg.net
+
+message deferral detail
+-----------------------
+  qmgr (total: 17)
+         8   mail.email4web.com[66.98.136.23]: Connection timed out
+         7   unknown mail transport error
+         2   bulletinam.com[220.231.8.72]: Connection timed out
+  smtp (total: 5156)
+      2323   server dropped connection without sending the initial greeting
+       428   Connection timed out
+       309   Connection refused
+       143   server refused mail service
+        67   Name service error for name=dev.null type=A: Host not found
+        61   Host not found, try again
+        43   Malformed name server reply
+        32   Host not found
+        30   Policy Rejection: Please try later. (in reply to RCPT TO command
+        29   Name service error for name=localhost type=A: Host not found
+        27   mail.email4web.com[66.98.136.23]: Connection timed out
+        26   170]. (in reply to end of DATA command
+        24   mail.epatra.com[65.182.162.95]: Connection refused
+        22   4.4.5 Insufficient disk space; try again later (in reply t...
+        22   mx9.etoos.com[192.168.99.99]: Connection timed out
+        21   datefuntime.com[222.168.100.182]: Connection refused
+        21   irscmail.laa.com[67.115.116.190]: Connection timed out
+        21   Host found but no data record of requested type
+        21   User unknown in local recipient table (in reply to RCPT TO com...
+        19   250]. (in reply to end of DATA command
+        19   aliblehn.com[220.231.8.72]: Connection timed out
+        17   furmanselz.com[204.86.50.130]: Connection refused
+        17   mx-in.cis.net[204.181.81.7]: Connection timed out
+        17   //isg.ee.ethz.ch/tools/postgrey/help/lightlink.com.html
+        15   knsacs.com[207.142.134.42]: Connection refused
+        15   mail.nettouch.com[64.85.236.42]: Connection timed out
+        15   mail.omysister.com[212.78.85.54]: Connection refused
+        14   4.2.2 Mailbox full (in reply to RCPT TO command
+        14   mx.pochta.ru[81.211.64.50]: Connection timed out
+        14   bulletinam.com[220.231.8.72]: Connection timed out
+        13   190]. (in reply to end of DATA command
+        13   mxs1.ot.lv[81.94.227.219]: Connection timed out
+        13   spmx.apol.com.tw[210.58.102.35]: Connection refused
+        13   mail.qebo.net[216.121.245.78]: Connection refused
+        13   lost connection with mail.fescomail.net[210.51.162.101] while ...
+        13   VS14-RT5 Mailbox bounce arrival rate exceeds system limit ...
+        12   mail.fishinghot.com[221.5.2.2]: Connection refused
+        11   qqt failure (#4.3.0
+        10   mailscan.gi.is[213.181.100.21]: Connection timed out
+        10   4.3.2 Please try again later (in reply to MAIL FROM command
+         9   mail.ev.net[132.235.215.234]: Connection timed out
+         9   mx.exodus.net[66.35.227.247]: Connection timed out
+         9   grlmail.com[66.150.234.55]: Connection refused
+         9   qq trouble creating files in queue (#4.3.0
+         9   User unknown in virtual alias table (in reply to RCPT TO command
+         8   mail.didamail.com[65.39.166.109]: Connection refused
+         8   mail.1-base.com[209.182.0.161]: Connection refused
+         8   gridnet.com[206.80.167.249]: Connection refused
+         8   5.7.3 Client was not authenticated. (in reply to MAIL FROM...
+         8   msgbox.com[66.116.109.62]: Connection timed out
+         8   zdl.net[66.116.109.62]: Connection timed out
+         8   netrail.net[12.160.216.63]: Connection refused
+         8   lost connection with exchange.lionchannel.com[61.222.124.39] w...
+         8   Temporary local problem - please try later (in reply to RC...
+         7   buchucm.com[220.248.227.110]: Connection timed out
+         7   alicedsl.de[213.191.85.167]: Connection timed out
+         7   smtp.yehey.com[206.169.92.53]: Connection timed out
+         7   latinsite.com[66.116.109.60]: Connection timed out
+         7   mx.webhuset.no[81.27.32.81]: Connection timed out
+         7   //isg.ee.ethz.ch/tools/postgrey/help
+         7   Error: Wrong recipients (in reply to RCPT TO command
+         7   Server is too busy please try again later (in reply to RCPT TO...
+         6   gateway.net[149.174.33.10]: Connection timed out
+         6   mx1.cfl.com[10.23.42.11]: Connection timed out
+         6   good.net[66.199.187.181]: Connection timed out
+         6   copacabana.com[67.19.138.184]: Connection timed out
+         6   funkytiger.co.uk[127.0.0.1]: Connection refused
+         6   doneasy.com[66.150.234.55]: Connection refused
+         6   doar.net[66.116.109.62]: Connection timed out
+         6   mx2.aerallisst.net[163.125.1.6]: Connection timed out
+         6   ms01.aptg.net[210.200.211.6]: Connection refused
+         6   ms02.aptg.net[210.200.211.7]: Connection refused
+         6   Insufficient system storage (in reply to MAIL FROM command
+         6   read timeout
+         5   my.jdu.ru[194.67.27.126]: Connection timed out
+         5   www.jpcl.com.tw[203.70.169.147]: Connection timed out
+         5   libanismail.com[204.251.15.192]: Connection timed out
+         5   postmark.net[64.25.1.206]: Connection timed out
+         5   saillove.com[209.51.220.26]: Connection refused
+         5   ds1.domainspa.com[66.246.195.41]: Connection timed out
+         5   mail.svirgin.com[81.177.20.96]: Connection refused
+         5   lost connection with imail.korzyniowskiv.org[65.217.179.41] wh...
+         4   mail.ppcse.ru[81.177.6.103]: Connection refused
+         4   my.love.pochta.ru[194.67.27.125]: Connection timed out
+         4   my.tamdam.ru[194.67.27.125]: Connection timed out
+         4   www.jpcl.com.tw[203.70.169.146]: Connection timed out
+         4   www.abac.net[216.55.128.150]: Connection refused
+         4   pcarfanatic.com[66.236.61.165]: Connection timed out
+         4   ghostmail.com[208.254.3.166]: Connection refused
+         4   paper.yam.com[211.72.254.214]: Connection timed out
+         4   mxs3.ot.lv[81.94.227.221]: Connection timed out
+         4   mail.gtvs.biz[61.31.235.245]: Connection timed out
+         4   rxrob.com[209.51.220.26]: Connection refused
+         4   mx.cais.net[205.252.14.32]: Connection timed out
+         4   mh3prd.anshin.biz[211.76.146.34]: Connection refused
+         4   bounce.blayway.com[66.62.47.34]: Connection refused
+         4   spam.tzuchi.net[203.66.149.48]: read timeout
+         4   lsean.ezweb.ne.jp[222.1.136.5]: Connection timed out
+         4   2bsure.com[66.116.109.62]: Connection timed out
+         4   hkmag.com[66.116.109.62]: Connection timed out
+         4   hkem.com[216.168.224.64]: Connection timed out
+         4   moatev3.chs.edu.sg[202.69.151.7]: Connection timed out
+         4   mta213.mail.mud.yahoo.com Resources temporarily unavailabl...
+         4   lost connection with imail.heptarchy.net[65.217.179.41] while ...
+         3   mx.adelphia.net[68.168.78.104]: Connection timed out
+         3   mx.opnverify.com[66.227.69.10]: Connection timed out
+         3   mail25.sms.ac[209.126.222.125]: Connection timed out
+         3   my.love.km.ru[194.67.27.125]: Connection timed out
+         3   mail26.sms.ac[209.126.222.126]: Connection refused
+         3   mail.reconauto.com[66.243.87.131]: read timeout
+         3   hem.passagen.se[80.69.226.134]: Connection timed out
+         3   bounce.lirpap.com[69.25.212.153]: Connection timed out
+         3   4.7.1 Please try again later (in reply to MAIL FROM command
+         3   dkik.dk[213.173.232.178]: Connection refused
+         3   aniverse.net[204.251.15.193]: Connection timed out
+         3   frankdelano.com[204.251.15.195]: Connection timed out
+         3   adammoving.com[65.38.107.197]: Connection timed out
+         3   relay.vengo.ru[217.170.90.1]: Connection timed out
+         3   surreymyhome.com[216.113.193.20]: Connection refused
+         3   mail.madness7.com[82.98.212.236]: Connection refused
+         3   mail.gtvs.org[61.31.235.245]: Connection timed out
+         3   mail.cutsdeepto.com[72.43.128.2]: Connection refused
+         3   mail.trackzonback.com[72.43.128.2]: Connection refused
+         3   mail.trix.net[200.201.192.31]: Connection timed out
+         3   ms35a.hinet.net[168.95.5.35]: Connection refused
+         3   major.aidameter.com[202.168.197.3]: Connection refused
+         3   mail2.nac.net[207.99.0.40]: Connection refused
+         3   two.see7redawn.com[66.7.129.41]: Connection timed out
+         3   43.244.133.48[43.244.133.48]: Connection timed out
+         3   mail.outalongwalk.com[64.192.26.4]: Connection refused
+         3   www.supermail.ru[195.161.118.50]: Connection timed out
+         3   pchome.comn.tw[216.152.252.60]: Connection refused
+         3   ccnmail.com[66.116.109.62]: Connection timed out
+         3   dotexpress.com[66.116.109.62]: Connection timed out
+         3   planet-samoa.com[66.116.109.62]: Connection timed out
+         3   mail.furnitbite.com[4.79.67.74]: Connection timed out
+         3   mail.joyfulcold.com[4.79.67.75]: Connection timed out
+         3   mail.mypad.com[69.50.131.86]: Connection refused
+         3   conversation with smtp-mx1.aci.on.ca[205.207.148.91] timed out...
+         3   conversation with ms16a.hinet.net[168.95.5.16] timed out while...
+         3   lost connection with mp.sina.com.tw[210.17.38.39] while sendin...
+         3   lost connection with imail.histrionically.us[65.217.179.41] wh...
+         3   lost connection with anas.skios.es[195.219.190.136] while send...
+         3   lost connection with smtp.ocaplincovebdv.info[66.203.95.203] w...
+         3   lost connection with smtp.mailloux.info[66.203.95.201] while s...
+         3   lost connection with Mhost1.uprecinct18.us[65.244.16.119] whil...
+         3   mailarmory defense active please try again later (in reply to ...
+         2   sarworld.com[69.25.142.10]: Connection timed out
+         2   bl2.mail.eni.net[155.229.2.10]: Connection refused
+         2   filmilyam.com[220.248.227.110]: Connection timed out
+         2   giamanager.com[66.45.225.11]: Connection refused
+         2   lcn.net[192.217.246.11]: Connection timed out
+         2   mx1.aex.com[10.23.42.11]: Connection timed out
+         2   mail20.sms.ac[209.126.222.120]: Connection timed out
+         2   mail.t-mail.com[69.94.67.120]: Connection timed out
+         2   mail24.sms.ac[209.126.222.124]: Connection timed out
+         2   126.net[202.102.15.127]: Connection timed out
+         2   mail.trtc.com.tw[210.69.90.12]: Connection timed out
+         2   mail.eltimon.com[200.40.120.130]: Connection timed out
+         2   dors55ai.oicp.net[218.108.233.139]: Connection refused
+         2   ms13a.hinet.net[168.95.5.13]: Connection refused
+         2   clmboh-01.mgw.rr.com[66.75.160.148]: read timeout
+         2   webpim.de[62.225.115.150]: Connection refused
+         2   bcpclaw.com[204.251.15.151]: Connection timed out
+         2   bounce.anekmo.com[69.25.212.153]: Connection timed out
+         2   purenetfx.com[69.25.212.153]: Connection timed out
+         2   guiwang.com[70.86.182.162]: Connection refused
+         2   jazzfrog.net[204.251.15.164]: Connection timed out
+         2   purexxxgays.com[69.42.78.164]: Connection refused
+         2   mx2.alibaba.com[216.148.233.165]: Connection timed out
+         2   optinet.de[213.168.192.167]: Connection refused
+         2   mushy.net[216.187.103.168]: Connection timed out
+         2   hotphenomena.com[67.19.70.168]: Connection refused
+         2   mx1.xcite.net[216.169.111.16]: Connection refused
+         2   lcc.net[207.70.175.16]: Connection timed out
+         2   4.7.1 Greylisting in action, please come back later (in re...
+         2   on.net[203.16.214.17]: Connection refused
+         2   fgxh.com[69.25.142.18]: Connection timed out
+         2   xuantu.net[216.21.229.197]: Connection timed out
+         2   hideakifan.com[204.251.15.198]: Connection timed out
+         2   mail.universe.net[10.0.0.1]: Connection timed out
+         2   bcc.com.tw[203.69.33.1]: Connection timed out
+         2   pnv.net[64.209.230.200]: Connection timed out
+         2   mail.interhop.net[216.126.204.210]: Connection refused
+         2   12.com[206.13.63.21]: Connection timed out
+         2   juu.com[64.55.243.222]: Connection timed out
+         2   drinkmail.com[216.52.184.240]: Connection timed out
+         2   joanna.catcha.com[219.94.53.242]: Connection timed out
+         2   truebritney.com[80.245.197.244]: Connection timed out
+         2   mail.247service.biz[61.31.235.245]: Connection refused
+         2   247medsavings.net[200.157.24.251]: Connection refused
+         2   mail.web321.net[202.102.245.251]: Connection timed out
+         2   beep.ru[81.176.66.253]: Connection refused
+         2   bounce.metjetblet.com[66.62.47.34]: Connection refused
+         2   ms39a.hinet.net[168.95.5.39]: Connection refused
+         2   mailserver.aka.com[67.155.70.39]: Connection refused
+         2   mail.126.cn[219.146.78.42]: Connection timed out
+         2   MAIL.masterfinal.net[63.80.26.44]: Connection refused
+         2   mail.retrowize.com[64.192.26.4]: Connection refused
+         2   mail.wizenerds.com[64.192.26.4]: Connection refused
+         2   mail.youroutthere.com[64.192.26.4]: Connection refused
+         2   www.e-mails.ru[195.161.118.50]: Connection timed out
+         2   4.4.5 <>... Insufficient disk space; try again later (in r...
+         2   hsahosting.com[69.25.142.5]: Connection timed out
+         2   mail.eachboob.com[219.148.8.5]: Connection timed out
+         2   snail-mail.com[66.116.109.62]: Connection timed out
+         2   logonfl.com[70.150.21.6]: Connection timed out
+         2   mx2.alphagazin.net[163.125.2.6]: Connection timed out
+         2   bearteam.com[216.168.224.70]: Connection timed out
+         2   goplaces-ent.com[216.168.224.70]: Connection timed out
+         2   mail.ale.com.tw[210.17.16.71]: Connection timed out
+         2   filmilyam.com[220.231.8.72]: Connection timed out
+         2   ohshit.3322.org[221.239.134.73]: Connection refused
+         2   greenwichgroup.com[69.20.56.76]: Connection refused
+         2   abctechgroup.com[69.25.142.7]: Connection timed out
+         2   net.ph[203.119.4.7]: Connection refused
+         2   vuontrithuc.com[207.189.104.86]: Connection timed out
+         2   mail.cityhot.com[69.50.131.86]: Connection refused
+         2   Application error (socket
+         2   mta162.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         2   mta102.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta199.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta228.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta272.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta293.mail.mud.yahoo.com Resources temporarily unavailabl...
+         2   mta126.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta129.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta162.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta164.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta174.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta213.mail.re2.yahoo.com Resources temporarily unavailabl...
+         2   mta124.mail.scd.yahoo.com Resources temporarily unavailabl...
+         2   mta162.mail.scd.yahoo.com Resources temporarily unavailabl...
+         2   mta284.mail.scd.yahoo.com Resources temporarily unavailabl...
+         2   mta135.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   mta160.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   mta187.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         2   conversation with ms4a.hinet.net[168.95.5.4] timed out while s...
+         2   conversation with mail.jhaweb.com[209.113.187.142] timed out w...
+         2   conversation with msa-mx1.hinet.net[168.95.5.107] timed out wh...
+         2   conversation with smtp-mx1.aci.on.ca[205.207.148.92] timed out...
+         2   conversation with ms14a.hinet.net[168.95.5.14] timed out while...
+         2   conversation with ms.clevo.com.tw[61.66.18.6] timed out while ...
+         2   Greylisted for 5 minutes (in reply to RCPT TO command
+         2   //isg.ee.ethz.ch/tools/postgrey/help/choiceinc.com.html
+         2   //isg.ee.ethz.ch/tools/postgrey/help/maniladating.com.html
+         2   lost connection with mx.adelphia.net[68.168.78.104] while send...
+         2   MAIL FROM:<> (in reply to RCPT TO command
+         2   mail server temporarily rejected message (#4.3.0
+         2   Mailbox temporarily unavailable, sorry (in reply to end of...
+         2   Name service error for name=mx.data54.com type=A: Host not found
+         2   Name service error for name=dt5.keyweb.com type=A: Host not found
+         2   No such file or directory (in reply to RCPT TO command
+         2   temporary problem - please retry in a few minutes. (in rep...
+         2   temporary envelope failure (#4.3.0
+         2   Temporary failure as an anti-spam measure, please try agai...
+         2   We no longer relay mail to <beulah3201@globalcenter.net> (...
+         2   Your message has been greylisted, please try again later (...
+         1   4.0.0 Mail to escapekey.com delayed due to heavy joe-jobbi...
+         1   4.3.0 Cannot create file for your message (CreateUniqueMsg...
+         1   05:00 (in reply to RCPT TO command
+         1   59.42.188.100[59.42.188.100]: Connection timed out
+         1   mx2.ez-beat.com[63.86.220.101]: Connection refused
+         1   mf.namesecure.com[64.62.166.104]: Connection timed out
+         1   mail.mypersonalemail.com[70.184.32.105]: read timeout
+         1   bounce.guqs.com[66.179.22.106]: Connection timed out
+         1   tvel.spb.su[62.16.100.108]: Connection refused
+         1   meri.uwasa.fi[193.166.122.10]: Connection timed out
+         1   freebygrace.org[69.0.219.10]: Connection refused
+         1   mail.art-98.com[218.5.72.113]: Connection refused
+         1   MAIL1.chisd.com[65.120.150.114]: Connection refused
+         1   yghfd.8866.org[222.50.55.116]: Connection timed out
+         1   lycosemail.com[205.158.62.116]: Connection timed out
+         1   dhgruppen.com[195.140.173.118]: Connection timed out
+         1   top.com[66.117.154.119]: Connection refused
+         1   mail.rediris.es[130.206.1.11]: Connection timed out
+         1   mx1.ecs.com[10.23.42.11]: Connection timed out
+         1   smtpgate.acsalaska.net[209.112.168.120]: read timeout
+         1   lyon120.dtr.fr[194.51.33.120]: Connection refused
+         1   mail22.sms.ac[209.126.222.122]: Connection timed out
+         1   mail23.sms.ac[209.126.222.123]: Connection timed out
+         1   4.2.1 Try again later, mailbox temporarily unavailable. 37...
+         1   4.2.1 Try again later, mailbox temporarily unavailable. 20...
+         1   4.2.1 mail k08DmJFu046568 from 210.200.211.7 please try ag...
+         1   4.2.1 mail k08DmKWq046598 from 210.200.211.7 please try ag...
+         1   4.2.1 mail k07Ntai8017016 from 210.200.211.7 please try ag...
+         1   4.2.1 mail k07IUl5A082922 from 210.200.211.7 please try ag...
+         1   4.2.1 Try again later, mailbox temporarily unavailable. 15...
+         1   4.2.1 Try again later, mailbox temporarily unavailable. 5s...
+         1   mx1.kropka.net[84.40.242.124]: Connection timed out
+         1   my.love.vengo.ru[194.67.27.125]: Connection timed out
+         1   wto8.cn[67.15.35.126]: read timeout
+         1   iobox.fi[213.216.138.129]: Connection timed out
+         1   mail.eltimon.com[200.40.120.130]: read timeout
+         1   giddyup.com.au[69.93.41.131]: Connection timed out
+         1   4.3.1 Out of memory (in reply to MAIL FROM command
+         1   glocopter.com[69.25.212.134]: Connection timed out
+         1   mx1.senusdily.com[65.88.50.134]: Connection timed out
+         1   ealaddin.co.uk[216.35.72.134]: Connection timed out
+         1   superxero.net[64.225.154.135]: Connection timed out
+         1   mx2.dalfun.com[65.88.50.135]: Connection timed out
+         1   star.teuto.de[212.8.193.137]: Connection timed out
+         1   mail.vbwu.com[221.207.147.138]: Connection timed out
+         1   gnfconline.net[69.25.142.13]: Connection timed out
+         1   legacyhq.com[64.69.68.141]: Connection refused
+         1   gilette.com[216.52.122.143]: Connection timed out
+         1   receiverdrier.com[64.69.68.143]: Connection refused
+         1   beautyweb.nu[80.190.227.147]: Connection refused
+         1   14:00 (in reply to RCPT TO command
+         1   mail.feiwanda.com[218.97.136.14]: Connection refused
+         1   rothkirch.de[84.135.213.14]: Connection timed out
+         1   mailcal.vsnl.net.in[202.54.9.14]: Connection timed out
+         1   mail.gro-bark.com[216.13.158.150]: Connection refused
+         1   hammer.com[12.130.6.150]: Connection timed out
+         1   qzlf.com[204.251.15.151]: Connection timed out
+         1   poetshaven.com[69.50.195.152]: Connection timed out
+         1   cinnotes.cin.pt[213.13.178.154]: Connection timed out
+         1   gitgals.com[69.93.23.154]: Connection timed out
+         1   industrialac.com[204.251.15.156]: Connection timed out
+         1   mizmail.com[204.251.15.156]: Connection timed out
+         1   meri.uwasa.fi[193.166.122.15]: Connection timed out
+         1   charmedmail.com[69.25.142.15]: Connection timed out
+         1   iris.emc.com[128.222.34.15]: Connection refused
+         1   catv.net[218.99.1.161]: Connection timed out
+         1   69.37.233.165[69.37.233.165]: Connection timed out
+         1   global786.com[67.15.35.165]: Connection timed out
+         1   xpectdealz03.info[216.22.55.165]: Connection timed out
+         1   gleanings.net[208.254.3.166]: Connection refused
+         1   greatputt.com[216.187.103.168]: Connection timed out
+         1   patola.com[216.187.103.168]: Connection timed out
+         1   somehere.com[216.187.103.168]: Connection timed out
+         1   inscription.com[216.187.103.169]: Connection timed out
+         1   meri.uwasa.fi[193.166.122.16]: Connection timed out
+         1   mail.xkcz.com[221.207.145.16]: Connection timed out
+         1   ms16a.hinet.net[168.95.5.16]: Connection refused
+         1   giftabode.com[216.187.103.170]: Connection timed out
+         1   scifianime.com[216.187.103.170]: Connection timed out
+         1   moliu.fsn.net[204.251.15.170]: Connection timed out
+         1   jacobsoapstone.com[67.19.70.170]: Connection refused
+         1   mail.garner.com[66.173.241.172]: Connection timed out
+         1   mail.vallon.com[66.173.241.172]: Connection timed out
+         1   acron.net[67.15.35.172]: Connection timed out
+         1   4.7.1 Please try again later (in reply to DATA command
+         1   4.7.1 Please try again later (TEMPFAIL
+         1   w1.i-game.com.tw[210.17.16.178]: Connection refused
+         1   cyberdungeon.com[69.25.142.17]: Connection timed out
+         1   pend.net[69.25.142.17]: Connection timed out
+         1   qcms.com[68.179.33.17]: Connection refused
+         1   a-overflowing.net[216.40.33.17]: Connection refused
+         1   ms17a.hinet.net[168.95.5.17]: Connection refused
+         1   c.mx.portugalmail.pt[195.245.179.180]: read timeout
+         1   4link.net[216.122.217.180]: Connection refused
+         1   xpectdealz19.info[216.22.55.181]: read timeout
+         1   kingqh.vicp.net[61.236.87.182]: Connection refused
+         1   mail.owall.com[210.127.243.183]: Connection timed out
+         1   mx-ha02.web.de[217.72.192.188]: Connection refused
+         1   lgs.taiwango.net[210.17.23.188]: Connection refused
+         1   meri.uwasa.fi[193.166.122.18]: Connection timed out
+         1   yl100.net[211.156.249.18]: Connection timed out
+         1   greenvolt.com[64.34.66.18]: Connection timed out
+         1   kwmx.com[67.18.246.190]: Connection refused
+         1   mx2.chillisearch.co.uk[66.199.188.191]: read timeout
+         1   binarycortex.com[204.251.15.193]: Connection timed out
+         1   mail.grifell.com[213.172.46.194]: Connection timed out
+         1   webbcraft.net[64.246.36.195]: Connection timed out
+         1   mail.ts4.com[70.59.156.196]: read timeout
+         1   wittoncastle.com[65.38.107.197]: Connection timed out
+         1   iweb4less.com[204.251.15.197]: Connection timed out
+         1   frankassoc.com[204.251.15.198]: Connection timed out
+         1   hays-ims.com[64.209.230.200]: Connection timed out
+         1   thedailybrew.com[64.209.230.200]: Connection timed out
+         1   mx2.satelnet.fr[195.28.200.201]: Connection timed out
+         1   1323.com[198.65.105.202]: Connection timed out
+         1   mail.rweng.com[68.178.16.202]: Connection timed out
+         1   mail.wpev.com[221.207.144.203]: Connection timed out
+         1   cibavision.co.uk[164.109.69.203]: Connection timed out
+         1   mail.cantex.net[12.14.171.212]: read timeout
+         1   ns.landfield.com[67.66.8.212]: Connection refused
+         1   mohawks.co.uk[69.50.166.218]: Connection timed out
+         1   mailscan.shuf.com[67.131.247.21]: Connection refused
+         1   ms21a.hinet.net[168.95.5.21]: read timeout
+         1   lsda.com[216.187.118.221]: Connection timed out
+         1   mail.qfwt.com[221.207.146.222]: Connection timed out
+         1   mail.qfwt.com[221.207.146.224]: Connection timed out
+         1   dressur-pferde.ch[213.180.160.226]: Connection refused
+         1   boycerealty.com[70.86.180.226]: Connection refused
+         1   web1.top1069.com[61.63.4.227]: Connection refused
+         1   mail.reddc.co.uk[81.29.80.228]: Connection timed out
+         1   djtonytempo.com[64.34.49.229]: Connection timed out
+         1   8881.d2g.com[218.160.115.22]: Connection refused
+         1   mx.ono.com[62.42.230.22]: server refused mail service
+         1   mailstation.uu.net[63.69.26.22]: Connection timed out
+         1   mail.wyvc.com[221.207.144.230]: Connection timed out
+         1   figurfour.com[69.30.230.230]: read timeout
+         1   stih4e.com[213.137.61.230]: Connection timed out
+         1   hcsw.com[61.80.91.230]: Connection refused
+         1   sinaa.com[61.80.91.230]: Connection refused
+         1   hectear.com[69.30.230.231]: Connection timed out
+         1   bigjohnson.com[209.116.252.232]: Connection timed out
+         1   condomfh.com[204.13.161.23]: Connection timed out
+         1   gggoogle.com[204.13.161.23]: Connection timed out
+         1   griper.com[204.13.161.23]: Connection timed out
+         1   cdsphatinh.net[204.13.161.23]: Connection timed out
+         1   mail.cibavision.ca[216.13.3.23]: Connection timed out
+         1   mailibu.com[216.52.184.240]: Connection timed out
+         1   mail.grabthis.com[72.35.74.241]: Connection timed out
+         1   laura.catcha.com[219.94.53.243]: Connection timed out
+         1   embers.nu[64.74.96.243]: Connection timed out
+         1   geyikotesi.com[80.245.197.244]: Connection timed out
+         1   ffvinyl.co.uk[80.245.197.244]: Connection timed out
+         1   mail.newshome.biz[61.31.235.245]: Connection timed out
+         1   mail.gtvs.info[61.31.235.245]: Connection timed out
+         1   mail.liveq.net[61.31.235.245]: Connection refused
+         1   mail.openq.net[61.31.235.245]: Connection refused
+         1   mail.openq.net[61.31.235.245]: Connection timed out
+         1   mail.gtvs.org[61.31.235.245]: Connection refused
+         1   mail.gloydgroup.com[216.71.45.246]: Connection refused
+         1   gillspost.com[209.67.69.24]: Connection timed out
+         1   pop3.webbyen.dk[81.19.232.252]: read timeout
+         1   mailin2.accesscomm.ca[204.83.142.26]: read timeout
+         1   mail.netaxs.com[207.8.186.26]: Connection timed out
+         1   mailque.indco.net[64.216.172.2]: Connection refused
+         1   mail9.abatos.com[194.6.178.2]: read timeout
+         1   mail.knowweall.com[64.239.238.2]: Connection timed out
+         1   gbe.ednet.ns.ca[142.227.248.2]: Connection refused
+         1   30:00 (in reply to RCPT TO command
+         1   parke-davis.com[148.168.224.31]: Connection timed out
+         1   mail.sprintbbd.net[24.221.30.31]: read timeout
+         1   mail2.glassofalaska.com[64.114.182.32]: read timeout
+         1   mh3prd.anshin.biz[211.76.146.33]: Connection refused
+         1   smtp.toronto.bata.com[199.166.224.33]: read timeout
+         1   mail.go-dsp.com[192.94.94.33]: Connection timed out
+         1   mh3prd.anshin.biz[211.76.146.35]: Connection refused
+         1   mx.netzone.ch[212.243.197.35]: Connection timed out
+         1   clmboh-02.mgw.rr.com[24.28.204.37]: read timeout
+         1   okpride.net[66.224.20.38]: Connection refused
+         1   giant-shoe.com[218.30.100.39]: Connection refused
+         1   e-mail.prairiemeadows.com[65.125.135.39]: read timeout
+         1   vip.eachnet.com[202.109.72.39]: Connection timed out
+         1   mail.fast.net.uk[212.42.162.3]: Connection refused
+         1   stella.pyramus.com[67.139.205.3]: Connection timed out
+         1   moe.gawd.mb.ca[192.168.42.3]: Connection timed out
+         1   mx.mixmail.com[62.151.8.40]: read timeout
+         1   grogg.net[216.10.106.41]: Connection timed out
+         1   allo.net[66.246.195.41]: Connection timed out
+         1   mail.cityfort.com[207.203.28.41]: read timeout
+         1   mail.grchk.com[67.18.111.42]: Connection refused
+         1   yuma.menta.net[212.78.128.43]: Connection timed out
+         1   two.blackdawn55.com[66.7.129.43]: Connection timed out
+         1   mail.xnyb.com[221.207.145.43]: Connection timed out
+         1   MAIL.indexbest.net[63.80.26.44]: Connection refused
+         1   451-deferred because 210.200.211.8 is in a black list at combi...
+         1   ms45a.hinet.net[168.95.5.45]: Connection refused
+         1   jpostmail.com[192.114.68.46]: Connection timed out
+         1   flaim.net[216.99.217.47]: Connection timed out
+         1   yghfd.8866.org[61.235.113.48]: Connection timed out
+         1   mail.uzbi.com[221.207.144.48]: Connection timed out
+         1   hotpinoy.com[69.25.142.4]: Connection timed out
+         1   wds.com[69.25.142.4]: Connection timed out
+         1   prodb.prome.net[211.72.252.4]: Connection timed out
+         1   mail.cuteretro.com[64.192.26.4]: Connection refused
+         1   mail.goodmusicbe.com[64.192.26.4]: Connection refused
+         1   mail.letmesayno.com[64.192.26.4]: Connection refused
+         1   mail.outalongwalk.com[64.192.26.4]: read timeout
+         1   mail.retrowize.com[64.192.26.4]: read timeout
+         1   mail.retrowize.com[64.192.26.4]: Connection timed out
+         1   mail.wizebillz.com[64.192.26.4]: Connection refused
+         1   mail.wizenerds.com[64.192.26.4]: Connection timed out
+         1   www.goldmail.ru[195.161.118.50]: read timeout
+         1   email3.telnor.net[148.235.52.51]: Connection timed out
+         1   db1.eroticanational.com[204.246.89.53]: read timeout
+         1   starcraft.ru[194.85.61.54]: Connection timed out
+         1   ms55a.hinet.net[168.95.5.55]: read timeout
+         1   mail.uzwr.com[221.207.144.58]: Connection timed out
+         1   mail.cjb.net[216.194.70.5]: Connection refused
+         1   1633.com[66.116.109.60]: Connection timed out
+         1   queerplaces.com[216.152.252.60]: Connection refused
+         1   mail.uzwr.com[221.207.144.61]: Connection timed out
+         1   gringolandia.com[66.116.109.62]: Connection timed out
+         1   mail.vdqi.com[221.207.144.62]: Connection timed out
+         1   218.19.168.62[218.19.168.62]: Connection timed out
+         1   taidasz.com.cn[61.157.96.62]: Connection refused
+         1   exit-18.com[216.168.224.63]: Connection timed out
+         1   feedtheglove.com[216.168.224.63]: Connection timed out
+         1   gilroy.com[216.168.224.63]: Connection timed out
+         1   glycos.com[216.168.224.63]: Connection timed out
+         1   mx1.madnewyork.com[207.176.240.63]: Connection refused
+         1   mx1.mailate.com[207.176.240.64]: Connection refused
+         1   greedorfear.com[205.178.145.65]: Connection timed out
+         1   cibyl.de[193.238.63.66]: Connection refused
+         1   afininet.com[66.118.136.67]: Connection timed out
+         1   mail.8848.net[218.247.165.68]: Connection timed out
+         1   twcw.net[210.51.170.68]: Connection timed out
+         1   giraud.com[66.49.218.68]: Connection timed out
+         1   mx1.mailfiber.com[207.176.240.69]: Connection refused
+         1   internic.net[198.41.0.6]: Connection timed out
+         1   mx1.duracom.net[65.66.8.6]: Connection timed out
+         1   greatpets.com[216.168.224.70]: Connection timed out
+         1   royce-taiwan.com[216.168.224.70]: Connection timed out
+         1   rarecelebs.net[216.168.224.70]: Connection timed out
+         1   nmj.net[209.208.224.72]: Connection refused
+         1   lonely.6600.org[221.239.134.73]: Connection refused
+         1   pgfmega.com[66.10.234.73]: Connection timed out
+         1   mail.oemmail.com[69.6.2.73]: Connection timed out
+         1   deny.net[64.186.56.73]: Connection refused
+         1   laurentian.net[64.186.56.73]: Connection refused
+         1   mail.freshnews3d.com[4.79.67.73]: Connection timed out
+         1   mail.joyfulcold.com[4.79.67.75]: read timeout
+         1   corp.mamba.ru[194.186.171.76]: Connection timed out
+         1   ll63.com[218.59.232.76]: Connection refused
+         1   airslide.com[212.150.48.77]: Connection timed out
+         1   jsid.com[69.25.142.7]: Connection timed out
+         1   mail.gctsemi.com[211.170.253.7]: Connection timed out
+         1   connect.fishbowl.com[66.117.38.7]: Connection refused
+         1   ms7a.hinet.net[168.95.5.7]: Connection refused
+         1   smack.com[63.85.86.81]: Connection timed out
+         1   gerrysonline.com[202.69.33.83]: Connection timed out
+         1   mail.net4india.com[202.71.129.84]: Connection refused
+         1   mail.cpcw.com[221.5.250.86]: Connection refused
+         1   sv1.chrisbacher.net[216.254.72.86]: read timeout
+         1   mlmexchange.com[207.189.104.88]: Connection timed out
+         1   1234.com[203.36.59.8]: Connection timed out
+         1   markoff.ru[213.247.251.91]: Connection timed out
+         1   mail.martiag.ch[195.141.69.91]: Connection refused
+         1   mail.jaxxons.com[198.87.176.94]: Connection refused
+         1   mail.epatra.com[65.182.162.95]: read timeout
+         1   mail.epatra.com[65.182.162.95]: Connection timed out
+         1   elsitio.com[200.41.8.96]: Connection timed out
+         1   fpsols.com[38.113.1.97]: Connection refused
+         1   mx1.ltinet.com[205.217.153.98]: Connection timed out
+         1   ns1.hyper-cherry.com[63.86.220.98]: Connection refused
+         1   ns2.hyper-cherry.com[63.86.220.99]: Connection refused
+         1   mail.emoose.com[72.19.224.99]: Connection refused
+         1   paulwbrown.com[216.251.32.99]: Connection refused
+         1   ms9a.hinet.net[168.95.5.9]: Connection refused
+         1   <wesolows`fjii_com>, No such user. (in reply to RCPT TO co...
+         1   Can't connect to ivinc.com - psmtp (in reply to RCPT TO co...
+         1   can't currently verify any sender in the header lines (envelop...
+         1   Cannot write ./dfk083QKob009635 (sm_io_flush||sm_io_error, uid...
+         1   mta104.mail.cnb.yahoo.com Resources temporarily unavailabl...
+         1   mta107.mail.cnb.yahoo.com Resources temporarily unavailabl...
+         1   mta176.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta192.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta196.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta201.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta206.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta207.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta209.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta216.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta218.mail.dcn.yahoo.com Resources temporarily unavailabl...
+         1   mta114.biz.mail.mud.yahoo.com Resources temporarily unavai...
+         1   mta122.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta151.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta167.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta180.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta182.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta185.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta190.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta196.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta197.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta198.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta203.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta209.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta215.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta217.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta224.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta226.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta242.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta246.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta247.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta266.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta271.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta290.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta294.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta302.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta307.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta314.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta316.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta318.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta319.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta320.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta321.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta325.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta328.mail.mud.yahoo.com Resources temporarily unavailabl...
+         1   mta109.biz.mail.re2.yahoo.com Resources temporarily unavai...
+         1   mta113.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta115.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta116.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta119.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta123.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta131.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta137.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta140.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta146.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta150.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta151.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta154.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta165.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta166.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta173.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta191.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta208.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta209.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta217.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta223.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta224.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta226.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta227.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta229.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta231.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta232.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta239.mail.re2.yahoo.com Resources temporarily unavailabl...
+         1   mta109.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta112.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta115.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta119.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta138.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta164.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta178.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta229.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta230.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta239.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta280.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta282.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta301.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta304.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta314.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta318.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta325.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta332.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta339.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta342.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta346.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta348.mail.scd.yahoo.com Resources temporarily unavailabl...
+         1   mta139.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta146.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta153.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta158.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta165.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta169.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta177.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta185.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta191.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta196.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   mta198.mail.tpe.yahoo.com Resources temporarily unavailabl...
+         1   conversation with msa-mx1.hinet.net[168.95.5.106] timed out wh...
+         1   conversation with msa-mx7.hinet.net[168.95.5.159] timed out wh...
+         1   conversation with mx2.bznezzelcts.com[64.0.145.13] timed out w...
+         1   conversation with mailhub.vianetworks.nl[212.61.15.154] timed ...
+         1   conversation with msa-mx2.hinet.net[168.95.5.109] timed out wh...
+         1   conversation with ms3a.hinet.net[168.95.5.3] timed out while s...
+         1   conversation with msa-mx3.hinet.net[168.95.5.116] timed out wh...
+         1   conversation with bl2.mail.eni.net[155.229.2.10] timed out whi...
+         1   conversation with mx1.geac.com[208.148.140.131] timed out whil...
+         1   conversation with gspot-mail01.ibill.com[216.242.36.130] timed...
+         1   conversation with msa-mx6.hinet.net[168.95.5.150] timed out wh...
+         1   conversation with ems.tfd.gov.tw[210.69.42.41] timed out while...
+         1   conversation with msa-mx1.hinet.net[168.95.5.105] timed out wh...
+         1   conversation with smtp-mx1.aci.on.ca[205.207.148.94] timed out...
+         1   Could not load DRD for domain (globalchat.com
+         1   domain <gripi.com>  temporary blocked (in reply to RCPT TO...
+         1   Exhausted MX records for domain lestermcfwap.com (in reply...
+         1   Exhausted MX records for domain ffgg.com (in reply to RCPT...
+         1   Greylisted for 60 seconds (in reply to RCPT TO command
+         1   Greylisting in action, please try later (in reply to RCPT TO c...
+         1   //isg.ee.ethz.ch/tools/postgrey/help/northnet.com.au.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/bullet.net.au.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/netcon.net.au.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/cnpma.embrapa.br.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/dillmann.ch.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/arevagroup.com.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/berrycreuseimmo.com.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/corpsite.com.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/gaugamela.com.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/lovepoetry.com.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/fto.de.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/mofa76.de.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/artio.net.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/hrtc.net.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/lamalla.net.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/gramenet.lamalla.net.html
+         1   //isg.ee.ethz.ch/tools/postgrey/help/ftcenter.ru.html
+         1   lost connection with mtmaster.qtownshipno9.org[63.118.179.231]...
+         1   lost connection with mail.gozeps.org[66.144.201.161] while sen...
+         1   lost connection with ms.clevo.com.tw[61.66.18.6] while sending...
+         1   lost connection with mail.elecocq.us[65.209.69.210] while send...
+         1   lost connection with mail.gie.net[216.29.19.150] while sending...
+         1   lost connection with mail.blandishment.org[65.209.69.210] whil...
+         1   lost connection with navgw.affinitygroup.com[66.209.98.133] wh...
+         1   lost connection with mx2.mail.yahoo.com[4.79.181.134] while se...
+         1   lost connection with smtp.calhounwestccd8.info[66.203.95.195] ...
+         1   lost connection with mx1.goldgrotto.com[65.206.25.253] while s...
+         1   lost connection with snail.jdistrict4.org[63.118.209.230] whil...
+         1   lost connection with snail.higginson6.com[63.118.209.230] whil...
+         1   lost connection with smtp.jenkinsccd1.org[208.253.45.70] while...
+         1   lost connection with Mhost1.unrestored8.com[65.244.16.119] whi...
+         1   lost connection with mx3.mail.yahoo.com[64.156.215.8] while se...
+         1   lost connection with mailhost.hetnet.nl[195.121.6.164] while s...
+         1   lost connection with cmail.btownshipno4.com[63.118.179.230] wh...
+         1   lost connection with spamninja.hugehosting.com[65.38.161.99] w...
+         1   lost connection with Mhost1.unremorseful8.net[65.244.16.119] w...
+         1   lost connection with mtmaster.senopia7.us[63.118.179.231] whil...
+         1   mail for memberspath.com loops back to myself (in reply to RCP...
+         1   mailbox unavailable. (??????????????
+         1   Message for <services@9999.com.tw> would exceed mailbox qu...
+         1   Name service error for name=mx2.vuw.ac.nz type=A: Host not found
+         1   No route to host (in reply to RCPT TO command
+         1   //www.zfn.uni-bremen.de/sixcms/detail.php?id=639872&_ori=63979...
+         1   qq write error or disk full (#4.3.0
+         1   qq temporary problem (#4.3.0
+         1   Recipient asked sender to resend. Greylisted for 60 seconds (i...
+         1   Recipient asked sender to resend. Greylisted for 0 seconds (in...
+         1   Server configuration problem (in reply to RCPT TO command
+         1   sorry, mailbox currently unavailable (#4.2.1
+         1   Taiwan blocked by taiwan.blackholes.us (in reply to RCPT T...
+         1   Temporary failure (in reply to RCPT TO command
+         1   temporary problem - please retry later. (in reply to RCPT ...
+         1   Temporary failure of recipient account (in reply to RCPT TO co...
+         1   This mail is temporarily denied (in reply to end of DATA c...
+         1   Unable to complete command, no storage available (in reply...
+         1   Unexpected failure, please try later (in reply to end of D...
+         1   We no longer relay mail to <kiley4730@globalcenter.net> (i...
+         1   We are using greylisting. Please try later. (in reply to RCPT ...
+
+message reject detail: none
+
+message reject warning detail: none
+
+message hold detail: none
+
+message discard detail: none
+
+smtp delivery failures
+----------------------
+  connection refused (total: 1028)
+        27   mailss.pomailer.com
+        25   mail.wanion-marketmasters.net
+        24   mail.epatra.com
+        21   datefuntime.com
+        21   msa-mx10.hinet.net
+        20   msa-mx11.hinet.net
+        20   mail.welk-marketmasters.net
+        18   mh3prd.anshin.biz
+        17   furmanselz.com
+        17   mail.wanigan-marketmasters.net
+        17   mail.wankle-marketmasters.net
+        16   msa-mx1.hinet.net
+        16   msa-mx12.hinet.net
+        15   knsacs.com
+        15   mail.omysister.com
+        15   mail.stateside-marketmasters.net
+        15   ebill.nettrade.com.tw
+        14   mail.sonsun-marketmasters.net
+        14   mail.withe-marketmasters.net
+        13   mx1.bayarea.net
+        13   mail.qebo.net
+        13   spmx.apol.com.tw
+        12   mail26.sms.ac
+        12   mail.fishinghot.com
+        12   msa-mx9.hinet.net
+        11   mail.wadmal-marketmasters.net
+        11   mail.whin-marketmasters.net
+        10   caremailsmtp1.prontomail.com
+        10   msa-mx7.hinet.net
+        10   msa-mx8.hinet.net
+         9   grlmail.com
+         9   mailm1.njd.xo.com
+         9   msa-mx3.hinet.net
+         8   mail.1-base.com
+         8   mail.didamail.com
+         8   gridnet.com
+         8   mail.mx.inet-mmds.info
+         8   mail.albox-marketmasters.net
+         8   netrail.net
+         7   mail.mx.inetmmds.info
+         7   mx1.aerallisst.net
+         7   msa-mx5.hinet.net
+         7   gateway.mailrover.net
+         6   127.0.0.1.cgiservices.com
+         6   mailhost.cnchost.com
+         6   doneasy.com
+         6   ms01.aptg.net
+         6   ms02.aptg.net
+         6   msa-mx4.hinet.net
+         6   funkytiger.co.uk
+         5   sa-smtp4.api-digital.com
+         5   bounce.bluewatersky.com
+         5   saillove.com
+         5   mail.shiftflowinthe.com
+         5   mail.svirgin.com
+         5   relay.star.co.uk
+         4   bounce.blayway.com
+         4   bounce.bossmosstoss.com
+         4   rs2.forevermail.com
+         4   ghostmail.com
+         4   cname.omegaworks.com
+         4   rxrob.com
+         4   bounce.treerosered.com
+         4   www.abac.net
+         4   smtp.everymail.net
+         4   gnv.fdt.net
+         4   msa-mx2.hinet.net
+         4   msa-mx6.hinet.net
+         4   uk2mxarray3.uk2.net
+         4   mail.ppcse.ru
+         4   ms3.taipeifubon.com.tw
+         3   major.aidameter.com
+         3   mail.cutsdeepto.com
+         3   mailin.emailvn.com
+         3   mail.madness7.com
+         3   MAIL17.MESSAGELABS.com
+         3   mail.mypad.com
+         3   mail.outalongwalk.com
+         3   surreymyhome.com
+         3   mail.thesitefights.com
+         3   mail.trackzonback.com
+         3   mail.trakerstat.com
+         3   freemail.web-hosting.com
+         3   correo.xasamail.com
+         3   nomail.tpe.yahoo.com
+         3   mx2.mail.tw.yahoo.com
+         3   dkik.dk
+         3   ms35a.hinet.net
+         3   mail2.nac.net
+         3   uk2mxarray1.uk2.net
+         3   pchome.comn.tw
+         3   relay2.star.co.uk
+         2   mail.247service.biz
+         2   mailserver.aka.com
+         2   bounce.breetreebree.com
+         2   mail.cityhot.com
+         2   corpmail.conquestnet.com
+         2   mxin1.emailvn.com
+         2   giamanager.com
+         2   bounce01.godspeedhosting.com
+         2   greenwichgroup.com
+         2   guiwang.com
+         2   mx3.hotmail.com
+         2   hotphenomena.com
+         2   mx1.justkingston.com
+         2   cluster4.us.messagelabs.com
+         2   bounce.metjetblet.com
+         2   mailfilters.NortelNetworks.com
+         2   www35.wr.outblaze.com
+         2   purexxxgays.com
+         2   mail.retrowize.com
+         2   mailscan.shuf.com
+         2   mail.sittingwonders.com
+         2   mail.withwhoyouthink.com
+         2   mail.wizenerds.com
+         2   plasmlprd06.pla.dc.xo.com
+         2   mailm2.njd.xo.com
+         2   mx3.mail.yahoo.com
+         2   mail.youroutthere.com
+         2   optinet.de
+         2   nomail.hrz.tu-darmstadt.de
+         2   webpim.de
+         2   hurricane.idm.net.lb
+         2   247medsavings.net
+         2   mx1.alphagazin.net
+         2   bl2.mail.eni.net
+         2   sitemail.everyone.net
+         2   ms13a.hinet.net
+         2   ms39a.hinet.net
+         2   mail.interhop.net
+         2   MAIL.masterfinal.net
+         2   dors55ai.oicp.net
+         2   on.net
+         2   MAIL.thisknowledge.net
+         2   3cust40.vr1.chi2.broadband.uu.net
+         2   mx1.xcite.net
+         2   ohshit.3322.org
+         2   net.ph
+         2   beep.ru
+         2   mx15.singnet.com.sg
+         2   mail02.maillist.com.tw
+         2   tgclx.taiwango.com.tw
+         1   pomoerium02.accesscomm.ca
+         1   pomoerium03.accesscomm.ca
+         1   gbe.ednet.ns.ca
+         1   smtp-mx1.aci.on.ca
+         1   dressur-pferde.ch
+         1   barracuda.martiag.ch
+         1   mail.martiag.ch
+         1   taidasz.com.cn
+         1   mx.56.com
+         1   addr-mx01.addr.com
+         1   mail.americanvending.com
+         1   server37.appriver.com
+         1   mail.art-98.com
+         1   Mail.bitsmart.com
+         1   blv-smtpin-01.boeing.com
+         1   slb-smtpin-01.boeing.com
+         1   boycerealty.com
+         1   MAIL1.chisd.com
+         1   mail.closegettingron.com
+         1   formidable.cnchost.com
+         1   mail.cpcw.com
+         1   mail.cuteretro.com
+         1   MAIL.cwlaw.com
+         1   8881.d2g.com
+         1   gateway2e.dhl.com
+         1   dpmailpu01.doteasy.com
+         1   mail.dupaco.com
+         1   hermes.emc.com
+         1   iris.emc.com
+         1   gryphon.lss.emc.com
+         1   mail.emoose.com
+         1   mx2.ez-beat.com
+         1   mapper.mail.fedex.com
+         1   mail.feiwanda.com
+         1   connect.fishbowl.com
+         1   fpsols.com
+         1   giant-shoe.com
+         1   mail.girls-behaving-badly.com
+         1   global-crossing.com
+         1   mail.gloydgroup.com
+         1   mx1.godspeedhosting.com
+         1   mx2.godspeedhosting.com
+         1   mail.goodmusicbe.com
+         1   mail.gothicchicago.com
+         1   bounce.grandlandtree.com
+         1   mail.grchk.com
+         1   mail.gro-bark.com
+         1   hcsw.com
+         1   mail.homenetmail.com
+         1   gateway.hotel-aston.com
+         1   ns1.hyper-cherry.com
+         1   ns2.hyper-cherry.com
+         1   jacobsoapstone.com
+         1   mail.jaxxons.com
+         1   kwmx.com
+         1   ns.landfield.com
+         1   mail.leafflewwills.com
+         1   legacyhq.com
+         1   mail.letmesayno.com
+         1   mail.lineoutofplease.com
+         1   ll63.com
+         1   mx1.londontaylor.com
+         1   ihemail1.lucent.com
+         1   mx1.madnewyork.com
+         1   mx1.mailate.com
+         1   c2mailmx.mailcentro.com
+         1   mx1.mailfiber.com
+         1   cluster2.eu.messagelabs.com
+         1   mail19.messagelabs.com
+         1   cluster2.us.messagelabs.com
+         1   cluster3.us.messagelabs.com
+         1   bounceto.mezxysvr19.com
+         1   mail1.mingpaonews.com
+         1   cluster.groups.msn.com
+         1   mx-rr.mail.national-net.com
+         1   mx1.mail.national-net.com
+         1   mx3.mail.national-net.com
+         1   mail.nationwidewitness.com
+         1   bounce.neocitron.com
+         1   mail.net4india.com
+         1   serv07.optninmailrus.com
+         1   www41.wr.outblaze.com
+         1   paulwbrown.com
+         1   qcms.com
+         1   queerplaces.com
+         1   receiverdrier.com
+         1   bounce.shickyshacky.com
+         1   mx3.silverresponse.com
+         1   sinaa.com
+         1   top.com
+         1   web1.top1069.com
+         1   mail.wizebillz.com
+         1   plasmlprd08.pla.dc.xo.com
+         1   mx1.mail.in.yahoo.com
+         1   mx1.biz.mail.yahoo.com
+         1   mx1.mail.tw.yahoo.com
+         1   cibyl.de
+         1   notes.dreher.softwarezentrum.de
+         1   mx-ha01.web.de
+         1   mx-ha02.web.de
+         1   lyon120.dtr.fr
+         1   mx.free.fr
+         1   mailmx.patchwork.fr
+         1   vms.huji.ac.il
+         1   mail10.europarl.eu.int
+         1   mail15.europarl.eu.int
+         1   mail.masterplanet.it
+         1   4link.net
+         1   a-overflowing.net
+         1   fred.actcom.net
+         1   vash.actcom.net
+         1   apollo.aristotle.net
+         1   mercury.aristotle.net
+         1   mx00.mail.bellsouth.net
+         1   mail.cjb.net
+         1   indefatigable.cnc.net
+         1   ns5.connext.net
+         1   deny.net
+         1   mail.feather.net
+         1   shared3.hosting.flyingcroc.net
+         1   gleanings.net
+         1   ms16a.hinet.net
+         1   ms17a.hinet.net
+         1   ms45a.hinet.net
+         1   ms7a.hinet.net
+         1   ms9a.hinet.net
+         1   mailque.indco.net
+         1   MAIL.indexbest.net
+         1   laurentian.net
+         1   mail.liveq.net
+         1   stderr.netrewarddepartment.net
+         1   nmj.net
+         1   okpride.net
+         1   mail.openq.net
+         1   lgs.taiwango.net
+         1   MAIL.takingadvantage.net
+         1   kingqh.vicp.net
+         1   smtpinvite.mx.webtv.net
+         1   westcentralwisconsin.net
+         1   mailhub1.att.nl
+         1   deliver10.hccnet.nl
+         1   deliver20.hccnet.nl
+         1   deliver30.hccnet.nl
+         1   mailgate2.hzeeland.nl
+         1   beautyweb.nu
+         1   lonely.6600.org
+         1   freebygrace.org
+         1   mail.gtvs.org
+         1   jeknaffo.gronaverket.se
+         1   mail2.gronaverket.se
+         1   mx16.singnet.com.sg
+         1   tvel.spb.su
+         1   w1.i-game.com.tw
+         1   mail01.maillist.com.tw
+         1   adsl2.cch.org.tw
+         1   mail.fast.net.uk
+  connection timed out (total: 2299)
+        90   mx1.hotmail.com
+        85   mx3.hotmail.com
+        75   mx4.hotmail.com
+        69   mx2.hotmail.com
+        63   mx2.mail.yahoo.com
+        57   mx3.mail.yahoo.com
+        28   ad.funnel.revenuedirect.com.akadns.net
+        27   mail.email4web.com
+        26   mail.ettoday.com.tw
+        24   mx1.mail.yahoo.com
+        23   arena.sci.univr.it
+        22   mx9.etoos.com
+        21   aamail.laa.com
+        21   irscmail.laa.com
+        21   broadband.actcom.net.il
+        20   mail.qfwt.com
+        20   mail.uzwr.com
+        20   epaper.skm.com.tw
+        19   aliblehn.com
+        18   www.jpcl.com.tw
+        17   mxs1.ot.lv
+        17   mxs2.ot.lv
+        17   mxs3.ot.lv
+        17   mx-in.cis.net
+        16   mailin1.accesscomm.ca
+        16   meri.uwasa.fi
+        15   pool.domainsite.com
+        15   mail.nettouch.com
+        14   mailin2.accesscomm.ca
+        14   bulletinam.com
+        14   mail3.der-as.dk
+        14   domain-relay.mspring.net
+        14   mx.pochta.ru
+        13   mx1.url.com.tw
+        12   mail20.sms.ac
+        12   mail21.sms.ac
+        12   mail22.sms.ac
+        12   mail23.sms.ac
+        12   mail24.sms.ac
+        12   mail25.sms.ac
+        11   mail.mypersonalemail.com
+        11   mail-gw1.it.chula.ac.th
+        10   incoming.netmongol.com
+        10   flytecrew-com.mr.outblaze.com
+        10   mail.uzbi.com
+        10   mail.vbwu.com
+        10   mail.vdqi.com
+        10   mail.wpev.com
+        10   mail.wyvc.com
+        10   mail.xkcz.com
+        10   mail.xnyb.com
+        10   mailscan.gi.is
+         9   pekklemail-com.mr.outblaze.com
+         9   hrndva-02.mgw.rr.com
+         9   mail.ev.net
+         9   mx.exodus.net
+         9   c.mx.softhome.net
+         8   mx1.blarneyed.com
+         8   msgbox.com
+         8   mx3-com.my-name-server.com
+         8   pekklemail-com-bk.mr.outblaze.com
+         8   comconnection.net
+         8   mail.shawcable.net
+         8   zdl.net
+         8   dynamic2.bairds.co.za
+         7   mx2.blarneyed.com
+         7   buchucm.com
+         7   db1.eroticanational.com
+         7   latinsite.com
+         7   smtp1.mailblocks.com
+         7   mx1-com.my-name-server.com
+         7   southparkmail-com.mr.outblaze.com
+         7   mail3.yehey.com
+         7   smtp.yehey.com
+         7   alicedsl.de
+         7   b.mx.softhome.net
+         7   mx.webhuset.no
+         7   epmail.epmall.com.tw
+         6   mx3.blarneyed.com
+         6   mx1.cfl.com
+         6   copacabana.com
+         6   mx2-com.my-name-server.com
+         6   flytecrew-com-bk.mr.outblaze.com
+         6   nativestar-net.mr.outblaze.com
+         6   clmboh-02.mgw.rr.com
+         6   faui03.informatik.uni-erlangen.de
+         6   mx2.aerallisst.net
+         6   doar.net
+         6   gateway.net
+         6   good.net
+         6   m5.inbox.net
+         6   a.mx.portugalmail.pt
+         6   lover.i-part.com.tw
+         5   m1.dnsix.com
+         5   ds1.domainspa.com
+         5   smtp.getontheweb.com
+         5   mail.hpomlaw.com
+         5   libanismail.com
+         5   resalehost.networksolutions.com
+         5   drslumpfan-com.mr.outblaze.com
+         5   southparkmail-com-bk.mr.outblaze.com
+         5   clmboh-01.mgw.rr.com
+         5   postmark.net
+         5   brain.brain.net.pk
+         5   my.jdu.ru
+         4   mail.gtvs.biz
+         4   alunos.unipar.br
+         4   2bsure.com
+         4   mx4.blarneyed.com
+         4   iris2.directnic.com
+         4   filmilyam.com
+         4   vw1.forevermail.com
+         4   tw.edm.gamania.com
+         4   hkem.com
+         4   hkmag.com
+         4   mail.hotmail.com
+         4   smtp.indiatimes.com
+         4   mx4.level3.com
+         4   drslumpfan-com-bk.mr.outblaze.com
+         4   pcarfanatic.com
+         4   orngca-02.mgw.rr.com
+         4   paper.yam.com
+         4   twins.epm.net.co
+         4   domainmb.customer.ne.jp
+         4   lsean.ezweb.ne.jp
+         4   mailv.acron.net
+         4   mx.cais.net
+         4   smtp-c01.everymail.net
+         4   smtp-c02.everymail.net
+         4   m3.inbox.net
+         4   my.love.pochta.ru
+         4   my.tamdam.ru
+         4   moatev3.chs.edu.sg
+         4   ms.1111.com.tw
+         4   bcc.com.tw
+         4   mx1.csie.nctu.edu.tw
+         4   mx1.chillisearch.co.uk
+         4   mx2.chillisearch.co.uk
+         3   43.244.133.48
+         3   smtp-mx2.aci.on.ca
+         3   mx1.mail.hostpoint.ch
+         3   adammoving.com
+         3   arconassoc.com
+         3   internet1.arconassoc.com
+         3   joanna.catcha.com
+         3   ccnmail.com
+         3   chromelink.com
+         3   smtp.chromelink.com
+         3   MAIL.cnpsigns.com
+         3   dotexpress.com
+         3   mail.flitrpepted.com
+         3   frankdelano.com
+         3   mail.furnitbite.com
+         3   mini.jobdb.com
+         3   mail.joyfulcold.com
+         3   mail.klptreeters.com
+         3   bounce.lirpap.com
+         3   mail.moosemail.com
+         3   opnverify.com
+         3   mx.opnverify.com
+         3   e-hkma-com.mr.outblaze.com
+         3   movemail-com.mr.outblaze.com
+         3   movemail-com-bk.mr.outblaze.com
+         3   pigpig-net.mr.outblaze.com
+         3   pigpig-net-bk.mr.outblaze.com
+         3   planet-samoa.com
+         3   mail.reconauto.com
+         3   two.see7redawn.com
+         3   mail2.siteamerica.com
+         3   mail.viafamily.com
+         3   correo2.xasamail.com
+         3   mx.adelphia.net
+         3   aniverse.net
+         3   bl1.mail.eni.net
+         3   msa-mx7.hinet.net
+         3   mailr.apa.qwest.net
+         3   MAIL.transbay.net
+         3   mail.trix.net
+         3   hovedserver.amot.gs.hm.no
+         3   mail.gtvs.org
+         3   my.love.km.ru
+         3   www.supermail.ru
+         3   relay.vengo.ru
+         3   hem.passagen.se
+         3   mx2.url.com.tw
+         2   cfwb.be
+         2   smtprelay2.cfwb.be
+         2   mail1.city.burnaby.bc.ca
+         2   smtp-mx1.aci.on.ca
+         2   mail.126.cn
+         2   12.com
+         2   abctechgroup.com
+         2   abelproductionvideo.com
+         2   mx1.aex.com
+         2   mx.alibaba.com
+         2   mx1.alibaba.com
+         2   mx2.alibaba.com
+         2   bounce.anekmo.com
+         2   barracuda.apollohosting.com
+         2   bcpclaw.com
+         2   bearteam.com
+         2   laura.catcha.com
+         2   mail1.choppershopper.com
+         2   mail.componentnetworks.com
+         2   mail.mx4.compuserve.com
+         2   drinkmail.com
+         2   smtpin.drizzle.com
+         2   mail.eachboob.com
+         2   mgw.freemail.bjs.elong.com
+         2   mail.eltimon.com
+         2   fgxh.com
+         2   mail.flexicoretx.com
+         2   goplaces-ent.com
+         2   hideakifan.com
+         2   hsahosting.com
+         2   nujnuj.interaccess.com
+         2   winkwink.interaccess.com
+         2   juu.com
+         2   mail0.lightlink.com
+         2   logonfl.com
+         2   mail.mailandfiles.com
+         2   router2.marcellogiorgio.com
+         2   mx-rr.mail.national-net.com
+         2   ceciliacheung-com.mr.outblaze.com
+         2   kichimail-com.mr.outblaze.com
+         2   kichimail-com-bk.mr.outblaze.com
+         2   parke-davis.com
+         2   mail.planetroots.com
+         2   mx3.postalmailhostings.com
+         2   mx4.postalmailhostings.com
+         2   mailbbox1.primposta.com
+         2   purenetfx.com
+         2   mail.rahasiasukses.com
+         2   sarworld.com
+         2   gjtqkejlk.shankscape.com
+         2   snail-mail.com
+         2   mail.t-mail.com
+         2   truebritney.com
+         2   free4life.usarabia.com
+         2   vuontrithuc.com
+         2   mxvm1.mail.yahoo.com
+         2   masamune.epm.net.co
+         2   w3projmail.ze.tum.de
+         2   shale.cs.wisc.edu
+         2   beren.map.es
+         2   luthien.map.es
+         2   guard.almamedia.fi
+         2   mail.chineseservice.info
+         2   126.net
+         2   mx2.alphagazin.net
+         2   msa-mx8.hinet.net
+         2   jazzfrog.net
+         2   lcc.net
+         2   lcn.net
+         2   mushy.net
+         2   pnv.net
+         2   mail-fwd.mx.rapidsite.net
+         2   mail.universe.net
+         2   mail.web321.net
+         2   postoffice.winterlink.net
+         2   xuantu.net
+         2   yghfd.8866.org
+         2   mail.themothersunion.org
+         2   cscmail.e-mail.ru
+         2   www.e-mails.ru
+         2   mail.ale.com.tw
+         2   imss.trtc.com.tw
+         2   mail.trtc.com.tw
+         2   mx3.url.com.tw
+         2   thunder.tpc.gov.tw
+         2   mx1.giga.net.tw
+         1   59.42.188.100
+         1   69.37.233.165
+         1   premium.ermapper.com.au
+         1   giddyup.com.au
+         1   mx.mail.az
+         1   bibli.cfwb.be
+         1   mail.newshome.biz
+         1   mail.searchhome.biz
+         1   mx2.northrock.bm
+         1   mail.autovidros.com.br
+         1   mail.cibavision.ca
+         1   moe.gawd.mb.ca
+         1   proc8.enoreo.on.ca
+         1   ex1.mshri.on.ca
+         1   greenfield.edu.pe.ca
+         1   mail.golfaventure.qc.ca
+         1   mx.netzone.ch
+         1   ironportsrv01.telecom.com.co
+         1   ironportsrv02.telecom.com.co
+         1   1234.com
+         1   1323.com
+         1   1633.com
+         1   mail.4netconnect.com
+         1   abeautifulmoment.com
+         1   abentertainments.com
+         1   addr-mx02.addr.com
+         1   mail-out.advanta.com
+         1   afininet.com
+         1   airslide.com
+         1   filter.allegisteam.com
+         1   mailin-04.mx.aol.com
+         1   mail.bancoasturias.com
+         1   smtp.bigdig.com
+         1   bigjohnson.com
+         1   binarycortex.com
+         1   Mail.bitsmart.com
+         1   two.blackdawn55.com
+         1   blacksundayy2k.com
+         1   masterpiece.byworks.com
+         1   carverindustriesinc.com
+         1   charmedmail.com
+         1   barracuda.clarityconnect.com
+         1   mail.mx5.compuserve.com
+         1   condomfh.com
+         1   isatest.courtlink.com
+         1   cyberdungeon.com
+         1   mx1.dalfun.com
+         1   mx2.dalfun.com
+         1   mx1.deipro.com
+         1   dhgruppen.com
+         1   iris1.directnic.com
+         1   djtonytempo.com
+         1   ogme.dnsalias.com
+         1   dom16.muc.domeus.com
+         1   vip.eachnet.com
+         1   smtp.easydns.com
+         1   easysitesforless.com
+         1   mx1.ecs.com
+         1   elsitio.com
+         1   inbound.2friend.com.emailmx.com
+         1   mail.epatra.com
+         1   mx4.etang.com
+         1   sp4.etestinglabs.com
+         1   mail1.evolving.com
+         1   mail2.evolving.com
+         1   exit-18.com
+         1   feedtheglove.com
+         1   mail.firstofnone.com
+         1   frankassoc.com
+         1   mail.freshnews3d.com
+         1   mail.garner.com
+         1   mx0.gatewaydefender.com
+         1   mail.gctsemi.com
+         1   gerrysonline.com
+         1   not-an-smtp-server.getdiversified.com
+         1   gewichtscontrole.com
+         1   geyikotesi.com
+         1   gggoogle.com
+         1   giftabode.com
+         1   gilette.com
+         1   gillspost.com
+         1   gilroy.com
+         1   giraud.com
+         1   mail.giritech.com
+         1   gitgals.com
+         1   givepeaceachance.com
+         1   mail1.glassofalaska.com
+         1   mail.glazeandglaze.com
+         1   global786.com
+         1   mail.globalcheckrecovery.com
+         1   globalskincare.com
+         1   glocopter.com
+         1   mail.gltx.com
+         1   glycos.com
+         1   mail.go-dsp.com
+         1   mail.goldlawgroup.com
+         1   mail.grabthis.com
+         1   mail.grandwayne.com
+         1   mail.greasyspoon.com
+         1   greatpets.com
+         1   greatputt.com
+         1   greedorfear.com
+         1   greekmystique.com
+         1   greenvolt.com
+         1   mail.grifell.com
+         1   griffinhomesweethome.com
+         1   gringolandia.com
+         1   griper.com
+         1   mail.groeondertran.com
+         1   mx1mtl.guillemot.com
+         1   bounce.guqs.com
+         1   hammer.com
+         1   hays-ims.com
+         1   hectear.com
+         1   hotpinoy.com
+         1   mx2.hotpop.com
+         1   hpcpbla.bri.hp.com
+         1   hpwina39.uksr.hp.com
+         1   pat.uksr.hp.com
+         1   industrialac.com
+         1   inscription.com
+         1   iweb4less.com
+         1   mail.jarmondus.com
+         1   gateqst.jjwhotels.com
+         1   jpostmail.com
+         1   jsid.com
+         1   mail.knowweall.com
+         1   mail.linknearn.com
+         1   mx1.lmig.com
+         1   mx2.lmig.com
+         1   lsda.com
+         1   mx1.ltinet.com
+         1   hoemail2.lucent.com
+         1   lycosemail.com
+         1   mx1.esmas.mail2world.com
+         1   mx2.esmas.mail2world.com
+         1   mailibu.com
+         1   mail.masterclassmusic.com
+         1   mail.mindofaprison.com
+         1   mizmail.com
+         1   mlmexchange.com
+         1   mail2.morganbeaumont.com
+         1   mx2-net.my-name-server.com
+         1   mf.namesecure.com
+         1   mail.netaxs.com
+         1   mx.networkmx.com
+         1   mail.neurocontrol.com
+         1   mail.nicholsteam.com
+         1   smtp.herndon.ocs-us.com
+         1   mail.oemmail.com
+         1   doramail-com.mr.outblaze.com
+         1   e-hkma-com-bk.mr.outblaze.com
+         1   email-com.mr.outblaze.com
+         1   melodymail-com.mr.outblaze.com
+         1   melodymail-com-bk.mr.outblaze.com
+         1   otakumail-com.mr.outblaze.com
+         1   sammail-com.mr.outblaze.com
+         1   twinstarsmail-com.mr.outblaze.com
+         1   twinstarsmail-com-bk.mr.outblaze.com
+         1   mail.owall.com
+         1   mail.parishnational.com
+         1   patola.com
+         1   pgfmega.com
+         1   poetshaven.com
+         1   mx0.powerparcel.com
+         1   ripper.promisemark.com
+         1   caremailsmtp1.prontomail.com
+         1   stella.pyramus.com
+         1   qzlf.com
+         1   glqpsle.rashpie.com
+         1   mail.retrowize.com
+         1   royce-taiwan.com
+         1   mail.rweng.com
+         1   saturnperformance.com
+         1   scifianime.com
+         1   ingoio.seanet.com
+         1   kesha.seanet.com
+         1   mx1.senusdily.com
+         1   mx2.senusdily.com
+         1   mail.shakentailfeather.com
+         1   gklkjdpkj.shankscape.com
+         1   gldjqqzqj.shankscape.com
+         1   gpdpsqesp.shankscape.com
+         1   gpejsqplq.shankscape.com
+         1   us1061mbx01.mail.slb.com
+         1   smack.com
+         1   mail.soffcut.com
+         1   somehere.com
+         1   mx1.spamsoap.com
+         1   stih4e.com
+         1   mail.techknowledgy.com
+         1   thedailybrew.com
+         1   mail.thesitefights.com
+         1   smtp.thomcomp.com
+         1   mk-rewrite-2.mail.uk.tiscali.com
+         1   mail.trans-cend.com
+         1   tfmailsf.travel-fair.com
+         1   unogreatpromotions15.com
+         1   unogreatpromotions18.com
+         1   unogreatpromotions22.com
+         1   unogreatpromotions24.com
+         1   unogreatpromotions31.com
+         1   mail.vallon.com
+         1   wds.com
+         1   isis.whatthefuck.com
+         1   wittoncastle.com
+         1   mail.wizenerds.com
+         1   rtn1.grp.scd.yahoo.com
+         1   rtn3.grp.scd.yahoo.com
+         1   mx1.mail.tw.yahoo.com
+         1   mx2.mail.tw.yahoo.com
+         1   mail1.yfdvdsmail.com
+         1   mail2.yfdvdsmail.com
+         1   mail3.yfdvdsmail.com
+         1   mail4.yfdvdsmail.com
+         1   mail5.yfdvdsmail.com
+         1   mail6.yfdvdsmail.com
+         1   mail7.yfdvdsmail.com
+         1   mail.zoneedit.com
+         1   mx.zybermail.com
+         1   rothkirch.de
+         1   star.teuto.de
+         1   intern.werbe-rusch.de
+         1   mailgw1.worldonline.dk
+         1   gis.igs.indiana.edu
+         1   doc.cs.wisc.edu
+         1   grilled.cs.wisc.edu
+         1   denis.cirp.es
+         1   mail.rediris.es
+         1   sirtwebserver01.sirt.es
+         1   iobox.fi
+         1   mailhost.alex.fr
+         1   mx.free.fr
+         1   mx1.satelnet.fr
+         1   mx2.satelnet.fr
+         1   moe.szote.u-szeged.hu
+         1   relay1.wasantara.net.id
+         1   relay2.wasantara.net.id
+         1   relay3.wasantara.net.id
+         1   mail.gtvs.info
+         1   mail.newshome.info
+         1   xpectdealz03.info
+         1   mailcal.vsnl.net.in
+         1   magerr.combzmail.jp
+         1   agbo.eureka.lk
+         1   mail.8848.net
+         1   arsace.parthe.isp.9tel.net
+         1   216-55-164-254.dedicated.abac.net
+         1   acron.net
+         1   allo.net
+         1   artforamerica.net
+         1   mx1.bayarea.net
+         1   catv.net
+         1   cdsphatinh.net
+         1   mx1.duracom.net
+         1   mx2.earthlink.net
+         1   flamingo.feather.net
+         1   MAIL.financereform.net
+         1   mail2.firstlight.net
+         1   flaim.net
+         1   moliu.fsn.net
+         1   gnfconline.net
+         1   grogg.net
+         1   hq.hell-raiser.net
+         1   msa-mx1.hinet.net
+         1   msa-mx11.hinet.net
+         1   msa-mx9.hinet.net
+         1   mx11.hostrack.net
+         1   mx12.hostrack.net
+         1   internic.net
+         1   mail.intra-connect.net
+         1   mailin.isoc.net
+         1   mx1.kropka.net
+         1   MAIL.lifetimeonline.net
+         1   usp1.mailhostsxode.net
+         1   yuma.menta.net
+         1   MAIL.mostefficient.net
+         1   gaiam.com.inbound.mxlogic.net
+         1   mail.mxpath.net
+         1   mail.openq.net
+         1   mx2.pacifier.net
+         1   mx3.pacifier.net
+         1   mx4.pacifier.net
+         1   smtp-relay.pbi.net
+         1   pend.net
+         1   www.pharmweb.net
+         1   powerlinesuccess.net
+         1   prodb.prome.net
+         1   MAIL.quicknetsolutionnow.net
+         1   mail-fwd.rapidsite.net
+         1   rarecelebs.net
+         1   loquat.safe-mail.net
+         1   MAIL.selectpoint.net
+         1   mailgate5.sitestar.net
+         1   MAIL.successforanewday.net
+         1   MAIL.successfulpower.net
+         1   superxero.net
+         1   mx.dominios.telefonica.net
+         1   email3.telnor.net
+         1   MAIL.theadvice.net
+         1   MAIL.todayswebvalues.net
+         1   twcw.net
+         1   primary.mail.aurora.uk.net
+         1   MAIL.upquick.net
+         1   mailstation.uu.net
+         1   smtp3.vzavenue.net
+         1   webbcraft.net
+         1   mail.wilshire.net
+         1   MAIL.wordofcommand.net
+         1   yl100.net
+         1   MAIL.yourquietplace.net
+         1   mx-cernet.zixia.net
+         1   mail.algrakoffie.nl
+         1   mail.publishnet.nl
+         1   embers.nu
+         1   mhultra.aero.org
+         1   puma.aero.org
+         1   mail.global-country.org
+         1   greenfieldinstitute.org
+         1   kite.org
+         1   mx8.go2.pl
+         1   cinnotes.cin.pt
+         1   cinweb.cin.pt
+         1   b.mx.portugalmail.pt
+         1   router.math.uvt.ro
+         1   relay3.aport.ru
+         1   relay6.aport.ru
+         1   corp.mamba.ru
+         1   markoff.ru
+         1   mx2.peterhost.ru
+         1   starcraft.ru
+         1   my.love.vengo.ru
+         1   mx11.singnet.com.sg
+         1   mx13.singnet.com.sg
+         1   mx16.singnet.com.sg
+         1   mx18.singnet.com.sg
+         1   www.easytravel.com.tw
+         1   tpdns.network.com.tw
+         1   cibavision.co.uk
+         1   ealaddin.co.uk
+         1   ffvinyl.co.uk
+         1   mohawks.co.uk
+         1   mail.reddc.co.uk
+         1   spamlab.co.uk
+         1   mail.whl.co.uk
+         1   mail.nacvs.org.uk
+         1   mail.greyhavens.us
+         1   218.19.168.62
+  read timeout (total: 198)
+        50   mx3.mail.yahoo.com
+        18   mail.fleetlease.com
+        11   orngca-02.mgw.rr.com
+        11   mx2.mail.yahoo.com
+        10   hrndva-02.mgw.rr.com
+        10   mx1.mail.yahoo.com
+         9   clmboh-02.mgw.rr.com
+         7   clmboh-01.mgw.rr.com
+         4   spam.tzuchi.net
+         3   mailin2.accesscomm.ca
+         3   mail.reconauto.com
+         3   mx.sina.net
+         2   mx3.blarneyed.com
+         2   mx3-com.my-name-server.com
+         1   smtp-gateway-1.toll.com.au
+         1   mailin2.pacific.net.au
+         1   mx2.weg.com.br
+         1   mailin1.accesscomm.ca
+         1   pomoerium04.accesscomm.ca
+         1   wto8.cn
+         1   mail9.abatos.com
+         1   barracuda.apollohosting.com
+         1   smtp.toronto.bata.com
+         1   mail-kr.bigfoot.com
+         1   mail.cityfort.com
+         1   mx1.kcom.uk.cleanport.com
+         1   iris2.directnic.com
+         1   mgw.freemail.bjs.elong.com
+         1   mail.eltimon.com
+         1   mail.epatra.com
+         1   db1.eroticanational.com
+         1   figurfour.com
+         1   mail2.glassofalaska.com
+         1   mail.holidayshoppingtoday.com
+         1   mail.joyfulcold.com
+         1   mail0.lightlink.com
+         1   smtp-in.mail-filters.com
+         1   mx.mixmail.com
+         1   mx4-net.my-name-server.com
+         1   mail.mypersonalemail.com
+         1   mx2.mail.national-net.com
+         1   serv01.optninmailrus.com
+         1   mail.outalongwalk.com
+         1   ceciliacheung-com-bk.mr.outblaze.com
+         1   flytecrew-com-bk.mr.outblaze.com
+         1   pekklemail-com-bk.mr.outblaze.com
+         1   e-mail.prairiemeadows.com
+         1   mail.retrowize.com
+         1   mail.ts4.com
+         1   mta2.grp.scd.yahoo.com
+         1   pop3.webbyen.dk
+         1   xpectdealz19.info
+         1   mail-relay-03.simnet.is
+         1   magerr.combzmail.jp
+         1   smtpgate.acsalaska.net
+         1   mailhost.btc-lumina.net
+         1   mail.cantex.net
+         1   sv1.chrisbacher.net
+         1   nospam1.fone.net
+         1   ms21a.hinet.net
+         1   ms55a.hinet.net
+         1   cmail.sm-inter.net
+         1   mail.sprintbbd.net
+         1   mail.christ-church-raleigh.org
+         1   mx8.go2.pl
+         1   c.mx.portugalmail.pt
+         1   www.goldmail.ru
+         1   mx1.chillisearch.co.uk
+         1   mx2.chillisearch.co.uk
+  server dropped connection without sending the initial greeting (total: 2518)
+      2200   spmx.apol.com.tw
+        97   mx2.optonline.com
+        76   mx1.optonline.com
+        14   mail.free4life.us
+        12   gnv.fdt.net
+        11   estatement3.yuanta.com.tw
+         8   mail.excite.co.jp
+         5   mail.1-base.com
+         5   mail3.yehey.com
+         5   mail.crimsonguard.net
+         5   mx1.optonline.net
+         4   mail1.city.burnaby.bc.ca
+         4   urbanlegends.com
+         4   smtp.yehey.com
+         4   mx2.cs.interbusiness.it
+         4   mail1.eircom.net
+         4   mx2.optonline.net
+         4   mail.paintthetownred.net
+         3   mail.itvplc.com
+         3   correo1.xasamail.com
+         3   smtphost.dircon.co.uk
+         2   mail2.giftworldnet.com
+         2   mittion.com
+         2   mailin-01.mx.netscape.net
+         2   mailin-02.mx.netscape.net
+         1   smtp-mx1.aci.on.ca
+         1   smtp-mx2.aci.on.ca
+         1   mail.cablespeed.com
+         1   laura.catcha.com
+         1   MAIL.csiconnect.com
+         1   inbound.2friend.com.emailmx.com
+         1   gmail-smtp-in.l.google.com
+         1   mx1.hotmail.com
+         1   sinamx.vip.sina.com
+         1   frankston.tzo.com
+         1   mr-1.v3.com
+         1   mailm1.njd.xo.com
+         1   mx2.mail.yahoo.com
+         1   mx1.mail.tw.yahoo.com
+         1   fauern.informatik.uni-erlangen.de
+         1   anas.skios.es
+         1   mail1.tinet.ie
+         1   acron.net
+         1   msa-mx12.hinet.net
+         1   msa-mx6.hinet.net
+         1   msa-mx7.hinet.net
+         1   msa-mx9.hinet.net
+         1   lbe-llc.net
+         1   mailhost.lexpress.net
+         1   mailin-03.mx.netscape.net
+         1   mailin-04.mx.netscape.net
+         1   relay1.aport2000.ru
+         1   relay2.aport2000.ru
+         1   relay5.aport2000.ru
+         1   relay6.aport2000.ru
+         1   relay7.aport2000.ru
+         1   relay1.aport.ru
+         1   relay2.aport.ru
+         1   relay5.aport.ru
+         1   relay7.aport.ru
+  server refused mail service (total: 2793)
+       476   clmboh-01.mgw.rr.com
+       473   clmboh-02.mgw.rr.com
+       427   hrndva-01.mgw.rr.com
+       427   orngca-01.mgw.rr.com
+       412   orngca-02.mgw.rr.com
+       408   hrndva-02.mgw.rr.com
+        29   mail.asheville.com
+        11   mail.checkitmail.at
+         8   smtp-mx1.aci.on.ca
+         8   smtp-mx2.aci.on.ca
+         8   mx1.mail.yahoo.com
+         7   mx1.geminicentral.net
+         6   exchange-sar.athco.com
+         5   smtpip01.hutchcity.com
+         5   mx2.mail.tw.yahoo.com
+         4   m1.dnsix.com
+         4   mk-cpfront-11.mail.uk.tiscali.com
+         3   mx3.donobi.com
+         3   mail.mypersonalemail.com
+         3   mx3.mail.yahoo.com
+         3   mx1.marketlabs.net
+         2   zeus.pib.com.br
+         2   mail.asa-tru.com
+         2   guiwang.com
+         2   mk-cpfront-5.mail.uk.tiscali.com
+         2   mk-cpfront-9.mail.uk.tiscali.com
+         2   mail.vivenet.com
+         2   mx2.mail.yahoo.com
+         2   mx1.esolutionsmedia.net
+         2   uk2mxarray3.uk2.net
+         1   mail.access-new-york.com
+         1   mail-in.advanta.com
+         1   mx2.bcsirlin.com
+         1   mail.bellsouth.com
+         1   mail.brainfood.com
+         1   mx.butleroutdoorclub.com
+         1   mail.courtlink.com
+         1   mail2.courtlink.com
+         1   iris1.directnic.com
+         1   mx1.donobi.com
+         1   mx2.donobi.com
+         1   mail.gpsmail.com
+         1   mail.jhaweb.com
+         1   mailmfnim.jpmchase.com
+         1   mailhost1.os.kcp.com
+         1   mailhost2.os.kcp.com
+         1   cilantro.kroger.com
+         1   mx1.lifesaversdirect.com
+         1   mx2.lifesaversdirect.com
+         1   rock.smtp-in.load.com
+         1   mx2.madriveraccess.com
+         1   namemate.com
+         1   mx.ono.com
+         1   mail.quistpix.com
+         1   mail.roytalman.com
+         1   mx1.strlingvc.com
+         1   mx2.strlingvc.com
+         1   btmx3.sun.com
+         1   mk-cpfront-10.mail.uk.tiscali.com
+         1   mk-cpfront-6.mail.uk.tiscali.com
+         1   mk-cpfront-8.mail.uk.tiscali.com
+         1   mail.xvinject42.com
+         1   mail.brodsnedkeren.dk
+         1   mail.marca.es
+         1   correo1.ica.com.mx
+         1   gateway1.att.net
+         1   gateway2.att.net
+         1   gateway1.worldnet.att.net
+         1   gateway2.worldnet.att.net
+         1   gateway-r.comcast.net
+         1   gateway-s.comcast.net
+         1   mx0.waves.uk.net
+         1   mx1.waves.uk.net
+         1   A.secondary-mx.co.uk
+         1   mail.moelwyn.gwynedd.sch.uk
+
+Warnings
+--------
+  master (total: 1)
+         1   process /var/postfix/libexec/smtp pid 2147 exit status 1
+  qmgr (total: 3)
+         1   premature end-of-input on private/smtp socket while reading inp...
+         1   private/smtp socket: malformed response
+         1   transport smtp failure -- see a previous warning/fatal/panic lo...
+  smtp (total: 443)
+        54   mailer loop: best MX host for nougen.com is local
+        43   valid_hostname: empty hostname
+        36   malformed domain name in resource data of MX record for angelfi...
+        15   no MX host for wickedmail.com has a valid A record
+        14   no MX host for altavista.com has a valid A record
+        13   no MX host for aude.org has a valid A record
+        12   mailer loop: best MX host for cimedia.com is local
+        12   mailer loop: best MX host for ceril.cl is local
+        12   no MX host for amphiondigital.com has a valid A record
+        12   no MX host for ruggedsony.net has a valid A record
+        11   numeric domain name in resource data of MX record for www.gov.t...
+         9   mailer loop: best MX host for ggggggg.com is local
+         7   no MX host for calwest.net has a valid A record
+         7   no MX host for ejiajia.com has a valid A record
+         7   no MX host for iconnet.net has a valid A record
+         7   numeric domain name in resource data of MX record for cnsailing...
+         6   no MX host for posta.ro has a valid A record
+         5   mailer loop: best MX host for megacity.com is local
+         5   mailer loop: best MX host for aberdeenmarketingcompany.com is l...
+         5   malformed domain name in resource data of MX record for altavis...
+         5   no MX host for soim.net has a valid A record
+         5   no MX host for ondikoi.com has a valid A record
+         5   no MX host for kuy.com has a valid A record
+         5   no MX host for webmax2.tca.org.tw has a valid A record
+         5   no MX host for arkadiaclub.com has a valid A record
+         4   mailer loop: best MX host for hydrauliccrimper.com is local
+         4   mailer loop: best MX host for stetic.net is local
+         4   no MX host for emeraldnet.net has a valid A record
+         4   numeric domain name in resource data of MX record for aerialequ...
+         3   mailer loop: best MX host for eu-vest.biz is local
+         3   mailer loop: best MX host for atlantis.net is local
+         3   no MX host for cmmail.com has a valid A record
+         3   no MX host for cyberinbox.com has a valid A record
+         3   numeric domain name in resource data of MX record for eu-vest.b...
+         3   numeric domain name in resource data of MX record for popget.hn...
+         2   mailer loop: best MX host for eurovest.biz is local
+         2   mailer loop: best MX host for planetaccess.com is local
+         2   mailer loop: best MX host for ontap2.com is local
+         2   mailer loop: best MX host for frb.com is local
+         2   mailer loop: best MX host for euwest.biz is local
+         2   malformed domain name in resource data of MX record for edmr1.a...
+         2   no MX host for buttes.net has a valid A record
+         2   no MX host for data54.com has a valid A record
+         2   no MX host for adkey.com has a valid A record
+         2   numeric domain name in resource data of MX record for euwest.bi...
+         2   numeric domain name in resource data of MX record for lasercann...
+         2   numeric domain name in resource data of MX record for cstep.com...
+         2   numeric domain name in resource data of MX record for cgocable....
+         2   numeric domain name in resource data of MX record for ertt.88ip...
+         2   numeric domain name in resource data of MX record for eurovest....
+         1   mailer loop: best MX host for empty.grubby.com is local
+         1   mailer loop: best MX host for smashingpumpkinsfan.com is local
+         1   mailer loop: best MX host for pager.icq.com is local
+         1   mailer loop: best MX host for greektogas.com is local
+         1   mailer loop: best MX host for abdominalaortaaneurysm.com is local
+         1   mailer loop: best MX host for fastmail.com is local
+         1   mailer loop: best MX host for server.net is local
+         1   mailer loop: best MX host for vsc-wien.at is local
+         1   mailer loop: best MX host for fuck.com is local
+         1   mailer loop: best MX host for abdominaldiastasis.com is local
+         1   mailer loop: best MX host for fucker.net is local
+         1   mailer loop: best MX host for mwphglne.org is local
+         1   mailer loop: best MX host for greeneks.com is local
+         1   mailer loop: best MX host for ttttttt.com is local
+         1   mailer loop: best MX host for tnl-online.com is local
+         1   malformed domain name in resource data of MX record for hanyg.c...
+         1   no MX host for moelholm.dk has a valid A record
+         1   no MX host for arch.vuw.ac.nz has a valid A record
+         1   no MX host for takemenow.com has a valid A record
+         1   no MX host for turbary.com has a valid A record
+         1   no MX host for globalcarrier.net has a valid A record
+         1   no MX host for tennesseen.com has a valid A record
+         1   no MX host for teamus.com has a valid A record
+         1   no MX host for shiftflowinthe.com has a valid A record
+         1   no MX host for easyforthetalent.com has a valid A record
+         1   no MX host for retrowize.com has a valid A record
+         1   no MX host for theducketts.com has a valid A record
+         1   no MX host for intlady.com has a valid A record
+         1   no MX host for uscuh.com has a valid A record
+         1   no MX host for dnet.com has a valid A record
+         1   no MX host for chichi.net has a valid A record
+         1   no MX host for bettymorgan.com has a valid A record
+         1   no MX host for whitelion.net has a valid A record
+         1   no MX host for anguiano.net has a valid A record
+         1   no MX host for grasscanyon.com has a valid A record
+         1   no MX host for kksales.com has a valid A record
+         1   no MX host for nuukiemail.com has a valid A record
+         1   numeric domain name in resource data of MX record for mwphglne....
+         1   numeric domain name in resource data of MX record for sousexy.c...
+         1   numeric domain name in resource data of MX record for greendeco...
+         1   numeric domain name in resource data of MX record for clif.com:...
+         1   numeric domain name in resource data of MX record for goldcellc...
+         1   numeric domain name in resource data of MX record for bscr.net:...
+         1   numeric domain name in resource data of MX record for ttttttt.c...
+         1   numeric domain name in resource data of MX record for grim.com:...
+         1   numeric domain name in resource data of MX record for nvjc.org:...
+         1   numeric domain name in resource data of MX record for caranddri...
+         1   numeric domain name in resource data of MX record for goato.net...
+         1   numeric domain name in resource data of MX record for ghly.com:...
+         1   numeric domain name in resource data of MX record for leiji.jp:...
+         1   numeric domain name in resource data of MX record for bjtianyi....
+         1   numeric domain name in resource data of MX record for gissen.co...
+         1   numeric domain name in resource data of MX record for civa.org....
+         1   numeric domain name in resource data of MX record for gladith.c...
+         1   numeric domain name in resource data of MX record for oshkoshfl...
+         1   numeric domain name in resource data of MX record for gguu.com:...
+         1   numeric domain name in resource data of MX record for sie.cn: 6...
+         1   numeric domain name in resource data of MX record for hungarica...
+         1   numeric domain name in resource data of MX record for eventrix....
+         1   numeric domain name in resource data of MX record for knitting-...
+         1   numeric domain name in resource data of MX record for hkltd.org...
+         1   valid_hostname: invalid character 92(decimal): mail.\@
+  smtpdx (total: 1148)
+      1148   210.201.31.25: hostname NK210-201-31-25.static.apol.com.tw veri...
+
+Fatal Errors
+------------
+  smtp (total: 1)
+         1   watchdog timeout
+
+Panics: none
+
+Master daemon messages: none

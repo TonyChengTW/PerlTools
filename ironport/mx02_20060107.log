@@ -1,0 +1,21 @@
+Date			20060107
+Server Type		MX02 Server
+Spam Score Detection	6.5
+
+Incoming Connections:	171825 Connections
+Allowed Connections:	57574 Connections
+Blocked Connections:	114251 Connections
+
+Incoming Messages:	45439 messages
+Clean Messages:		22302 messages
+Spam Messages:		22160 messages
+Virus Messages:		977 messages
+
+
+   Unhealth Connections Ratio	66.49%
+
+
+   Spam messages Ratio		48.77%
++) Virus messages Ratio		2.15%
+   ______________________________________
+   Unhealth Messages Ratio	50.92%

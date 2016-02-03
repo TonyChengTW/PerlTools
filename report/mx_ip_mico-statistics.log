@@ -1,0 +1,56 @@
+type = ip			top = 50
+maillog file = /backup/maildebug/mx0[1234]*20060514*
+-- Start --
+IP 		FQDN				Connection Count		Date : 20060514
+-----------------------------------------------------------
+203.73.94.84  mmc.iwant-in.net		1821
+211.170.158.22  null		1600
+222.119.76.119  null		1431
+220.87.89.249  null		1408
+211.170.151.41  null		1398
+221.147.143.96  null		1342
+220.168.153.20  null		1048
+210.244.29.199  ecfs4.epaper.com.tw		1016
+61.17.252.5  61.17.252.5.static.vsnl.net.in		938
+218.149.176.151  null		904
+218.154.69.230  null		870
+210.244.29.213  ecfs9.epaper.com.tw		818
+202.43.196.226  n1.bullet.tpe.yahoo.com		791
+202.29.22.94  null		790
+202.43.196.227  n2.bullet.tpe.yahoo.com		788
+210.244.29.198  ecfs3.epaper.com.tw		785
+60.254.20.48  null		775
+62.117.77.134  null		763
+202.43.196.228  n3.bullet.tpe.yahoo.com		760
+211.170.158.23  null		730
+211.191.105.68  null		714
+85.101.74.26  null		657
+210.244.29.212  ecfs8.epaper.com.tw		655
+80.24.179.127  127.Red-80-24-179.staticIP.rima-tde.net		631
+87.249.47.164  null		603
+59.25.99.126  null		554
+210.244.29.180  ecfs5.epaper.com.tw		528
+200.205.174.10  200-205-174-10.customer.tdatabrasil.net.br		502
+210.244.29.196  ecfs7.epaper.com.tw		502
+213.240.164.49  null		494
+72.9.232.138  server89.tchmachines.com		482
+62.84.84.18  null		470
+210.122.126.62  null		469
+85.249.47.93  93-47-249-85.master.ru		464
+221.209.175.164  null		459
+125.22.78.65  BTNL-TN-DSL-dynamic-065.78.22.125.touchtelindia.net		444
+210.200.181.207  gw6.mail2000.com.tw		436
+200.138.41.239  200.138.41.239.brasiltelecom.net.br		424
+208.97.132.5  mailbigip.dreamhost.com		422
+218.209.143.75  null		422
+220.161.207.71  null		421
+61.35.86.29  null		410
+221.221.36.99  null		388
+87.228.26.104  null		388
+218.25.161.99  null		383
+58.12.117.239  58x12x117x239.ap58.ftth.ucom.ne.jp		378
+207.53.80.21  exchange.swifttel.net		375
+200.111.54.50  null		372
+61.147.145.167  null		352
+58.235.225.153  null		346
+-- Ending --

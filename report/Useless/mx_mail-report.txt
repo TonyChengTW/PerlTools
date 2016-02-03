@@ -1,0 +1,8 @@
+MX Server total mail : 358988
+-----
+MX Server total spam : 120734
+MX Server total virus: 15580
+
+
+Spam  Ratio : 33.632%
+Virus Ratio : 4.340%

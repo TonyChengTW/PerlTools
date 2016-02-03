@@ -1,0 +1,57 @@
+type = spammail			top = 50
+maillog file = /backup/maillog/mx0[1234]*20060514*
+-- Start --
+Spam From 			Score Avg	Score Total	Spam Count
+ Date : 20060514
+------------ Total Spam Count = 71797 ----------------
+webmail@ecfscop.epaper.com.tw		7.0		32524.7		4679
+tsb@mhrecv.taishinbank.com.tw		6.9		3319.4		481
+pma_news@tcgpmo.nat.gov.tw		16.1		5343.6		332
+sxvdbhfc@post.com		14.0		1593.1		114
+rfhtjj@cliffhanger.com		11.3		1267.0		112
+epaper@mx1.shopping99.com		8.6		963.9		112
+cdgjg@mindless.com		11.3		1160.7		103
+svffngfn@mail.com		14.0		1410.7		101
+scdhf@mail.com		11.3		1120.3		99
+sgjt@soon.com		11.2		1095.7		98
+xbgmg@inorbit.com		11.4		1112.8		98
+dsgfjf@alumnidirector.com		11.3		1066.0		94
+xfjfg@earthling.net		11.5		1079.0		94
+szcdhf@cliffhanger.com		11.1		1025.1		92
+cgfgj@myself.com		11.2		1023.4		91
+fjghtjt@email.com		14.1		1283.0		91
+sfdgbd@cliffhanger.com		11.4		1022.9		90
+zdhfn@yours.com		11.4		1018.4		89
+imtedm@edm.myemage.com		7.3		642.0		88
+sxgfjh@mail.com		11.0		959.2		87
+service@hi-house.tw		21.1		1815.9		86
+dgff@chemist.com		10.9		886.8		81
+svfnjfg@allergist.com		14.0		1131.3		81
+sdvfhf@mail.com		11.5		917.1		80
+sfdnhf@winning.com		11.2		860.8		77
+ngmff@email.com		11.1		802.4		72
+jujing@163.com		15.3		996.1		65
+epaper@mx4edm1.51020.com		18.4		1104.7		60
+fromyouflowers@stagedgarage.com		12.2		659.6		54
+tkownh@stunix.com		9.6		461.7		48
+geoffrey@gels.biz		14.0		672.0		48
+smtp@sortnoxington.com		8.1		372.1		46
+mydishdirect@sortnoxington.com		11.0		482.8		44
+wod_tw@ale.com.tw		7.1		314.3		44
+smtp@marshrock.com		10.6		457.5		43
+tknowles@rabbitpunch.com		9.6		403.1		42
+tkudo@iplanet.com		8.8		354.0		40
+epaper@gametower.com.tw		11.9		464.5		39
+gilbert@esp2office.biz		13.7		535.5		39
+uo520131499@yahoo.com.tw		16.4		639.8		39
+henry@pradella.biz		13.9		526.5		38
+peter@euwest.biz		14.0		530.2		38
+reginald@funeasy.biz		20.0		739.2		37
+alexander@e-standard.biz		13.6		502.0		37
+nicholas@seaton.biz		14.3		514.4		36
+onhlep@soufun.com.tw		6.9		248.8		36
+rogert@e-standard.biz		14.1		508.8		36
+walter@griffield.biz		13.2		473.5		36
+autosend1@pithshop.net		22.6		792.5		35
+john@englishforum.biz		14.5		507.1		35
+-- Ending --

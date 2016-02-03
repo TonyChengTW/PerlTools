@@ -1,0 +1,56 @@
+type = mailfrom			top = 50
+maillog file = /backup/maildebug/mx0[1234]*20060514*
+-- Start --
+Sender 				Mail Count		Date : 20060514
+-----------------------------------------------------------
+webmail@ecfscop.epaper.com.tw		5198
+tw-auctions-sys@cctw.yahoo-inc.com		2191
+mondeo-bounces@mmc.iwant-in.net		1758
+yahoo@yahoo-inc.com		912
+tw-letter@yahoo-inc.com		733
+tsb@mhrecv.taishinbank.com.tw		484
+lagroov@server89.tchmachines.com		482
+pma_news@tcgpmo.nat.gov.tw		332
+root@oms04.104.com.tw		307
+automail@ms.1111.com.tw		301
+wod_tw@ale.com.tw		264
+endofitem@tw.ebay.com		260
+smtp@marshrock.com		239
+googlealerts-noreply@google.com		210
+uo520131499@yahoo.com.tw		195
+root@oms05.104.com.tw		180
+root@oms06.104.com.tw		177
+edm@cms5.so-net.net.tw		170
+apache@lookout.blogo.com.tw		156
+my_waei@waei.net		154
+211.6.214.34(null mailfrom)		150
+farwind.chen@msa.hinet.net		145
+apache@garbfc3.blogo.com.tw		144
+root@oms09.104.com.tw		139
+smtp@sortnoxington.com		137
+News@InsideApple.Apple.com		134
+root@oms07.104.com.tw		134
+apache@findout.blogo.com.tw		134
+root@epaper.cwb.gov.tw		133
+Publisher_Tzuchi@tzuchi.net		130
+rfhtjj@cliffhanger.com		124
+listconfirm@tw.ebay.com		118
+cdgjg@mindless.com		115
+shilan_2004x@ms21.hinet.net		115
+sxvdbhfc@post.com		114
+epaper@mail1.my-way.com.tw		113
+epaper@mx1.shopping99.com		112
+service@hi-house.tw		111
+svffngfn@mail.com		108
+xbgmg@inorbit.com		108
+dsgfjf@alumnidirector.com		106
+misc-admin@mail.bamboo.hc.edu.tw		103
+scdhf@mail.com		102
+sgjt@soon.com		100
+xfjfg@earthling.net		99
+nobody@www.jpcl.com.tw		99
+szcdhf@cliffhanger.com		99
+sfdgbd@cliffhanger.com		98
+fjghtjt@email.com		95
+cgfgj@myself.com		94
+-- Ending --

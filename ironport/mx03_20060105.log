@@ -1,0 +1,21 @@
+Date			20060105
+Server Type		MX03 Server
+Spam Score Detection	6.5
+
+Incoming Connections:	270923 Connections
+Allowed Connections:	120291 Connections
+Blocked Connections:	150632 Connections
+
+Incoming Messages:	73226 messages
+Clean Messages:		45920 messages
+Spam Messages:		24358 messages
+Virus Messages:		2948 messages
+
+
+   Unhealth Connections Ratio	55.60%
+
+
+   Spam messages Ratio		33.26%
++) Virus messages Ratio		4.03%
+   ______________________________________
+   Unhealth Messages Ratio	37.29%

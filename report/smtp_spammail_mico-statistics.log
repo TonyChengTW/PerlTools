@@ -1,0 +1,57 @@
+type = spammail			top = 50
+maillog file = /backup/maillog/smtp*20060514*
+-- Start --
+Spam From 			Score Avg	Score Total	Spam Count
+ Date : 20060514
+------------ Total Spam Count = 8378 ----------------
+alone@home.net		12.8		50583.2		3937
+wan0407@yahoo.com.tw		14.8		7647.6		516
+chien4236@aptg.net		11.0		1070.2		97
+liowhuey@ms26.hinet.net		19.4		1742.3		90
+ywe@aptg.net		8.7		496.3		57
+guess1031@aptg.net		11.3		533.1		47
+19770207@aptg.net		6.8		163.1		24
+		6.8		150.2		22
+sdfjlk@sdfsdjfl.com		13.1		261.7		20
+onezi999@yahoo.com.tw		7.6		137.3		18
+jujing@163.com		19.5		291.9		15
+wxdva@yeah.net		8.8		113.8		13
+william@pellicano.biz		12.6		151.1		12
+stephen@quasarman.biz		13.4		160.8		12
+walter@griffield.biz		13.7		150.9		11
+infdddo@bczy-tech.com		8.9		88.5		10
+szfeima98998@126.com		8.6		77.1		9
+reginald@funeasy.biz		13.2		118.8		9
+gilbert@garageservices.biz		13.0		117.0		9
+philip@pistonheads.biz		13.0		117.4		9
+evanhsu179@aptg.net		8.1		72.7		9
+szwemda@163.com		9.0		81.1		9
+gilbert@pellicano.biz		13.5		121.1		9
+richard@prostateforum.biz		12.6		113.6		9
+richard@quitsmokeless.biz		12.6		101.2		8
+szxofa186@163.com		9.8		78.3		8
+gugu@sunmoon.no-ip.org		7.7		61.5		8
+aa@126.com		15.2		121.9		8
+gwptwwd@sina.com		14.7		117.7		8
+richard@expomedica.biz		13.0		104.0		8
+sadad33@1.aptg.net		9.0		63.1		7
+geoffrey@gels.biz		12.8		89.9		7
+dsrbanogxq@yahoo.com.hk		30.0		209.8		7
+skw812@aptg.net		7.4		52.0		7
+peter@euwest.biz		12.9		90.6		7
+henry@pradella.biz		13.0		91.3		7
+hugh@paramed.biz		13.2		92.2		7
+rogert@e-standard.biz		14.0		97.8		7
+Nicolas@aptg.net		7.3		44.0		6
+william@perlite.biz		13.4		80.3		6
+simon@repairnet.biz		13.0		78.0		6
+hk.888@tom.com		9.0		54.1		6
+cfotyl@aptg.net		7.4		44.5		6
+leadingyou@leadingyou7.cn		12.1		72.5		6
+nicholas@paramed.biz		13.0		78.0		6
+stephen@garageservice.biz		12.5		62.7		5
+necb@sohu.com		8.3		41.6		5
+geoffrey@psychologen.biz		11.9		59.3		5
+leamond@163.com		7.7		38.7		5
+p1999k@tom.com		12.8		64.1		5
+-- Ending --

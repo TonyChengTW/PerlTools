@@ -1,0 +1,371 @@
+Info: 11/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Info: uploading /backup/ufsdump/ms01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/mx01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/pop02_ufsdump.tar.gz ......done!
+Info: 12/06 09:00:02 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Info: uploading /backup/ufsdump/ms01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/mx01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/pop02_ufsdump.tar.gz ......done!
+Info: 12/06 14:54:15 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Info: uploading /backup/ufsdump/ms01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/mx01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/pop02_ufsdump.tar.gz ......done!
+Info: 12/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Info: uploading /backup/ufsdump/ms01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/mx01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/pop02_ufsdump.tar.gz ......done!
+Info: 01/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Info: uploading /backup/ufsdump/ms01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/mx01_ufsdump.tar.gz ......done!
+Info: uploading /backup/ufsdump/pop02_ufsdump.tar.gz ......done!
+Info: 03/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err0: 03/30 15:00:01 Can't connect to FTP_HOST:Net::FTP: connect: timeout
+Info: 04/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err0: 04/30 15:00:01 Can't connect to FTP_HOST:Net::FTP: connect: timeout
+Info: 05/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err0: 05/30 15:00:01 Can't connect to FTP_HOST:Net::FTP: connect: timeout
+Info: 06/13 13:42:50 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+Err1: 06/13 13:42:50 Net::FTP=GLOB(0x806ffcc)->message
+Info: 06/13 14:46:07 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err1: 06/13 14:46:07 Net::FTP=GLOB(0x806fe84)->message
+Info: 06/30 15:00:01 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err1: 06/30 15:00:01 Net::FTP=GLOB(0x822f540)->message
+Info: 07/30 15:00:00 starting backup ====================================
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/ms01/
+backup/ufsdump/ms01/format.dat
+backup/ufsdump/ms01/bootblk
+backup/ufsdump/ms01/ufsdump_usr.img
+backup/ufsdump/ms01/ufsdump_root.img
+backup/ufsdump/ms01/ufsdump_var.img
+backup/ufsdump/ms01/ufsdump_home.img
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/mx01/
+backup/ufsdump/mx01/ufsdump_home.img
+backup/ufsdump/mx01/ufsdump_root.img
+backup/ufsdump/mx01/ufsdump_usr.img
+backup/ufsdump/mx01/ufsdump_var.img
+backup/ufsdump/mx01/bootblk
+backup/ufsdump/mx01/format.dat
+/usr/local/bin/tar: Removing leading `/' from member names
+backup/ufsdump/pop02/
+backup/ufsdump/pop02/format.dat
+backup/ufsdump/pop02/bootblk
+backup/ufsdump/pop02/ufsdump_usr.img
+backup/ufsdump/pop02/ufsdump_root.img
+backup/ufsdump/pop02/ufsdump_var.img
+backup/ufsdump/pop02/ufsdump_home.img
+Err1: 07/30 15:00:00 Net::FTP=GLOB(0x822f540)->message
+Info: 08/30 15:00:01 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 08/30 15:00:01 Net::FTP=GLOB(0x822f540)->message
+Info: 09/30 15:00:01 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 09/30 15:00:01 Net::FTP=GLOB(0x822f540)->message
+Info: 10/30 15:00:01 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 10/30 15:00:01 Net::FTP=GLOB(0x822f540)->message
+Info: 11/30 15:00:00 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 11/30 15:00:00 Net::FTP=GLOB(0x822f540)->message
+Info: 12/30 15:00:00 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory/usr/local/bin/tar
+tar (child): Error is not recoverable: exiting now
+: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 12/30 15:00:00 Net::FTP=GLOB(0x822f540)->message
+Info: 01/30 15:00:00 starting backup ====================================
+tar (child): /backup/ufsdump/ms01_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/ms01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/mx01_ufsdump.tar.gz: Cannot open: No such file or directory/usr/local/bin/tar
+tar (child): Error is not recoverable: exiting now
+: /backup/ufsdump/mx01: Cannot stat: No such file or directory
+tar (child): /backup/ufsdump/pop02_ufsdump.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+/usr/local/bin/tar: /backup/ufsdump/pop02: Cannot stat: No such file or directory
+Err1: 01/30 15:00:00 Net::FTP=GLOB(0x822f540)->message

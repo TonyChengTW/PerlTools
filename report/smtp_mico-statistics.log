@@ -1,0 +1,21 @@
+Date			20060514
+Server Type		SMTP Server
+Spam Score Detection	5.5
+
+Incoming Connections:	144627 Connections
+Allowed Connections:	121864 Connections
+Blocked Connections:	22763 Connections
+
+Incoming Messages:	41114 messages
+Clean Messages:		32436 messages
+Spam Messages:		8386 messages
+Virus Messages:		292 messages
+
+
+   Unhealth Connections Ratio	15.74%
+
+
+   Spam messages Ratio		20.40%
++) Virus messages Ratio		0.71%
+   ______________________________________
+   Unhealth Messages Ratio	21.11%

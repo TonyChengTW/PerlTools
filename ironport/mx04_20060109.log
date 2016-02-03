@@ -1,0 +1,21 @@
+Date			20060109
+Server Type		MX04 Server
+Spam Score Detection	6.5
+
+Incoming Connections:	219714 Connections
+Allowed Connections:	93301 Connections
+Blocked Connections:	126413 Connections
+
+Incoming Messages:	68939 messages
+Clean Messages:		44350 messages
+Spam Messages:		23126 messages
+Virus Messages:		1463 messages
+
+
+   Unhealth Connections Ratio	57.54%
+
+
+   Spam messages Ratio		33.55%
++) Virus messages Ratio		2.12%
+   ______________________________________
+   Unhealth Messages Ratio	35.67%
