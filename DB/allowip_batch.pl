@@ -10,7 +10,7 @@ use DBI;
 $accessfile = shift;
 
 $dbh = DBI ->connect("DBI:mysql:mail_db;host=210.200.211.3", "rmail", 
-"LykCR3t1") or die "$!\n"; 
+"xxxxxxx") or die "$!\n"; 
 
 
 open ACCESS, "$accessfile" or die "Can not open $accessfile:$!\n"; 

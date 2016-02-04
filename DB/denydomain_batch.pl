@@ -10,7 +10,7 @@ use DBI;
 $listfile = shift;
 
 $dbh = DBI ->connect("DBI:mysql:mail_db;host=210.200.211.3", "rmail", 
-"LykCR3t1") or die "$!\n"; 
+"xxxxxxx") or die "$!\n"; 
 
 
 open LIST, "$listfile" or die "Can not open $listfile:$!\n"; 

@@ -7,7 +7,7 @@
 #-----------------------
 use DBI;
 $dumpfile = "/mico/report/valid.account";
-$dbh = DBI->connect("DBI:mysql:mail_db;host=210.200.211.3", "rmail",'LykCR3t1') or die "$!\n";
+$dbh = DBI->connect("DBI:mysql:mail_db;host=210.200.211.3", "rmail",'xxxxxxx') or die "$!\n";
 $sqlstmt = sprintf("select s_mailid from MailCheck order by 1 asc");
 $sth = $dbh->prepare($sqlstmt);
 $sth->execute() or die "can not select:$!\n";

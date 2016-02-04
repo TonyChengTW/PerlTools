@@ -21,7 +21,7 @@ use DBI;
 
 my $db02_host = 'db02.aptg.net';
 my $db02_user = 'rmail';
-my $db02_passwd = 'LykCR3t1';
+my $db02_passwd = 'xxxxxxx';
 my $db02_db = 'mail_db';
 
 # »s§@¤ë¾äÂø´ê

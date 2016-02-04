@@ -22,7 +22,7 @@ $db_tercel_name = 'dialup';
 ## -----------------    db01.aptg -----------------------
 $db_db01_ip = '210.200.211.3';
 $db_db01_account = 'rmail';
-$db_db01_pwd = 'LykCR3t1';
+$db_db01_pwd = 'xxxxxxx';
 $db_db01_name = 'mail_db';
 
 ## ----------------    ethome all server's IP and port ---

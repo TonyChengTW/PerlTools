@@ -29,7 +29,7 @@ $SIG{CHLD} = sub { while ( waitpid(-1,WNOHANG) >0 ) {} };
 ## --------------- db01.aptg --------------------------
 $db01_ip = '210.200.211.3';
 $db01_account = 'rmail';
-$db01_pwd = 'LykCR3t1';
+$db01_pwd = 'xxxxxxx';
 $db01_name = 'mail_db';
 
 ## -----------------    Tercel -----------------------

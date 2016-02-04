@@ -12,7 +12,7 @@ $| = 1;
 die "./delete_user_mail.pl\n" if (scalar(@ARGV)!=0);
 
 $dsn=sprintf("DBI:mysql:%s;host=%s", 'mail_db', '210.200.211.3');
-$dbh=DBI->connect($dsn, 'rmail', 'LykCR3t1') || die_db($!);
+$dbh=DBI->connect($dsn, 'rmail', 'xxxxxxx') || die_db($!);
 
 ##################   Check MailCheck  ############################
 $sqlstmt=sprintf("select s_mhost,s_mbox from Suspend where s_mhost !='' OR s_mbox !=''");

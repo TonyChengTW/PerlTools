@@ -11,7 +11,7 @@ use DBI;
 $file = 'ethome_user.list';
 open FH , ">$file" or die "can't open $file\n";
 
-$dbh = DBI->connect("DBI:mysql:mail_db;host=210.200.211.3","rmail","LykCR3t1") || die_db($!);
+$dbh = DBI->connect("DBI:mysql:mail_db;host=210.200.211.3","rmail","xxxxxxx") || die_db($!);
 ## get ms04 users
 
 $sqlstmt=sprintf("select s_mailid from MailCheck where s_mhost='%s'",'ms04');

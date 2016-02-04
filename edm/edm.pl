@@ -17,7 +17,7 @@ exit 1;
 ## --------------- db01.aptg --------------------------
 $db01_ip = '210.200.211.3';
 $db01_account = 'rmail';
-$db01_pwd = 'LykCR3t1';
+$db01_pwd = 'xxxxxxx';
 $db01_name = 'mail_db';
 
 ## ---------------- Variables -----------------------
