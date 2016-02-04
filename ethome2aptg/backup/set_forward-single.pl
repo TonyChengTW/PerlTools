@@ -16,7 +16,7 @@ $old_mail = shift or die "Usage: set_forward-single.pl <old E-mail>\n";
 ## -----------------    Tercel -----------------------
 $db_tercel_ip = '203.79.224.102';
 $db_tercel_account = 'brucelai';
-$db_tercel_pwd = 'ezmailat60';
+$db_tercel_pwd = 'xxxxxxx';
 $db_tercel_name = 'dialup';
 
 ## -----------------    db01.aptg -----------------------

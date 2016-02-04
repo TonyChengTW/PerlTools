@@ -11,7 +11,7 @@ use DBI;
 ## -----------------    Modify Start -----------------------
 $db_ip = '203.79.224.102';
 $db_account = 'brucelai';
-$db_pwd = 'ezmailat60';
+$db_pwd = 'xxxxxxx';
 $db_name = 'dialup';
 ## -----------------    Modify End   -----------------------
 

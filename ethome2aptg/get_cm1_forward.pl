@@ -9,7 +9,7 @@ use DBI;
 ## --------------- tercel.aptg --------------------------
 $tercel_ip = '203.79.224.102';
 $tercel_account = 'brucelai';
-$tercel_pwd = 'ezmailat60';
+$tercel_pwd = 'xxxxxxx';
 $tercel_name = 'dialup';
 
 ## ---------------- Variables -----------------------
